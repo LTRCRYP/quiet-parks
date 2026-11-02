@@ -3603,7 +3603,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 32.14089463,
+   "longitude": -104.5529688,
+   "elevationM": 1607,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 51.4,
+     "avgLowF": 31.8,
+     "precipIn": 0.59,
+     "snowIn": 1.38,
+     "wetDays": 1.9
+    },
+    {
+     "avgHighF": 57.3,
+     "avgLowF": 35,
+     "precipIn": 0.44,
+     "snowIn": 1.05,
+     "wetDays": 1.1
+    },
+    {
+     "avgHighF": 64.5,
+     "avgLowF": 41.8,
+     "precipIn": 0.75,
+     "snowIn": 0.04,
+     "wetDays": 1.6
+    },
+    {
+     "avgHighF": 71.9,
+     "avgLowF": 48.1,
+     "precipIn": 0.49,
+     "snowIn": 0,
+     "wetDays": 1.2
+    },
+    {
+     "avgHighF": 80.5,
+     "avgLowF": 57.1,
+     "precipIn": 0.84,
+     "snowIn": 0,
+     "wetDays": 2.4
+    },
+    {
+     "avgHighF": 88.7,
+     "avgLowF": 65.6,
+     "precipIn": 0.94,
+     "snowIn": 0,
+     "wetDays": 2.1
+    },
+    {
+     "avgHighF": 88.5,
+     "avgLowF": 68.1,
+     "precipIn": 1.23,
+     "snowIn": 0,
+     "wetDays": 3.7
+    },
+    {
+     "avgHighF": 85.9,
+     "avgLowF": 67,
+     "precipIn": 2.36,
+     "snowIn": 0,
+     "wetDays": 5.6
+    },
+    {
+     "avgHighF": 80.2,
+     "avgLowF": 60.7,
+     "precipIn": 1.55,
+     "snowIn": 0,
+     "wetDays": 4.2
+    },
+    {
+     "avgHighF": 71.5,
+     "avgLowF": 51,
+     "precipIn": 1.18,
+     "snowIn": 0.23,
+     "wetDays": 3.5
+    },
+    {
+     "avgHighF": 61,
+     "avgLowF": 41.1,
+     "precipIn": 0.89,
+     "snowIn": 0.92,
+     "wetDays": 2.2
+    },
+    {
+     "avgHighF": 55,
+     "avgLowF": 35.4,
+     "precipIn": 0.63,
+     "snowIn": 1.4,
+     "wetDays": 1.6
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "chir",
@@ -3815,7 +3908,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 32.01214618,
+   "longitude": -109.341607,
+   "elevationM": 1884,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 50.6,
+     "avgLowF": 33.7,
+     "precipIn": 1.47,
+     "snowIn": 3.52,
+     "wetDays": 3.8
+    },
+    {
+     "avgHighF": 54.6,
+     "avgLowF": 35.8,
+     "precipIn": 1.12,
+     "snowIn": 3.03,
+     "wetDays": 3.1
+    },
+    {
+     "avgHighF": 60.6,
+     "avgLowF": 40.1,
+     "precipIn": 0.99,
+     "snowIn": 2.1,
+     "wetDays": 2.6
+    },
+    {
+     "avgHighF": 69.4,
+     "avgLowF": 47,
+     "precipIn": 0.33,
+     "snowIn": 0.41,
+     "wetDays": 1.2
+    },
+    {
+     "avgHighF": 76.8,
+     "avgLowF": 53.6,
+     "precipIn": 0.35,
+     "snowIn": 0,
+     "wetDays": 1.1
+    },
+    {
+     "avgHighF": 86.3,
+     "avgLowF": 64,
+     "precipIn": 0.91,
+     "snowIn": 0,
+     "wetDays": 3.1
+    },
+    {
+     "avgHighF": 84.6,
+     "avgLowF": 65.4,
+     "precipIn": 3.43,
+     "snowIn": 0,
+     "wetDays": 9.1
+    },
+    {
+     "avgHighF": 82,
+     "avgLowF": 63.9,
+     "precipIn": 2.86,
+     "snowIn": 0,
+     "wetDays": 8.3
+    },
+    {
+     "avgHighF": 78.2,
+     "avgLowF": 60.3,
+     "precipIn": 2.14,
+     "snowIn": 0,
+     "wetDays": 4.7
+    },
+    {
+     "avgHighF": 70.9,
+     "avgLowF": 52.3,
+     "precipIn": 0.89,
+     "snowIn": 0.04,
+     "wetDays": 2.6
+    },
+    {
+     "avgHighF": 60.6,
+     "avgLowF": 42.8,
+     "precipIn": 0.85,
+     "snowIn": 0.91,
+     "wetDays": 1.9
+    },
+    {
+     "avgHighF": 52.8,
+     "avgLowF": 36.4,
+     "precipIn": 1.27,
+     "snowIn": 2.49,
+     "wetDays": 3.4
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "chis",
@@ -4076,7 +4262,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 33.98680093,
+   "longitude": -119.9112735,
+   "elevationM": 0,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 61.7,
+     "avgLowF": 52.8,
+     "precipIn": 2.72,
+     "snowIn": 0,
+     "wetDays": 5.1
+    },
+    {
+     "avgHighF": 61.9,
+     "avgLowF": 52.3,
+     "precipIn": 2.04,
+     "snowIn": 0.02,
+     "wetDays": 3.8
+    },
+    {
+     "avgHighF": 61.7,
+     "avgLowF": 52.9,
+     "precipIn": 2.25,
+     "snowIn": 0,
+     "wetDays": 4.4
+    },
+    {
+     "avgHighF": 63.6,
+     "avgLowF": 53.7,
+     "precipIn": 0.47,
+     "snowIn": 0,
+     "wetDays": 1.1
+    },
+    {
+     "avgHighF": 63.4,
+     "avgLowF": 54.4,
+     "precipIn": 0.2,
+     "snowIn": 0,
+     "wetDays": 0.5
+    },
+    {
+     "avgHighF": 67.1,
+     "avgLowF": 57.6,
+     "precipIn": 0.06,
+     "snowIn": 0,
+     "wetDays": 0.1
+    },
+    {
+     "avgHighF": 69.3,
+     "avgLowF": 60.4,
+     "precipIn": 0.03,
+     "snowIn": 0,
+     "wetDays": 0.1
+    },
+    {
+     "avgHighF": 70.5,
+     "avgLowF": 61.5,
+     "precipIn": 0.12,
+     "snowIn": 0,
+     "wetDays": 0.2
+    },
+    {
+     "avgHighF": 71.7,
+     "avgLowF": 62.4,
+     "precipIn": 0.2,
+     "snowIn": 0,
+     "wetDays": 0.9
+    },
+    {
+     "avgHighF": 71.2,
+     "avgLowF": 60.9,
+     "precipIn": 0.22,
+     "snowIn": 0,
+     "wetDays": 0.5
+    },
+    {
+     "avgHighF": 66.2,
+     "avgLowF": 56.6,
+     "precipIn": 0.74,
+     "snowIn": 0,
+     "wetDays": 1.6
+    },
+    {
+     "avgHighF": 61.9,
+     "avgLowF": 53.6,
+     "precipIn": 2.06,
+     "snowIn": 0,
+     "wetDays": 4.2
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "cong",
@@ -4331,7 +4610,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 33.79187523,
+   "longitude": -80.74867805,
+   "elevationM": 49,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 56.1,
+     "avgLowF": 39.1,
+     "precipIn": 3.9,
+     "snowIn": 0.21,
+     "wetDays": 6.9
+    },
+    {
+     "avgHighF": 61.9,
+     "avgLowF": 42.8,
+     "precipIn": 3.62,
+     "snowIn": 0.02,
+     "wetDays": 6.9
+    },
+    {
+     "avgHighF": 68.4,
+     "avgLowF": 48.3,
+     "precipIn": 3.16,
+     "snowIn": 0.05,
+     "wetDays": 6.8
+    },
+    {
+     "avgHighF": 75.7,
+     "avgLowF": 54.5,
+     "precipIn": 3.78,
+     "snowIn": 0,
+     "wetDays": 6.3
+    },
+    {
+     "avgHighF": 82.9,
+     "avgLowF": 63.1,
+     "precipIn": 4.2,
+     "snowIn": 0,
+     "wetDays": 7.1
+    },
+    {
+     "avgHighF": 88.5,
+     "avgLowF": 70.1,
+     "precipIn": 4.03,
+     "snowIn": 0,
+     "wetDays": 9
+    },
+    {
+     "avgHighF": 91.4,
+     "avgLowF": 73.9,
+     "precipIn": 4.74,
+     "snowIn": 0,
+     "wetDays": 10.7
+    },
+    {
+     "avgHighF": 89,
+     "avgLowF": 72.7,
+     "precipIn": 5.05,
+     "snowIn": 0,
+     "wetDays": 11.2
+    },
+    {
+     "avgHighF": 84.6,
+     "avgLowF": 67.6,
+     "precipIn": 4.46,
+     "snowIn": 0,
+     "wetDays": 6.9
+    },
+    {
+     "avgHighF": 76,
+     "avgLowF": 57.6,
+     "precipIn": 3.45,
+     "snowIn": 0,
+     "wetDays": 4.7
+    },
+    {
+     "avgHighF": 65.8,
+     "avgLowF": 47.6,
+     "precipIn": 3.02,
+     "snowIn": 0,
+     "wetDays": 5.2
+    },
+    {
+     "avgHighF": 59.5,
+     "avgLowF": 42.9,
+     "precipIn": 4.57,
+     "snowIn": 0,
+     "wetDays": 7.4
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "crla",
@@ -4718,7 +5090,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 42.94065854,
+   "longitude": -122.1338414,
+   "elevationM": 1883,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 34,
+     "avgLowF": 24.2,
+     "precipIn": 9.26,
+     "snowIn": 55.83,
+     "wetDays": 15
+    },
+    {
+     "avgHighF": 33.3,
+     "avgLowF": 21.8,
+     "precipIn": 7.5,
+     "snowIn": 47.04,
+     "wetDays": 12.7
+    },
+    {
+     "avgHighF": 36.4,
+     "avgLowF": 23.2,
+     "precipIn": 6.93,
+     "snowIn": 42.74,
+     "wetDays": 14.1
+    },
+    {
+     "avgHighF": 41.7,
+     "avgLowF": 26.4,
+     "precipIn": 5.39,
+     "snowIn": 30.06,
+     "wetDays": 11.7
+    },
+    {
+     "avgHighF": 50.1,
+     "avgLowF": 32.6,
+     "precipIn": 3.46,
+     "snowIn": 13.6,
+     "wetDays": 7.9
+    },
+    {
+     "avgHighF": 62.5,
+     "avgLowF": 40.9,
+     "precipIn": 1.85,
+     "snowIn": 2.82,
+     "wetDays": 4.9
+    },
+    {
+     "avgHighF": 73.8,
+     "avgLowF": 50,
+     "precipIn": 0.46,
+     "snowIn": 0,
+     "wetDays": 1.4
+    },
+    {
+     "avgHighF": 73.7,
+     "avgLowF": 50.8,
+     "precipIn": 0.74,
+     "snowIn": 0.25,
+     "wetDays": 2.2
+    },
+    {
+     "avgHighF": 64.1,
+     "avgLowF": 44.2,
+     "precipIn": 2.09,
+     "snowIn": 2.09,
+     "wetDays": 5
+    },
+    {
+     "avgHighF": 52.4,
+     "avgLowF": 36.8,
+     "precipIn": 4.26,
+     "snowIn": 11.77,
+     "wetDays": 8
+    },
+    {
+     "avgHighF": 39.4,
+     "avgLowF": 28.1,
+     "precipIn": 7.28,
+     "snowIn": 35.35,
+     "wetDays": 12.7
+    },
+    {
+     "avgHighF": 33.1,
+     "avgLowF": 24.1,
+     "precipIn": 10.03,
+     "snowIn": 59.52,
+     "wetDays": 15.8
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "cuva",
@@ -4949,7 +5414,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 41.26093905,
+   "longitude": -81.57116722,
+   "elevationM": 291,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 35.2,
+     "avgLowF": 21.4,
+     "precipIn": 3.59,
+     "snowIn": 9.75,
+     "wetDays": 8.8
+    },
+    {
+     "avgHighF": 39.7,
+     "avgLowF": 22.2,
+     "precipIn": 3.14,
+     "snowIn": 8.34,
+     "wetDays": 7.7
+    },
+    {
+     "avgHighF": 47.8,
+     "avgLowF": 29.6,
+     "precipIn": 4,
+     "snowIn": 4.68,
+     "wetDays": 10.1
+    },
+    {
+     "avgHighF": 58.4,
+     "avgLowF": 38.7,
+     "precipIn": 4.13,
+     "snowIn": 3.29,
+     "wetDays": 11.4
+    },
+    {
+     "avgHighF": 69.6,
+     "avgLowF": 50.6,
+     "precipIn": 4.41,
+     "snowIn": 0.25,
+     "wetDays": 10.5
+    },
+    {
+     "avgHighF": 77.5,
+     "avgLowF": 59.6,
+     "precipIn": 5.18,
+     "snowIn": 0,
+     "wetDays": 10.4
+    },
+    {
+     "avgHighF": 81.4,
+     "avgLowF": 64,
+     "precipIn": 5.14,
+     "snowIn": 0,
+     "wetDays": 10.4
+    },
+    {
+     "avgHighF": 79.9,
+     "avgLowF": 63.1,
+     "precipIn": 4.52,
+     "snowIn": 0,
+     "wetDays": 10.4
+    },
+    {
+     "avgHighF": 75.2,
+     "avgLowF": 58.3,
+     "precipIn": 3.22,
+     "snowIn": 0,
+     "wetDays": 7.8
+    },
+    {
+     "avgHighF": 63.1,
+     "avgLowF": 47.5,
+     "precipIn": 3.5,
+     "snowIn": 0.21,
+     "wetDays": 9
+    },
+    {
+     "avgHighF": 49.7,
+     "avgLowF": 35.8,
+     "precipIn": 3.02,
+     "snowIn": 3.21,
+     "wetDays": 7.4
+    },
+    {
+     "avgHighF": 41.1,
+     "avgLowF": 28.5,
+     "precipIn": 3.26,
+     "snowIn": 6.06,
+     "wetDays": 8.7
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "dena",
@@ -5239,7 +5797,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 63.29777484,
+   "longitude": -151.0526568,
+   "elevationM": 867,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 17,
+     "avgLowF": 2.5,
+     "precipIn": 1.35,
+     "snowIn": 9.75,
+     "wetDays": 4.7
+    },
+    {
+     "avgHighF": 20.3,
+     "avgLowF": 6.4,
+     "precipIn": 2.26,
+     "snowIn": 15.77,
+     "wetDays": 7.3
+    },
+    {
+     "avgHighF": 21.8,
+     "avgLowF": 9.6,
+     "precipIn": 2.36,
+     "snowIn": 16.81,
+     "wetDays": 7.5
+    },
+    {
+     "avgHighF": 32.3,
+     "avgLowF": 20.8,
+     "precipIn": 2.38,
+     "snowIn": 16.17,
+     "wetDays": 8
+    },
+    {
+     "avgHighF": 44.5,
+     "avgLowF": 32.2,
+     "precipIn": 5.03,
+     "snowIn": 16.75,
+     "wetDays": 12.8
+    },
+    {
+     "avgHighF": 55,
+     "avgLowF": 43.5,
+     "precipIn": 7.6,
+     "snowIn": 4.85,
+     "wetDays": 16.9
+    },
+    {
+     "avgHighF": 57.9,
+     "avgLowF": 47.7,
+     "precipIn": 10.07,
+     "snowIn": 3.39,
+     "wetDays": 19.7
+    },
+    {
+     "avgHighF": 52.9,
+     "avgLowF": 44,
+     "precipIn": 11.78,
+     "snowIn": 4.86,
+     "wetDays": 20.9
+    },
+    {
+     "avgHighF": 43.1,
+     "avgLowF": 34.4,
+     "precipIn": 7.84,
+     "snowIn": 18.21,
+     "wetDays": 16.7
+    },
+    {
+     "avgHighF": 32,
+     "avgLowF": 21.6,
+     "precipIn": 4.74,
+     "snowIn": 26.96,
+     "wetDays": 11.9
+    },
+    {
+     "avgHighF": 21,
+     "avgLowF": 7.9,
+     "precipIn": 3.22,
+     "snowIn": 22.87,
+     "wetDays": 8.8
+    },
+    {
+     "avgHighF": 18.7,
+     "avgLowF": 4.9,
+     "precipIn": 2.85,
+     "snowIn": 19.16,
+     "wetDays": 7.6
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "deva",
@@ -5545,7 +6196,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 36.48753731,
+   "longitude": -117.134395,
+   "elevationM": 1849,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 44.3,
+     "avgLowF": 34,
+     "precipIn": 0.96,
+     "snowIn": 1.87,
+     "wetDays": 2.7
+    },
+    {
+     "avgHighF": 47.2,
+     "avgLowF": 34.1,
+     "precipIn": 1.08,
+     "snowIn": 3,
+     "wetDays": 2
+    },
+    {
+     "avgHighF": 51.7,
+     "avgLowF": 37,
+     "precipIn": 1.12,
+     "snowIn": 1.43,
+     "wetDays": 3.6
+    },
+    {
+     "avgHighF": 62,
+     "avgLowF": 46,
+     "precipIn": 0.47,
+     "snowIn": 0.04,
+     "wetDays": 1.3
+    },
+    {
+     "avgHighF": 68.6,
+     "avgLowF": 52.5,
+     "precipIn": 0.6,
+     "snowIn": 0,
+     "wetDays": 1.6
+    },
+    {
+     "avgHighF": 81.8,
+     "avgLowF": 65.2,
+     "precipIn": 0.28,
+     "snowIn": 0,
+     "wetDays": 0.6
+    },
+    {
+     "avgHighF": 87.2,
+     "avgLowF": 71.6,
+     "precipIn": 0.49,
+     "snowIn": 0,
+     "wetDays": 1.3
+    },
+    {
+     "avgHighF": 84.7,
+     "avgLowF": 69.7,
+     "precipIn": 1.11,
+     "snowIn": 0,
+     "wetDays": 1.7
+    },
+    {
+     "avgHighF": 76.7,
+     "avgLowF": 63.1,
+     "precipIn": 0.29,
+     "snowIn": 0,
+     "wetDays": 0.8
+    },
+    {
+     "avgHighF": 64.8,
+     "avgLowF": 53,
+     "precipIn": 0.49,
+     "snowIn": 0,
+     "wetDays": 0.9
+    },
+    {
+     "avgHighF": 52,
+     "avgLowF": 41.5,
+     "precipIn": 0.3,
+     "snowIn": 0.5,
+     "wetDays": 1.1
+    },
+    {
+     "avgHighF": 44.8,
+     "avgLowF": 34.7,
+     "precipIn": 0.76,
+     "snowIn": 1.41,
+     "wetDays": 2.6
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "drto",
@@ -5783,7 +6527,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 24.628741,
+   "longitude": -82.87319,
+   "elevationM": 2,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 72.9,
+     "avgLowF": 68.9,
+     "precipIn": 2.31,
+     "snowIn": 0,
+     "wetDays": 4.5
+    },
+    {
+     "avgHighF": 73.2,
+     "avgLowF": 69.9,
+     "precipIn": 1.37,
+     "snowIn": 0,
+     "wetDays": 2.7
+    },
+    {
+     "avgHighF": 75.3,
+     "avgLowF": 72.3,
+     "precipIn": 0.87,
+     "snowIn": 0,
+     "wetDays": 1.7
+    },
+    {
+     "avgHighF": 77.8,
+     "avgLowF": 74.9,
+     "precipIn": 1.15,
+     "snowIn": 0,
+     "wetDays": 2.6
+    },
+    {
+     "avgHighF": 80.3,
+     "avgLowF": 77.5,
+     "precipIn": 3.13,
+     "snowIn": 0,
+     "wetDays": 4.9
+    },
+    {
+     "avgHighF": 83.3,
+     "avgLowF": 79.8,
+     "precipIn": 4.72,
+     "snowIn": 0,
+     "wetDays": 9.6
+    },
+    {
+     "avgHighF": 85.1,
+     "avgLowF": 81.7,
+     "precipIn": 2.68,
+     "snowIn": 0,
+     "wetDays": 6.9
+    },
+    {
+     "avgHighF": 85.5,
+     "avgLowF": 81.8,
+     "precipIn": 4.8,
+     "snowIn": 0,
+     "wetDays": 11.2
+    },
+    {
+     "avgHighF": 84.6,
+     "avgLowF": 80.9,
+     "precipIn": 6.34,
+     "snowIn": 0,
+     "wetDays": 12.7
+    },
+    {
+     "avgHighF": 82.1,
+     "avgLowF": 78.8,
+     "precipIn": 4.57,
+     "snowIn": 0,
+     "wetDays": 9.5
+    },
+    {
+     "avgHighF": 78.5,
+     "avgLowF": 75.7,
+     "precipIn": 2.86,
+     "snowIn": 0,
+     "wetDays": 5.1
+    },
+    {
+     "avgHighF": 75.5,
+     "avgLowF": 72.3,
+     "precipIn": 2.58,
+     "snowIn": 0,
+     "wetDays": 3.7
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "ever",
@@ -6092,7 +6929,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 25.37294225,
+   "longitude": -80.88200301,
+   "elevationM": 0,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 76.9,
+     "avgLowF": 60,
+     "precipIn": 2.16,
+     "snowIn": 0,
+     "wetDays": 4.1
+    },
+    {
+     "avgHighF": 79.6,
+     "avgLowF": 62.5,
+     "precipIn": 1.79,
+     "snowIn": 0,
+     "wetDays": 3.2
+    },
+    {
+     "avgHighF": 83.1,
+     "avgLowF": 64.9,
+     "precipIn": 1.67,
+     "snowIn": 0,
+     "wetDays": 3.3
+    },
+    {
+     "avgHighF": 86,
+     "avgLowF": 68.2,
+     "precipIn": 2.32,
+     "snowIn": 0,
+     "wetDays": 6
+    },
+    {
+     "avgHighF": 88.1,
+     "avgLowF": 71.5,
+     "precipIn": 5.03,
+     "snowIn": 0,
+     "wetDays": 8.4
+    },
+    {
+     "avgHighF": 87.8,
+     "avgLowF": 74.9,
+     "precipIn": 9.06,
+     "snowIn": 0,
+     "wetDays": 16.6
+    },
+    {
+     "avgHighF": 90,
+     "avgLowF": 76.1,
+     "precipIn": 4.91,
+     "snowIn": 0,
+     "wetDays": 14.5
+    },
+    {
+     "avgHighF": 89.9,
+     "avgLowF": 76.4,
+     "precipIn": 6.11,
+     "snowIn": 0,
+     "wetDays": 17.9
+    },
+    {
+     "avgHighF": 88.5,
+     "avgLowF": 75.1,
+     "precipIn": 7.7,
+     "snowIn": 0,
+     "wetDays": 16.7
+    },
+    {
+     "avgHighF": 85.5,
+     "avgLowF": 72.4,
+     "precipIn": 4.47,
+     "snowIn": 0,
+     "wetDays": 9.4
+    },
+    {
+     "avgHighF": 82.5,
+     "avgLowF": 67.6,
+     "precipIn": 2.45,
+     "snowIn": 0,
+     "wetDays": 4.1
+    },
+    {
+     "avgHighF": 78.9,
+     "avgLowF": 63.7,
+     "precipIn": 2.57,
+     "snowIn": 0,
+     "wetDays": 4.2
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "gaar",
@@ -6300,7 +7230,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 67.75961636,
+   "longitude": -153.2917758,
+   "elevationM": 1050,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": -7.6,
+     "avgLowF": -17.6,
+     "precipIn": 0.53,
+     "snowIn": 3.95,
+     "wetDays": 1.4
+    },
+    {
+     "avgHighF": -5.8,
+     "avgLowF": -15.2,
+     "precipIn": 0.74,
+     "snowIn": 5.47,
+     "wetDays": 2
+    },
+    {
+     "avgHighF": 2.6,
+     "avgLowF": -8.9,
+     "precipIn": 0.77,
+     "snowIn": 5.63,
+     "wetDays": 2.8
+    },
+    {
+     "avgHighF": 18.6,
+     "avgLowF": 4.8,
+     "precipIn": 0.63,
+     "snowIn": 4.65,
+     "wetDays": 2
+    },
+    {
+     "avgHighF": 37.6,
+     "avgLowF": 24.5,
+     "precipIn": 1.23,
+     "snowIn": 4.66,
+     "wetDays": 4.4
+    },
+    {
+     "avgHighF": 52.2,
+     "avgLowF": 38.6,
+     "precipIn": 2.51,
+     "snowIn": 1.93,
+     "wetDays": 8.3
+    },
+    {
+     "avgHighF": 55.8,
+     "avgLowF": 43.6,
+     "precipIn": 2.94,
+     "snowIn": 0.26,
+     "wetDays": 10
+    },
+    {
+     "avgHighF": 47.4,
+     "avgLowF": 36.5,
+     "precipIn": 3.09,
+     "snowIn": 2.3,
+     "wetDays": 10
+    },
+    {
+     "avgHighF": 35.7,
+     "avgLowF": 26.2,
+     "precipIn": 2.31,
+     "snowIn": 9.16,
+     "wetDays": 7.6
+    },
+    {
+     "avgHighF": 18.9,
+     "avgLowF": 9.2,
+     "precipIn": 1.07,
+     "snowIn": 7.54,
+     "wetDays": 3.8
+    },
+    {
+     "avgHighF": 0.3,
+     "avgLowF": -9.8,
+     "precipIn": 0.92,
+     "snowIn": 6.79,
+     "wetDays": 3.2
+    },
+    {
+     "avgHighF": -4.7,
+     "avgLowF": -14.1,
+     "precipIn": 1.04,
+     "snowIn": 7.48,
+     "wetDays": 3.7
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "glac",
@@ -6637,7 +7660,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 48.68414678,
+   "longitude": -113.8009306,
+   "elevationM": 1903,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 21.3,
+     "avgLowF": 11.7,
+     "precipIn": 3.87,
+     "snowIn": 27.25,
+     "wetDays": 10.6
+    },
+    {
+     "avgHighF": 19.9,
+     "avgLowF": 7.5,
+     "precipIn": 4.8,
+     "snowIn": 33.5,
+     "wetDays": 12.3
+    },
+    {
+     "avgHighF": 29.8,
+     "avgLowF": 16.1,
+     "precipIn": 4.07,
+     "snowIn": 26.47,
+     "wetDays": 12.1
+    },
+    {
+     "avgHighF": 37.1,
+     "avgLowF": 22,
+     "precipIn": 3.64,
+     "snowIn": 23.41,
+     "wetDays": 11.3
+    },
+    {
+     "avgHighF": 47.5,
+     "avgLowF": 30.8,
+     "precipIn": 3.85,
+     "snowIn": 17.14,
+     "wetDays": 10.3
+    },
+    {
+     "avgHighF": 57.4,
+     "avgLowF": 38.5,
+     "precipIn": 4.03,
+     "snowIn": 4.94,
+     "wetDays": 11.1
+    },
+    {
+     "avgHighF": 67.8,
+     "avgLowF": 47.4,
+     "precipIn": 1.37,
+     "snowIn": 0.09,
+     "wetDays": 4.5
+    },
+    {
+     "avgHighF": 66.9,
+     "avgLowF": 46.4,
+     "precipIn": 2.21,
+     "snowIn": 1.12,
+     "wetDays": 5.7
+    },
+    {
+     "avgHighF": 55.3,
+     "avgLowF": 38.1,
+     "precipIn": 2.45,
+     "snowIn": 4.56,
+     "wetDays": 7
+    },
+    {
+     "avgHighF": 40.1,
+     "avgLowF": 25.8,
+     "precipIn": 3.79,
+     "snowIn": 18.74,
+     "wetDays": 9.5
+    },
+    {
+     "avgHighF": 26.8,
+     "avgLowF": 16.7,
+     "precipIn": 4.95,
+     "snowIn": 29.04,
+     "wetDays": 12.7
+    },
+    {
+     "avgHighF": 19.8,
+     "avgLowF": 10.8,
+     "precipIn": 4.54,
+     "snowIn": 31.23,
+     "wetDays": 12.5
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "glba",
@@ -6928,7 +8044,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 58.80086718,
+   "longitude": -136.8407579,
+   "elevationM": 914,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 24.4,
+     "avgLowF": 18,
+     "precipIn": 20.71,
+     "snowIn": 128.75,
+     "wetDays": 18.4
+    },
+    {
+     "avgHighF": 22.8,
+     "avgLowF": 15.4,
+     "precipIn": 12.12,
+     "snowIn": 76.26,
+     "wetDays": 13.5
+    },
+    {
+     "avgHighF": 25.1,
+     "avgLowF": 18.4,
+     "precipIn": 12.65,
+     "snowIn": 80.97,
+     "wetDays": 16.5
+    },
+    {
+     "avgHighF": 30.6,
+     "avgLowF": 24.3,
+     "precipIn": 12.24,
+     "snowIn": 74.95,
+     "wetDays": 15.9
+    },
+    {
+     "avgHighF": 38.9,
+     "avgLowF": 31.8,
+     "precipIn": 8.87,
+     "snowIn": 26.28,
+     "wetDays": 12.1
+    },
+    {
+     "avgHighF": 45.1,
+     "avgLowF": 37.6,
+     "precipIn": 6.5,
+     "snowIn": 0.69,
+     "wetDays": 13.9
+    },
+    {
+     "avgHighF": 48.3,
+     "avgLowF": 41.3,
+     "precipIn": 6.89,
+     "snowIn": 0,
+     "wetDays": 12.9
+    },
+    {
+     "avgHighF": 47.3,
+     "avgLowF": 39.9,
+     "precipIn": 11.59,
+     "snowIn": 0,
+     "wetDays": 16.1
+    },
+    {
+     "avgHighF": 42.2,
+     "avgLowF": 35,
+     "precipIn": 16.35,
+     "snowIn": 3.06,
+     "wetDays": 17.3
+    },
+    {
+     "avgHighF": 33.7,
+     "avgLowF": 26.8,
+     "precipIn": 19.99,
+     "snowIn": 50.73,
+     "wetDays": 19
+    },
+    {
+     "avgHighF": 26,
+     "avgLowF": 19.2,
+     "precipIn": 19.33,
+     "snowIn": 108.81,
+     "wetDays": 18.8
+    },
+    {
+     "avgHighF": 23.9,
+     "avgLowF": 17.6,
+     "precipIn": 22.26,
+     "snowIn": 140.32,
+     "wetDays": 20.1
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "grba",
@@ -7172,7 +8381,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 38.94617378,
+   "longitude": -114.2579782,
+   "elevationM": 3104,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 25,
+     "avgLowF": 11.3,
+     "precipIn": 2.42,
+     "snowIn": 16.96,
+     "wetDays": 6.1
+    },
+    {
+     "avgHighF": 24.6,
+     "avgLowF": 9.7,
+     "precipIn": 1.86,
+     "snowIn": 12.79,
+     "wetDays": 5
+    },
+    {
+     "avgHighF": 29.1,
+     "avgLowF": 14.4,
+     "precipIn": 2.53,
+     "snowIn": 16.95,
+     "wetDays": 7.2
+    },
+    {
+     "avgHighF": 38,
+     "avgLowF": 19.8,
+     "precipIn": 1.4,
+     "snowIn": 7.07,
+     "wetDays": 4.1
+    },
+    {
+     "avgHighF": 46.9,
+     "avgLowF": 28.1,
+     "precipIn": 2.46,
+     "snowIn": 5.52,
+     "wetDays": 7.3
+    },
+    {
+     "avgHighF": 63.2,
+     "avgLowF": 42.2,
+     "precipIn": 1.12,
+     "snowIn": 0.15,
+     "wetDays": 3.4
+    },
+    {
+     "avgHighF": 69.8,
+     "avgLowF": 49.9,
+     "precipIn": 2.32,
+     "snowIn": 0,
+     "wetDays": 7.3
+    },
+    {
+     "avgHighF": 67.4,
+     "avgLowF": 48.6,
+     "precipIn": 2.46,
+     "snowIn": 0,
+     "wetDays": 6.5
+    },
+    {
+     "avgHighF": 59.3,
+     "avgLowF": 41.1,
+     "precipIn": 1.41,
+     "snowIn": 0.59,
+     "wetDays": 4.2
+    },
+    {
+     "avgHighF": 46,
+     "avgLowF": 28.8,
+     "precipIn": 1.34,
+     "snowIn": 3.52,
+     "wetDays": 3.6
+    },
+    {
+     "avgHighF": 33.4,
+     "avgLowF": 17.4,
+     "precipIn": 1.27,
+     "snowIn": 8.23,
+     "wetDays": 3.5
+    },
+    {
+     "avgHighF": 25.8,
+     "avgLowF": 11,
+     "precipIn": 1.32,
+     "snowIn": 9.24,
+     "wetDays": 3.1
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "grca",
@@ -7459,7 +8761,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 36.0001165336,
+   "longitude": -112.121516363,
+   "elevationM": 2066,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 38.4,
+     "avgLowF": 22,
+     "precipIn": 1.84,
+     "snowIn": 10.11,
+     "wetDays": 6.2
+    },
+    {
+     "avgHighF": 42.7,
+     "avgLowF": 24.4,
+     "precipIn": 1.57,
+     "snowIn": 8.15,
+     "wetDays": 4.3
+    },
+    {
+     "avgHighF": 49.4,
+     "avgLowF": 29.1,
+     "precipIn": 1.94,
+     "snowIn": 8.62,
+     "wetDays": 5.6
+    },
+    {
+     "avgHighF": 61.3,
+     "avgLowF": 37.6,
+     "precipIn": 0.73,
+     "snowIn": 1.39,
+     "wetDays": 1.8
+    },
+    {
+     "avgHighF": 68.6,
+     "avgLowF": 45.2,
+     "precipIn": 0.99,
+     "snowIn": 0.93,
+     "wetDays": 3
+    },
+    {
+     "avgHighF": 82.7,
+     "avgLowF": 57.3,
+     "precipIn": 0.47,
+     "snowIn": 0,
+     "wetDays": 1.6
+    },
+    {
+     "avgHighF": 85.1,
+     "avgLowF": 61.9,
+     "precipIn": 1.68,
+     "snowIn": 0,
+     "wetDays": 5
+    },
+    {
+     "avgHighF": 81.9,
+     "avgLowF": 59.8,
+     "precipIn": 2.06,
+     "snowIn": 0,
+     "wetDays": 6.7
+    },
+    {
+     "avgHighF": 76.4,
+     "avgLowF": 53.9,
+     "precipIn": 1.05,
+     "snowIn": 0,
+     "wetDays": 2.8
+    },
+    {
+     "avgHighF": 63.8,
+     "avgLowF": 42.6,
+     "precipIn": 1.15,
+     "snowIn": 0.99,
+     "wetDays": 2.9
+    },
+    {
+     "avgHighF": 51,
+     "avgLowF": 31.7,
+     "precipIn": 0.88,
+     "snowIn": 3.43,
+     "wetDays": 2.6
+    },
+    {
+     "avgHighF": 41.5,
+     "avgLowF": 24.8,
+     "precipIn": 1.24,
+     "snowIn": 5.28,
+     "wetDays": 3.4
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "grsa",
@@ -7812,7 +9207,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 37.79256812,
+   "longitude": -105.5919572,
+   "elevationM": 2402,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 30.5,
+     "avgLowF": 10.7,
+     "precipIn": 0.72,
+     "snowIn": 4.99,
+     "wetDays": 2.2
+    },
+    {
+     "avgHighF": 34.9,
+     "avgLowF": 13.6,
+     "precipIn": 0.83,
+     "snowIn": 5.65,
+     "wetDays": 2.5
+    },
+    {
+     "avgHighF": 45.2,
+     "avgLowF": 23.1,
+     "precipIn": 1.1,
+     "snowIn": 6.31,
+     "wetDays": 3.9
+    },
+    {
+     "avgHighF": 55.9,
+     "avgLowF": 30.2,
+     "precipIn": 1.02,
+     "snowIn": 4.15,
+     "wetDays": 3
+    },
+    {
+     "avgHighF": 65.2,
+     "avgLowF": 39.2,
+     "precipIn": 1.47,
+     "snowIn": 2.67,
+     "wetDays": 4.2
+    },
+    {
+     "avgHighF": 78.3,
+     "avgLowF": 51.2,
+     "precipIn": 0.86,
+     "snowIn": 0.04,
+     "wetDays": 2.5
+    },
+    {
+     "avgHighF": 81.3,
+     "avgLowF": 55.9,
+     "precipIn": 1.1,
+     "snowIn": 0,
+     "wetDays": 3.2
+    },
+    {
+     "avgHighF": 79.1,
+     "avgLowF": 54,
+     "precipIn": 0.93,
+     "snowIn": 0,
+     "wetDays": 2.3
+    },
+    {
+     "avgHighF": 73.1,
+     "avgLowF": 48.3,
+     "precipIn": 0.83,
+     "snowIn": 0.79,
+     "wetDays": 2.4
+    },
+    {
+     "avgHighF": 59.5,
+     "avgLowF": 36.2,
+     "precipIn": 0.73,
+     "snowIn": 1.99,
+     "wetDays": 2.6
+    },
+    {
+     "avgHighF": 44.1,
+     "avgLowF": 24.7,
+     "precipIn": 0.62,
+     "snowIn": 3.51,
+     "wetDays": 2
+    },
+    {
+     "avgHighF": 33.7,
+     "avgLowF": 14.9,
+     "precipIn": 0.61,
+     "snowIn": 4.21,
+     "wetDays": 2.4
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "grsm",
@@ -8045,7 +9533,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 35.60116374,
+   "longitude": -83.50818326,
+   "elevationM": 1156,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 40.9,
+     "avgLowF": 24.9,
+     "precipIn": 5.73,
+     "snowIn": 10.91,
+     "wetDays": 11.2
+    },
+    {
+     "avgHighF": 47,
+     "avgLowF": 30,
+     "precipIn": 6.62,
+     "snowIn": 5.7,
+     "wetDays": 12.5
+    },
+    {
+     "avgHighF": 52.9,
+     "avgLowF": 34.4,
+     "precipIn": 6.27,
+     "snowIn": 2.96,
+     "wetDays": 11.6
+    },
+    {
+     "avgHighF": 59.2,
+     "avgLowF": 41,
+     "precipIn": 5.96,
+     "snowIn": 1.89,
+     "wetDays": 11.3
+    },
+    {
+     "avgHighF": 66.6,
+     "avgLowF": 50.4,
+     "precipIn": 5.61,
+     "snowIn": 0.09,
+     "wetDays": 13.1
+    },
+    {
+     "avgHighF": 73.1,
+     "avgLowF": 57.2,
+     "precipIn": 4.65,
+     "snowIn": 0,
+     "wetDays": 13.4
+    },
+    {
+     "avgHighF": 76.1,
+     "avgLowF": 61.2,
+     "precipIn": 6.58,
+     "snowIn": 0,
+     "wetDays": 16.9
+    },
+    {
+     "avgHighF": 74.6,
+     "avgLowF": 59.7,
+     "precipIn": 6.65,
+     "snowIn": 0,
+     "wetDays": 14.9
+    },
+    {
+     "avgHighF": 70.8,
+     "avgLowF": 55.5,
+     "precipIn": 4.74,
+     "snowIn": 0,
+     "wetDays": 8.9
+    },
+    {
+     "avgHighF": 62.6,
+     "avgLowF": 45.7,
+     "precipIn": 4.28,
+     "snowIn": 0.38,
+     "wetDays": 7.9
+    },
+    {
+     "avgHighF": 52.8,
+     "avgLowF": 35.7,
+     "precipIn": 4.23,
+     "snowIn": 1.08,
+     "wetDays": 7.9
+    },
+    {
+     "avgHighF": 46.6,
+     "avgLowF": 31,
+     "precipIn": 5.84,
+     "snowIn": 4.9,
+     "wetDays": 10.6
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "grte",
@@ -8390,7 +9971,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 43.81853565,
+   "longitude": -110.7054666,
+   "elevationM": 2109,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 27.5,
+     "avgLowF": 16.1,
+     "precipIn": 3.2,
+     "snowIn": 21.09,
+     "wetDays": 10
+    },
+    {
+     "avgHighF": 28.2,
+     "avgLowF": 16,
+     "precipIn": 3.76,
+     "snowIn": 22.49,
+     "wetDays": 11.7
+    },
+    {
+     "avgHighF": 35.7,
+     "avgLowF": 21.2,
+     "precipIn": 3,
+     "snowIn": 14.44,
+     "wetDays": 9.5
+    },
+    {
+     "avgHighF": 41.6,
+     "avgLowF": 25.5,
+     "precipIn": 2.78,
+     "snowIn": 7.26,
+     "wetDays": 9.2
+    },
+    {
+     "avgHighF": 51,
+     "avgLowF": 33.6,
+     "precipIn": 2.49,
+     "snowIn": 1.52,
+     "wetDays": 7.9
+    },
+    {
+     "avgHighF": 65.1,
+     "avgLowF": 41.7,
+     "precipIn": 1.68,
+     "snowIn": 0,
+     "wetDays": 4.6
+    },
+    {
+     "avgHighF": 76,
+     "avgLowF": 49.9,
+     "precipIn": 1.09,
+     "snowIn": 0,
+     "wetDays": 4.1
+    },
+    {
+     "avgHighF": 74.1,
+     "avgLowF": 50.3,
+     "precipIn": 1.96,
+     "snowIn": 0,
+     "wetDays": 4.9
+    },
+    {
+     "avgHighF": 65.3,
+     "avgLowF": 43.6,
+     "precipIn": 2.83,
+     "snowIn": 0.06,
+     "wetDays": 6.6
+    },
+    {
+     "avgHighF": 50.2,
+     "avgLowF": 33.4,
+     "precipIn": 3.05,
+     "snowIn": 3.43,
+     "wetDays": 9.5
+    },
+    {
+     "avgHighF": 36.7,
+     "avgLowF": 25,
+     "precipIn": 3.67,
+     "snowIn": 13.4,
+     "wetDays": 10.7
+    },
+    {
+     "avgHighF": 28.4,
+     "avgLowF": 18.6,
+     "precipIn": 4.1,
+     "snowIn": 24.43,
+     "wetDays": 11.8
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "gumo",
@@ -8680,7 +10354,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 31.92304462,
+   "longitude": -104.885527,
+   "elevationM": 2251,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 42.8,
+     "avgLowF": 26.7,
+     "precipIn": 0.61,
+     "snowIn": 1.25,
+     "wetDays": 2.1
+    },
+    {
+     "avgHighF": 48.9,
+     "avgLowF": 29.6,
+     "precipIn": 0.56,
+     "snowIn": 1.4,
+     "wetDays": 1.8
+    },
+    {
+     "avgHighF": 56.1,
+     "avgLowF": 36.1,
+     "precipIn": 0.78,
+     "snowIn": 0.68,
+     "wetDays": 2.1
+    },
+    {
+     "avgHighF": 63.8,
+     "avgLowF": 42.5,
+     "precipIn": 0.36,
+     "snowIn": 0.23,
+     "wetDays": 1.2
+    },
+    {
+     "avgHighF": 72.2,
+     "avgLowF": 51.3,
+     "precipIn": 0.53,
+     "snowIn": 0,
+     "wetDays": 1.4
+    },
+    {
+     "avgHighF": 80.4,
+     "avgLowF": 59.9,
+     "precipIn": 0.78,
+     "snowIn": 0,
+     "wetDays": 2
+    },
+    {
+     "avgHighF": 80,
+     "avgLowF": 62,
+     "precipIn": 1.35,
+     "snowIn": 0,
+     "wetDays": 3.9
+    },
+    {
+     "avgHighF": 77.7,
+     "avgLowF": 61.1,
+     "precipIn": 1.77,
+     "snowIn": 0,
+     "wetDays": 4.5
+    },
+    {
+     "avgHighF": 72.6,
+     "avgLowF": 56,
+     "precipIn": 1.41,
+     "snowIn": 0,
+     "wetDays": 3.4
+    },
+    {
+     "avgHighF": 63.7,
+     "avgLowF": 46.6,
+     "precipIn": 1.04,
+     "snowIn": 0.2,
+     "wetDays": 2.6
+    },
+    {
+     "avgHighF": 52.9,
+     "avgLowF": 36.2,
+     "precipIn": 0.66,
+     "snowIn": 0.5,
+     "wetDays": 1.8
+    },
+    {
+     "avgHighF": 46,
+     "avgLowF": 30.2,
+     "precipIn": 0.64,
+     "snowIn": 1.37,
+     "wetDays": 1.8
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "hale",
@@ -8900,7 +10667,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 20.70693015,
+   "longitude": -156.1591775,
+   "elevationM": 1926,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 56.9,
+     "avgLowF": 47.3,
+     "precipIn": 7.83,
+     "snowIn": 0,
+     "wetDays": 13.9
+    },
+    {
+     "avgHighF": 55.4,
+     "avgLowF": 45.9,
+     "precipIn": 13.68,
+     "snowIn": 0,
+     "wetDays": 18.9
+    },
+    {
+     "avgHighF": 55.9,
+     "avgLowF": 46.6,
+     "precipIn": 11.3,
+     "snowIn": 0,
+     "wetDays": 20.4
+    },
+    {
+     "avgHighF": 57,
+     "avgLowF": 47.9,
+     "precipIn": 12.06,
+     "snowIn": 0,
+     "wetDays": 21.2
+    },
+    {
+     "avgHighF": 58.1,
+     "avgLowF": 48.9,
+     "precipIn": 7.51,
+     "snowIn": 0,
+     "wetDays": 19.6
+    },
+    {
+     "avgHighF": 60.2,
+     "avgLowF": 50.5,
+     "precipIn": 4.24,
+     "snowIn": 0,
+     "wetDays": 12.2
+    },
+    {
+     "avgHighF": 61.7,
+     "avgLowF": 51.9,
+     "precipIn": 4.62,
+     "snowIn": 0,
+     "wetDays": 13.4
+    },
+    {
+     "avgHighF": 62.3,
+     "avgLowF": 52.6,
+     "precipIn": 7.14,
+     "snowIn": 0,
+     "wetDays": 13.2
+    },
+    {
+     "avgHighF": 61.9,
+     "avgLowF": 52.3,
+     "precipIn": 4.9,
+     "snowIn": 0,
+     "wetDays": 15.1
+    },
+    {
+     "avgHighF": 61.1,
+     "avgLowF": 51.9,
+     "precipIn": 9.26,
+     "snowIn": 0,
+     "wetDays": 17.1
+    },
+    {
+     "avgHighF": 58.5,
+     "avgLowF": 50,
+     "precipIn": 8.51,
+     "snowIn": 0,
+     "wetDays": 19
+    },
+    {
+     "avgHighF": 56.4,
+     "avgLowF": 48,
+     "precipIn": 9.98,
+     "snowIn": 0,
+     "wetDays": 19.3
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "havo",
@@ -9199,7 +11059,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 19.3355036,
+   "longitude": -155.4700257,
+   "elevationM": 1263,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 64.9,
+     "avgLowF": 53.6,
+     "precipIn": 6.66,
+     "snowIn": 0,
+     "wetDays": 10.2
+    },
+    {
+     "avgHighF": 64.1,
+     "avgLowF": 53.2,
+     "precipIn": 13.17,
+     "snowIn": 0,
+     "wetDays": 14.3
+    },
+    {
+     "avgHighF": 64.4,
+     "avgLowF": 54.5,
+     "precipIn": 13.15,
+     "snowIn": 0,
+     "wetDays": 18.4
+    },
+    {
+     "avgHighF": 65.4,
+     "avgLowF": 55.6,
+     "precipIn": 11.01,
+     "snowIn": 0,
+     "wetDays": 16.1
+    },
+    {
+     "avgHighF": 66.1,
+     "avgLowF": 56.3,
+     "precipIn": 10.58,
+     "snowIn": 0,
+     "wetDays": 20.2
+    },
+    {
+     "avgHighF": 67.6,
+     "avgLowF": 57.5,
+     "precipIn": 8.04,
+     "snowIn": 0,
+     "wetDays": 16.3
+    },
+    {
+     "avgHighF": 70.2,
+     "avgLowF": 59.4,
+     "precipIn": 6.1,
+     "snowIn": 0,
+     "wetDays": 13.3
+    },
+    {
+     "avgHighF": 70.3,
+     "avgLowF": 60.1,
+     "precipIn": 10.41,
+     "snowIn": 0,
+     "wetDays": 16.2
+    },
+    {
+     "avgHighF": 69.3,
+     "avgLowF": 59.4,
+     "precipIn": 7.8,
+     "snowIn": 0,
+     "wetDays": 17.4
+    },
+    {
+     "avgHighF": 69.1,
+     "avgLowF": 59.1,
+     "precipIn": 9.59,
+     "snowIn": 0,
+     "wetDays": 14.9
+    },
+    {
+     "avgHighF": 67.5,
+     "avgLowF": 57.6,
+     "precipIn": 6.56,
+     "snowIn": 0,
+     "wetDays": 11.8
+    },
+    {
+     "avgHighF": 65.7,
+     "avgLowF": 55.6,
+     "precipIn": 7.24,
+     "snowIn": 0,
+     "wetDays": 10.4
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "hosp",
@@ -9459,7 +11412,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 34.52414366,
+   "longitude": -93.06332936,
+   "elevationM": 239,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 50.7,
+     "avgLowF": 34,
+     "precipIn": 4.42,
+     "snowIn": 0.95,
+     "wetDays": 7.7
+    },
+    {
+     "avgHighF": 55.2,
+     "avgLowF": 36.9,
+     "precipIn": 5.33,
+     "snowIn": 1.48,
+     "wetDays": 9.5
+    },
+    {
+     "avgHighF": 64.1,
+     "avgLowF": 45.1,
+     "precipIn": 6.33,
+     "snowIn": 0.47,
+     "wetDays": 10
+    },
+    {
+     "avgHighF": 70.3,
+     "avgLowF": 51.8,
+     "precipIn": 6.02,
+     "snowIn": 0,
+     "wetDays": 10
+    },
+    {
+     "avgHighF": 79.3,
+     "avgLowF": 61.6,
+     "precipIn": 5.32,
+     "snowIn": 0,
+     "wetDays": 11.1
+    },
+    {
+     "avgHighF": 88.2,
+     "avgLowF": 69.9,
+     "precipIn": 3.52,
+     "snowIn": 0,
+     "wetDays": 7
+    },
+    {
+     "avgHighF": 91.5,
+     "avgLowF": 73.9,
+     "precipIn": 3.21,
+     "snowIn": 0,
+     "wetDays": 7.2
+    },
+    {
+     "avgHighF": 89.9,
+     "avgLowF": 72.6,
+     "precipIn": 3.74,
+     "snowIn": 0,
+     "wetDays": 7.3
+    },
+    {
+     "avgHighF": 85.8,
+     "avgLowF": 67.5,
+     "precipIn": 2.48,
+     "snowIn": 0,
+     "wetDays": 4.8
+    },
+    {
+     "avgHighF": 75,
+     "avgLowF": 56.5,
+     "precipIn": 4.09,
+     "snowIn": 0,
+     "wetDays": 6.3
+    },
+    {
+     "avgHighF": 62.2,
+     "avgLowF": 45,
+     "precipIn": 4.24,
+     "snowIn": 0.08,
+     "wetDays": 6
+    },
+    {
+     "avgHighF": 55.2,
+     "avgLowF": 39.3,
+     "precipIn": 5.24,
+     "snowIn": 0.16,
+     "wetDays": 7.9
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "indu",
@@ -9753,7 +11799,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 41.63765525,
+   "longitude": -87.09647445,
+   "elevationM": 184,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 33.4,
+     "avgLowF": 21.4,
+     "precipIn": 2.88,
+     "snowIn": 8.69,
+     "wetDays": 7.9
+    },
+    {
+     "avgHighF": 37.1,
+     "avgLowF": 21.9,
+     "precipIn": 2.81,
+     "snowIn": 7.97,
+     "wetDays": 5.9
+    },
+    {
+     "avgHighF": 46.5,
+     "avgLowF": 30.9,
+     "precipIn": 3.67,
+     "snowIn": 3.5,
+     "wetDays": 8.7
+    },
+    {
+     "avgHighF": 56.3,
+     "avgLowF": 39.2,
+     "precipIn": 4.1,
+     "snowIn": 2.47,
+     "wetDays": 9.8
+    },
+    {
+     "avgHighF": 67.8,
+     "avgLowF": 50.8,
+     "precipIn": 4.82,
+     "snowIn": 0.06,
+     "wetDays": 10
+    },
+    {
+     "avgHighF": 78.2,
+     "avgLowF": 61.1,
+     "precipIn": 4.38,
+     "snowIn": 0,
+     "wetDays": 9.7
+    },
+    {
+     "avgHighF": 80.6,
+     "avgLowF": 65.6,
+     "precipIn": 5.09,
+     "snowIn": 0,
+     "wetDays": 9.6
+    },
+    {
+     "avgHighF": 80.1,
+     "avgLowF": 65,
+     "precipIn": 4.42,
+     "snowIn": 0,
+     "wetDays": 9.1
+    },
+    {
+     "avgHighF": 75.7,
+     "avgLowF": 60.6,
+     "precipIn": 3.5,
+     "snowIn": 0,
+     "wetDays": 7.6
+    },
+    {
+     "avgHighF": 62.6,
+     "avgLowF": 48.6,
+     "precipIn": 4.61,
+     "snowIn": 0.26,
+     "wetDays": 9.8
+    },
+    {
+     "avgHighF": 49,
+     "avgLowF": 36.5,
+     "precipIn": 2.72,
+     "snowIn": 3.03,
+     "wetDays": 6.9
+    },
+    {
+     "avgHighF": 40.1,
+     "avgLowF": 28.3,
+     "precipIn": 2.79,
+     "snowIn": 3.66,
+     "wetDays": 6.2
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "isro",
@@ -10019,7 +12158,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 48.01145819,
+   "longitude": -88.82780657,
+   "elevationM": 255,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 23,
+     "avgLowF": 13.8,
+     "precipIn": 1.57,
+     "snowIn": 11.23,
+     "wetDays": 4.1
+    },
+    {
+     "avgHighF": 21.3,
+     "avgLowF": 10.9,
+     "precipIn": 1.82,
+     "snowIn": 11.75,
+     "wetDays": 5.6
+    },
+    {
+     "avgHighF": 30.7,
+     "avgLowF": 21.6,
+     "precipIn": 1.64,
+     "snowIn": 8.69,
+     "wetDays": 4.1
+    },
+    {
+     "avgHighF": 38.4,
+     "avgLowF": 29.5,
+     "precipIn": 2.88,
+     "snowIn": 8.67,
+     "wetDays": 6.9
+    },
+    {
+     "avgHighF": 50.8,
+     "avgLowF": 38.3,
+     "precipIn": 2.77,
+     "snowIn": 1.1,
+     "wetDays": 7.3
+    },
+    {
+     "avgHighF": 59.4,
+     "avgLowF": 46.2,
+     "precipIn": 2.65,
+     "snowIn": 0,
+     "wetDays": 5.7
+    },
+    {
+     "avgHighF": 66.9,
+     "avgLowF": 55.2,
+     "precipIn": 2.13,
+     "snowIn": 0,
+     "wetDays": 4.4
+    },
+    {
+     "avgHighF": 67.4,
+     "avgLowF": 58.9,
+     "precipIn": 2.55,
+     "snowIn": 0,
+     "wetDays": 6.9
+    },
+    {
+     "avgHighF": 62.5,
+     "avgLowF": 55.1,
+     "precipIn": 3.08,
+     "snowIn": 0,
+     "wetDays": 7.7
+    },
+    {
+     "avgHighF": 50.1,
+     "avgLowF": 43.8,
+     "precipIn": 3.45,
+     "snowIn": 1.41,
+     "wetDays": 8.4
+    },
+    {
+     "avgHighF": 38.5,
+     "avgLowF": 31.5,
+     "precipIn": 2.71,
+     "snowIn": 7.55,
+     "wetDays": 6
+    },
+    {
+     "avgHighF": 29.6,
+     "avgLowF": 21,
+     "precipIn": 2.72,
+     "snowIn": 14.43,
+     "wetDays": 7.5
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "jeff",
@@ -10308,7 +12540,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 38.6258069,
+   "longitude": -90.1892508,
+   "elevationM": 147,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 40.8,
+     "avgLowF": 24.6,
+     "precipIn": 3.19,
+     "snowIn": 3.41,
+     "wetDays": 6
+    },
+    {
+     "avgHighF": 46.3,
+     "avgLowF": 26.3,
+     "precipIn": 2.7,
+     "snowIn": 4.31,
+     "wetDays": 6.1
+    },
+    {
+     "avgHighF": 56.8,
+     "avgLowF": 37.1,
+     "precipIn": 5.53,
+     "snowIn": 0.85,
+     "wetDays": 10
+    },
+    {
+     "avgHighF": 66.1,
+     "avgLowF": 45.2,
+     "precipIn": 5.04,
+     "snowIn": 0.44,
+     "wetDays": 8.3
+    },
+    {
+     "avgHighF": 76.2,
+     "avgLowF": 57.2,
+     "precipIn": 5.42,
+     "snowIn": 0,
+     "wetDays": 10
+    },
+    {
+     "avgHighF": 86.2,
+     "avgLowF": 66.6,
+     "precipIn": 4.54,
+     "snowIn": 0,
+     "wetDays": 8.4
+    },
+    {
+     "avgHighF": 88,
+     "avgLowF": 70.4,
+     "precipIn": 6.85,
+     "snowIn": 0,
+     "wetDays": 9.9
+    },
+    {
+     "avgHighF": 85.3,
+     "avgLowF": 68.3,
+     "precipIn": 5.42,
+     "snowIn": 0,
+     "wetDays": 9.9
+    },
+    {
+     "avgHighF": 81.6,
+     "avgLowF": 63,
+     "precipIn": 4.67,
+     "snowIn": 0,
+     "wetDays": 5.4
+    },
+    {
+     "avgHighF": 68.9,
+     "avgLowF": 50.5,
+     "precipIn": 3.57,
+     "snowIn": 0.01,
+     "wetDays": 6.6
+    },
+    {
+     "avgHighF": 55.2,
+     "avgLowF": 37.7,
+     "precipIn": 3.32,
+     "snowIn": 1,
+     "wetDays": 7
+    },
+    {
+     "avgHighF": 46.9,
+     "avgLowF": 30.7,
+     "precipIn": 3.16,
+     "snowIn": 1.72,
+     "wetDays": 6
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "jotr",
@@ -10570,7 +12895,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 33.91418525,
+   "longitude": -115.8398125,
+   "elevationM": 523,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 62.3,
+     "avgLowF": 45.3,
+     "precipIn": 0.77,
+     "snowIn": 0,
+     "wetDays": 2.5
+    },
+    {
+     "avgHighF": 66.6,
+     "avgLowF": 47.4,
+     "precipIn": 0.46,
+     "snowIn": 0,
+     "wetDays": 1.2
+    },
+    {
+     "avgHighF": 72.1,
+     "avgLowF": 51.2,
+     "precipIn": 0.51,
+     "snowIn": 0,
+     "wetDays": 1.4
+    },
+    {
+     "avgHighF": 81.5,
+     "avgLowF": 58.8,
+     "precipIn": 0.26,
+     "snowIn": 0,
+     "wetDays": 0.4
+    },
+    {
+     "avgHighF": 87.3,
+     "avgLowF": 64.1,
+     "precipIn": 0.06,
+     "snowIn": 0,
+     "wetDays": 0.1
+    },
+    {
+     "avgHighF": 99.5,
+     "avgLowF": 75.2,
+     "precipIn": 0.05,
+     "snowIn": 0,
+     "wetDays": 0.2
+    },
+    {
+     "avgHighF": 103.4,
+     "avgLowF": 80.9,
+     "precipIn": 0.29,
+     "snowIn": 0,
+     "wetDays": 1.1
+    },
+    {
+     "avgHighF": 102.1,
+     "avgLowF": 79.9,
+     "precipIn": 0.3,
+     "snowIn": 0,
+     "wetDays": 0.6
+    },
+    {
+     "avgHighF": 95.2,
+     "avgLowF": 73.1,
+     "precipIn": 0.16,
+     "snowIn": 0,
+     "wetDays": 0.4
+    },
+    {
+     "avgHighF": 83.9,
+     "avgLowF": 63.4,
+     "precipIn": 0.27,
+     "snowIn": 0,
+     "wetDays": 0.7
+    },
+    {
+     "avgHighF": 70.8,
+     "avgLowF": 52.4,
+     "precipIn": 0.17,
+     "snowIn": 0,
+     "wetDays": 0.4
+    },
+    {
+     "avgHighF": 62.2,
+     "avgLowF": 45.8,
+     "precipIn": 0.6,
+     "snowIn": 0,
+     "wetDays": 1.5
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "katm",
@@ -10804,7 +13222,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 58.62235668,
+   "longitude": -155.0126574,
+   "elevationM": 285,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 24.9,
+     "avgLowF": 16.1,
+     "precipIn": 4.9,
+     "snowIn": 11.45,
+     "wetDays": 11.2
+    },
+    {
+     "avgHighF": 28.7,
+     "avgLowF": 18.8,
+     "precipIn": 5.59,
+     "snowIn": 22.4,
+     "wetDays": 13.5
+    },
+    {
+     "avgHighF": 27.8,
+     "avgLowF": 18.5,
+     "precipIn": 3.94,
+     "snowIn": 16.2,
+     "wetDays": 11.1
+    },
+    {
+     "avgHighF": 35.7,
+     "avgLowF": 26.2,
+     "precipIn": 4.23,
+     "snowIn": 8,
+     "wetDays": 9.8
+    },
+    {
+     "avgHighF": 45.2,
+     "avgLowF": 35.1,
+     "precipIn": 3.7,
+     "snowIn": 0.92,
+     "wetDays": 11.3
+    },
+    {
+     "avgHighF": 56.7,
+     "avgLowF": 45.3,
+     "precipIn": 2.77,
+     "snowIn": 0,
+     "wetDays": 7.9
+    },
+    {
+     "avgHighF": 59.9,
+     "avgLowF": 49.6,
+     "precipIn": 3.87,
+     "snowIn": 0,
+     "wetDays": 11.8
+    },
+    {
+     "avgHighF": 57.8,
+     "avgLowF": 48.4,
+     "precipIn": 5.24,
+     "snowIn": 0,
+     "wetDays": 13.7
+    },
+    {
+     "avgHighF": 50.5,
+     "avgLowF": 41.3,
+     "precipIn": 6.22,
+     "snowIn": 0.22,
+     "wetDays": 14.2
+    },
+    {
+     "avgHighF": 40.4,
+     "avgLowF": 32,
+     "precipIn": 7.04,
+     "snowIn": 1.85,
+     "wetDays": 13.7
+    },
+    {
+     "avgHighF": 29.7,
+     "avgLowF": 20.5,
+     "precipIn": 5.66,
+     "snowIn": 15.79,
+     "wetDays": 12
+    },
+    {
+     "avgHighF": 27.5,
+     "avgLowF": 16.9,
+     "precipIn": 7.51,
+     "snowIn": 19.15,
+     "wetDays": 15.1
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "kefj",
@@ -11072,7 +13583,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 59.81804414,
+   "longitude": -150.106502,
+   "elevationM": 1204,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 18.9,
+     "avgLowF": 10.3,
+     "precipIn": 21.59,
+     "snowIn": 136.92,
+     "wetDays": 17.4
+    },
+    {
+     "avgHighF": 19.3,
+     "avgLowF": 10.5,
+     "precipIn": 14.02,
+     "snowIn": 91.3,
+     "wetDays": 14.5
+    },
+    {
+     "avgHighF": 19.6,
+     "avgLowF": 10.9,
+     "precipIn": 14.07,
+     "snowIn": 92.4,
+     "wetDays": 14
+    },
+    {
+     "avgHighF": 25.4,
+     "avgLowF": 17.7,
+     "precipIn": 13.27,
+     "snowIn": 82.14,
+     "wetDays": 16
+    },
+    {
+     "avgHighF": 32.4,
+     "avgLowF": 25.6,
+     "precipIn": 18.41,
+     "snowIn": 108.97,
+     "wetDays": 17.1
+    },
+    {
+     "avgHighF": 40.3,
+     "avgLowF": 32.3,
+     "precipIn": 11.21,
+     "snowIn": 11.04,
+     "wetDays": 12.6
+    },
+    {
+     "avgHighF": 44.1,
+     "avgLowF": 35.5,
+     "precipIn": 11.22,
+     "snowIn": 0.47,
+     "wetDays": 12.5
+    },
+    {
+     "avgHighF": 42.9,
+     "avgLowF": 34.5,
+     "precipIn": 16.64,
+     "snowIn": 0.1,
+     "wetDays": 14.5
+    },
+    {
+     "avgHighF": 36.7,
+     "avgLowF": 28.6,
+     "precipIn": 16.7,
+     "snowIn": 12.23,
+     "wetDays": 15.3
+    },
+    {
+     "avgHighF": 28.9,
+     "avgLowF": 21.6,
+     "precipIn": 19.67,
+     "snowIn": 72.6,
+     "wetDays": 16.8
+    },
+    {
+     "avgHighF": 21.1,
+     "avgLowF": 12.7,
+     "precipIn": 19,
+     "snowIn": 107.31,
+     "wetDays": 15.3
+    },
+    {
+     "avgHighF": 20.6,
+     "avgLowF": 11.6,
+     "precipIn": 24.2,
+     "snowIn": 162.37,
+     "wetDays": 18.8
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "kova",
@@ -11299,7 +13903,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 67.35631336,
+   "longitude": -159.2002293,
+   "elevationM": 194,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 3.1,
+     "avgLowF": -6.9,
+     "precipIn": 1.41,
+     "snowIn": 10.08,
+     "wetDays": 4.3
+    },
+    {
+     "avgHighF": 5.6,
+     "avgLowF": -4.8,
+     "precipIn": 2.26,
+     "snowIn": 16.05,
+     "wetDays": 6.7
+    },
+    {
+     "avgHighF": 11.5,
+     "avgLowF": -0.1,
+     "precipIn": 2.24,
+     "snowIn": 15.83,
+     "wetDays": 6.4
+    },
+    {
+     "avgHighF": 26.6,
+     "avgLowF": 13.5,
+     "precipIn": 1.27,
+     "snowIn": 8.11,
+     "wetDays": 4.2
+    },
+    {
+     "avgHighF": 44.5,
+     "avgLowF": 31,
+     "precipIn": 1.47,
+     "snowIn": 3.13,
+     "wetDays": 5.4
+    },
+    {
+     "avgHighF": 59.9,
+     "avgLowF": 45.6,
+     "precipIn": 2.36,
+     "snowIn": 0.24,
+     "wetDays": 7.1
+    },
+    {
+     "avgHighF": 63,
+     "avgLowF": 50.9,
+     "precipIn": 4.75,
+     "snowIn": 0.02,
+     "wetDays": 9.8
+    },
+    {
+     "avgHighF": 54.6,
+     "avgLowF": 43.9,
+     "precipIn": 5.34,
+     "snowIn": 0.08,
+     "wetDays": 11.1
+    },
+    {
+     "avgHighF": 44.3,
+     "avgLowF": 35,
+     "precipIn": 3.8,
+     "snowIn": 3.54,
+     "wetDays": 9
+    },
+    {
+     "avgHighF": 29.2,
+     "avgLowF": 20.7,
+     "precipIn": 2.59,
+     "snowIn": 15.17,
+     "wetDays": 7.4
+    },
+    {
+     "avgHighF": 12,
+     "avgLowF": 2.7,
+     "precipIn": 2.26,
+     "snowIn": 15.97,
+     "wetDays": 6.7
+    },
+    {
+     "avgHighF": 5.8,
+     "avgLowF": -3.8,
+     "precipIn": 2.15,
+     "snowIn": 15.27,
+     "wetDays": 6.7
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "lacl",
@@ -11584,7 +14281,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 60.57405857,
+   "longitude": -153.55535,
+   "elevationM": 1087,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 16.1,
+     "avgLowF": 8.7,
+     "precipIn": 3.7,
+     "snowIn": 26.07,
+     "wetDays": 10.5
+    },
+    {
+     "avgHighF": 17.9,
+     "avgLowF": 9.9,
+     "precipIn": 4.43,
+     "snowIn": 31.37,
+     "wetDays": 11.2
+    },
+    {
+     "avgHighF": 19.4,
+     "avgLowF": 11.3,
+     "precipIn": 2.95,
+     "snowIn": 21.03,
+     "wetDays": 9.8
+    },
+    {
+     "avgHighF": 27.4,
+     "avgLowF": 19.3,
+     "precipIn": 3.08,
+     "snowIn": 21.74,
+     "wetDays": 8.3
+    },
+    {
+     "avgHighF": 36.8,
+     "avgLowF": 28.6,
+     "precipIn": 2.87,
+     "snowIn": 16.23,
+     "wetDays": 9.6
+    },
+    {
+     "avgHighF": 49.5,
+     "avgLowF": 39.1,
+     "precipIn": 2.96,
+     "snowIn": 1.43,
+     "wetDays": 9.9
+    },
+    {
+     "avgHighF": 54.3,
+     "avgLowF": 43.8,
+     "precipIn": 4.61,
+     "snowIn": 0.25,
+     "wetDays": 12.4
+    },
+    {
+     "avgHighF": 50.6,
+     "avgLowF": 41,
+     "precipIn": 5.96,
+     "snowIn": 0.94,
+     "wetDays": 13.9
+    },
+    {
+     "avgHighF": 40.9,
+     "avgLowF": 32.5,
+     "precipIn": 5.98,
+     "snowIn": 10.86,
+     "wetDays": 12.9
+    },
+    {
+     "avgHighF": 29.7,
+     "avgLowF": 22.5,
+     "precipIn": 5.27,
+     "snowIn": 33.04,
+     "wetDays": 11.2
+    },
+    {
+     "avgHighF": 19,
+     "avgLowF": 11,
+     "precipIn": 4.35,
+     "snowIn": 30.67,
+     "wetDays": 10.4
+    },
+    {
+     "avgHighF": 17.2,
+     "avgLowF": 8.6,
+     "precipIn": 5.51,
+     "snowIn": 38.48,
+     "wetDays": 12.9
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "lavo",
@@ -11914,7 +14704,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 40.49354575,
+   "longitude": -121.4075993,
+   "elevationM": 2161,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 35.4,
+     "avgLowF": 22.8,
+     "precipIn": 7.87,
+     "snowIn": 49.02,
+     "wetDays": 10.8
+    },
+    {
+     "avgHighF": 36.2,
+     "avgLowF": 20.8,
+     "precipIn": 6.49,
+     "snowIn": 40.97,
+     "wetDays": 8.5
+    },
+    {
+     "avgHighF": 38.2,
+     "avgLowF": 23.2,
+     "precipIn": 7.04,
+     "snowIn": 43.13,
+     "wetDays": 11.8
+    },
+    {
+     "avgHighF": 45.3,
+     "avgLowF": 27.8,
+     "precipIn": 3.61,
+     "snowIn": 20.49,
+     "wetDays": 7.2
+    },
+    {
+     "avgHighF": 53.4,
+     "avgLowF": 33.8,
+     "precipIn": 2.44,
+     "snowIn": 7.96,
+     "wetDays": 6.5
+    },
+    {
+     "avgHighF": 68.3,
+     "avgLowF": 45,
+     "precipIn": 1.09,
+     "snowIn": 1.23,
+     "wetDays": 3.1
+    },
+    {
+     "avgHighF": 77.9,
+     "avgLowF": 53.2,
+     "precipIn": 0.43,
+     "snowIn": 0,
+     "wetDays": 1.1
+    },
+    {
+     "avgHighF": 76.2,
+     "avgLowF": 52.2,
+     "precipIn": 0.65,
+     "snowIn": 0.09,
+     "wetDays": 1.4
+    },
+    {
+     "avgHighF": 67.9,
+     "avgLowF": 45.8,
+     "precipIn": 1.06,
+     "snowIn": 1.23,
+     "wetDays": 3.1
+    },
+    {
+     "avgHighF": 56.7,
+     "avgLowF": 37,
+     "precipIn": 2.21,
+     "snowIn": 5.05,
+     "wetDays": 4.3
+    },
+    {
+     "avgHighF": 42.2,
+     "avgLowF": 26.4,
+     "precipIn": 4.87,
+     "snowIn": 27.94,
+     "wetDays": 6.6
+    },
+    {
+     "avgHighF": 35.1,
+     "avgLowF": 21.6,
+     "precipIn": 7.55,
+     "snowIn": 44.13,
+     "wetDays": 10.1
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "maca",
@@ -12189,7 +15072,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 37.19760458,
+   "longitude": -86.13090198,
+   "elevationM": 229,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 44.5,
+     "avgLowF": 28.7,
+     "precipIn": 4.43,
+     "snowIn": 3.34,
+     "wetDays": 8.6
+    },
+    {
+     "avgHighF": 50.5,
+     "avgLowF": 32.2,
+     "precipIn": 5.97,
+     "snowIn": 2.62,
+     "wetDays": 9.3
+    },
+    {
+     "avgHighF": 59,
+     "avgLowF": 39.2,
+     "precipIn": 5.2,
+     "snowIn": 1.57,
+     "wetDays": 9.7
+    },
+    {
+     "avgHighF": 67.1,
+     "avgLowF": 46.9,
+     "precipIn": 5.33,
+     "snowIn": 0.17,
+     "wetDays": 9.5
+    },
+    {
+     "avgHighF": 76.7,
+     "avgLowF": 57.7,
+     "precipIn": 4.44,
+     "snowIn": 0,
+     "wetDays": 10
+    },
+    {
+     "avgHighF": 85.1,
+     "avgLowF": 65.5,
+     "precipIn": 5.19,
+     "snowIn": 0,
+     "wetDays": 9.4
+    },
+    {
+     "avgHighF": 88,
+     "avgLowF": 70,
+     "precipIn": 4.72,
+     "snowIn": 0,
+     "wetDays": 9.9
+    },
+    {
+     "avgHighF": 86.1,
+     "avgLowF": 68.2,
+     "precipIn": 4.08,
+     "snowIn": 0,
+     "wetDays": 9.6
+    },
+    {
+     "avgHighF": 81.8,
+     "avgLowF": 63,
+     "precipIn": 3.84,
+     "snowIn": 0,
+     "wetDays": 6
+    },
+    {
+     "avgHighF": 70.7,
+     "avgLowF": 52,
+     "precipIn": 3.62,
+     "snowIn": 0,
+     "wetDays": 6.5
+    },
+    {
+     "avgHighF": 57.6,
+     "avgLowF": 40.2,
+     "precipIn": 3.71,
+     "snowIn": 0.26,
+     "wetDays": 7.2
+    },
+    {
+     "avgHighF": 50.5,
+     "avgLowF": 34.8,
+     "precipIn": 4.59,
+     "snowIn": 0.36,
+     "wetDays": 9
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "meve",
@@ -12441,7 +15417,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 37.23908345,
+   "longitude": -108.4624032,
+   "elevationM": 2235,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 33.1,
+     "avgLowF": 13.8,
+     "precipIn": 1.83,
+     "snowIn": 11.99,
+     "wetDays": 5.8
+    },
+    {
+     "avgHighF": 37,
+     "avgLowF": 16.3,
+     "precipIn": 1.59,
+     "snowIn": 10.16,
+     "wetDays": 4.5
+    },
+    {
+     "avgHighF": 46.2,
+     "avgLowF": 24.3,
+     "precipIn": 1.82,
+     "snowIn": 8.8,
+     "wetDays": 5.3
+    },
+    {
+     "avgHighF": 57.9,
+     "avgLowF": 33.2,
+     "precipIn": 0.93,
+     "snowIn": 2.16,
+     "wetDays": 2.7
+    },
+    {
+     "avgHighF": 67.3,
+     "avgLowF": 42.1,
+     "precipIn": 1.34,
+     "snowIn": 0.88,
+     "wetDays": 4.4
+    },
+    {
+     "avgHighF": 80.7,
+     "avgLowF": 54.4,
+     "precipIn": 0.94,
+     "snowIn": 0,
+     "wetDays": 2.3
+    },
+    {
+     "avgHighF": 84.5,
+     "avgLowF": 60,
+     "precipIn": 1.58,
+     "snowIn": 0,
+     "wetDays": 4.6
+    },
+    {
+     "avgHighF": 81.3,
+     "avgLowF": 57.6,
+     "precipIn": 1.41,
+     "snowIn": 0,
+     "wetDays": 4.1
+    },
+    {
+     "avgHighF": 74.4,
+     "avgLowF": 50.6,
+     "precipIn": 1.26,
+     "snowIn": 0,
+     "wetDays": 3.9
+    },
+    {
+     "avgHighF": 61.2,
+     "avgLowF": 38.3,
+     "precipIn": 1.35,
+     "snowIn": 1.05,
+     "wetDays": 3.5
+    },
+    {
+     "avgHighF": 47.8,
+     "avgLowF": 26.6,
+     "precipIn": 1.11,
+     "snowIn": 4.08,
+     "wetDays": 3
+    },
+    {
+     "avgHighF": 36.7,
+     "avgLowF": 16.8,
+     "precipIn": 1.7,
+     "snowIn": 9.7,
+     "wetDays": 4.4
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "mora",
@@ -12935,7 +16004,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 46.86075416,
+   "longitude": -121.7043885,
+   "elevationM": 2455,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 24,
+     "avgLowF": 13.4,
+     "precipIn": 16.64,
+     "snowIn": 102.45,
+     "wetDays": 19.5
+    },
+    {
+     "avgHighF": 20.9,
+     "avgLowF": 10.3,
+     "precipIn": 14.03,
+     "snowIn": 88.39,
+     "wetDays": 17
+    },
+    {
+     "avgHighF": 24,
+     "avgLowF": 12.7,
+     "precipIn": 10.18,
+     "snowIn": 62.57,
+     "wetDays": 15.9
+    },
+    {
+     "avgHighF": 28.4,
+     "avgLowF": 15.8,
+     "precipIn": 8,
+     "snowIn": 52.23,
+     "wetDays": 14.8
+    },
+    {
+     "avgHighF": 37.7,
+     "avgLowF": 24.1,
+     "precipIn": 4.53,
+     "snowIn": 20.53,
+     "wetDays": 11
+    },
+    {
+     "avgHighF": 45.8,
+     "avgLowF": 29.8,
+     "precipIn": 3.72,
+     "snowIn": 8.63,
+     "wetDays": 8.5
+    },
+    {
+     "avgHighF": 55.5,
+     "avgLowF": 37.7,
+     "precipIn": 0.95,
+     "snowIn": 0.03,
+     "wetDays": 3.1
+    },
+    {
+     "avgHighF": 57.1,
+     "avgLowF": 39.6,
+     "precipIn": 1.59,
+     "snowIn": 0.12,
+     "wetDays": 4.2
+    },
+    {
+     "avgHighF": 47.9,
+     "avgLowF": 32.5,
+     "precipIn": 3.91,
+     "snowIn": 6.55,
+     "wetDays": 8.5
+    },
+    {
+     "avgHighF": 37.3,
+     "avgLowF": 24.2,
+     "precipIn": 10.1,
+     "snowIn": 31.52,
+     "wetDays": 12.5
+    },
+    {
+     "avgHighF": 27,
+     "avgLowF": 15.9,
+     "precipIn": 15.5,
+     "snowIn": 73.25,
+     "wetDays": 17.9
+    },
+    {
+     "avgHighF": 22.1,
+     "avgLowF": 12.4,
+     "precipIn": 17.53,
+     "snowIn": 107.02,
+     "wetDays": 19.3
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "neri",
@@ -13213,7 +16375,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 37.86878554,
+   "longitude": -80.99956002,
+   "elevationM": 837,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 38.6,
+     "avgLowF": 22.8,
+     "precipIn": 3.99,
+     "snowIn": 8.42,
+     "wetDays": 9.5
+    },
+    {
+     "avgHighF": 45,
+     "avgLowF": 26,
+     "precipIn": 5.1,
+     "snowIn": 6.95,
+     "wetDays": 10.6
+    },
+    {
+     "avgHighF": 51.8,
+     "avgLowF": 31.5,
+     "precipIn": 4.29,
+     "snowIn": 5.01,
+     "wetDays": 10.7
+    },
+    {
+     "avgHighF": 60.5,
+     "avgLowF": 40.1,
+     "precipIn": 4.9,
+     "snowIn": 1.94,
+     "wetDays": 11.9
+    },
+    {
+     "avgHighF": 68.5,
+     "avgLowF": 50.8,
+     "precipIn": 4.89,
+     "snowIn": 0.09,
+     "wetDays": 12.5
+    },
+    {
+     "avgHighF": 75.1,
+     "avgLowF": 57.7,
+     "precipIn": 4.52,
+     "snowIn": 0,
+     "wetDays": 10.9
+    },
+    {
+     "avgHighF": 79.4,
+     "avgLowF": 62.6,
+     "precipIn": 4.32,
+     "snowIn": 0,
+     "wetDays": 10.1
+    },
+    {
+     "avgHighF": 77.5,
+     "avgLowF": 61.1,
+     "precipIn": 3.5,
+     "snowIn": 0,
+     "wetDays": 10.2
+    },
+    {
+     "avgHighF": 73.4,
+     "avgLowF": 56.2,
+     "precipIn": 3.28,
+     "snowIn": 0,
+     "wetDays": 7.3
+    },
+    {
+     "avgHighF": 63.2,
+     "avgLowF": 45.4,
+     "precipIn": 3.74,
+     "snowIn": 0.21,
+     "wetDays": 7.2
+    },
+    {
+     "avgHighF": 51.5,
+     "avgLowF": 34.1,
+     "precipIn": 2.85,
+     "snowIn": 1.35,
+     "wetDays": 7.4
+    },
+    {
+     "avgHighF": 44.3,
+     "avgLowF": 28.5,
+     "precipIn": 4.09,
+     "snowIn": 5.09,
+     "wetDays": 9.4
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "noca",
@@ -13430,7 +16685,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 48.71171756,
+   "longitude": -121.2069423,
+   "elevationM": 1113,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 31.3,
+     "avgLowF": 21,
+     "precipIn": 12.77,
+     "snowIn": 75.82,
+     "wetDays": 17.1
+    },
+    {
+     "avgHighF": 31.9,
+     "avgLowF": 19.4,
+     "precipIn": 9.31,
+     "snowIn": 56.64,
+     "wetDays": 15.1
+    },
+    {
+     "avgHighF": 38.6,
+     "avgLowF": 23.4,
+     "precipIn": 7.43,
+     "snowIn": 44.06,
+     "wetDays": 15
+    },
+    {
+     "avgHighF": 43.9,
+     "avgLowF": 27.4,
+     "precipIn": 5.17,
+     "snowIn": 25.33,
+     "wetDays": 13
+    },
+    {
+     "avgHighF": 55.2,
+     "avgLowF": 35.3,
+     "precipIn": 2.99,
+     "snowIn": 3.96,
+     "wetDays": 9.3
+    },
+    {
+     "avgHighF": 61.7,
+     "avgLowF": 42,
+     "precipIn": 3.13,
+     "snowIn": 0.38,
+     "wetDays": 8.8
+    },
+    {
+     "avgHighF": 70.2,
+     "avgLowF": 47.6,
+     "precipIn": 1.13,
+     "snowIn": 0,
+     "wetDays": 3.1
+    },
+    {
+     "avgHighF": 71.4,
+     "avgLowF": 48.7,
+     "precipIn": 1.52,
+     "snowIn": 0,
+     "wetDays": 4.5
+    },
+    {
+     "avgHighF": 61.5,
+     "avgLowF": 42.7,
+     "precipIn": 3.8,
+     "snowIn": 0.19,
+     "wetDays": 8.2
+    },
+    {
+     "avgHighF": 49.5,
+     "avgLowF": 34.2,
+     "precipIn": 8.53,
+     "snowIn": 15.25,
+     "wetDays": 13
+    },
+    {
+     "avgHighF": 36.4,
+     "avgLowF": 24.5,
+     "precipIn": 13.25,
+     "snowIn": 55.34,
+     "wetDays": 17.2
+    },
+    {
+     "avgHighF": 29.3,
+     "avgLowF": 19.3,
+     "precipIn": 13.42,
+     "snowIn": 82.07,
+     "wetDays": 17.6
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "npsa",
@@ -13634,7 +16982,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": -14.22865935,
+   "longitude": -169.8503777,
+   "elevationM": 0,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 83.4,
+     "avgLowF": 79.6,
+     "precipIn": 12.56,
+     "snowIn": 0,
+     "wetDays": 21.7
+    },
+    {
+     "avgHighF": 83.2,
+     "avgLowF": 79.5,
+     "precipIn": 16.96,
+     "snowIn": 0,
+     "wetDays": 20.9
+    },
+    {
+     "avgHighF": 83.6,
+     "avgLowF": 79.7,
+     "precipIn": 9.23,
+     "snowIn": 0,
+     "wetDays": 20.4
+    },
+    {
+     "avgHighF": 83.5,
+     "avgLowF": 79.6,
+     "precipIn": 11.12,
+     "snowIn": 0,
+     "wetDays": 20.4
+    },
+    {
+     "avgHighF": 83.2,
+     "avgLowF": 79.7,
+     "precipIn": 9.53,
+     "snowIn": 0,
+     "wetDays": 17.5
+    },
+    {
+     "avgHighF": 82.3,
+     "avgLowF": 79.3,
+     "precipIn": 5.64,
+     "snowIn": 0,
+     "wetDays": 12.7
+    },
+    {
+     "avgHighF": 81.4,
+     "avgLowF": 78.7,
+     "precipIn": 5.04,
+     "snowIn": 0,
+     "wetDays": 12.2
+    },
+    {
+     "avgHighF": 81,
+     "avgLowF": 78.3,
+     "precipIn": 4.21,
+     "snowIn": 0,
+     "wetDays": 10.8
+    },
+    {
+     "avgHighF": 81.2,
+     "avgLowF": 78.5,
+     "precipIn": 4.08,
+     "snowIn": 0,
+     "wetDays": 8.6
+    },
+    {
+     "avgHighF": 81.7,
+     "avgLowF": 78.6,
+     "precipIn": 7.52,
+     "snowIn": 0,
+     "wetDays": 14.6
+    },
+    {
+     "avgHighF": 82.4,
+     "avgLowF": 78.9,
+     "precipIn": 10.5,
+     "snowIn": 0,
+     "wetDays": 19
+    },
+    {
+     "avgHighF": 83,
+     "avgLowF": 79.1,
+     "precipIn": 13.1,
+     "snowIn": 0,
+     "wetDays": 21.5
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "olym",
@@ -13937,7 +17378,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 47.80392754,
+   "longitude": -123.6663848,
+   "elevationM": 1470,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 32.4,
+     "avgLowF": 22.8,
+     "precipIn": 19.3,
+     "snowIn": 81.81,
+     "wetDays": 18.7
+    },
+    {
+     "avgHighF": 30.7,
+     "avgLowF": 19.9,
+     "precipIn": 11.56,
+     "snowIn": 56.9,
+     "wetDays": 15.5
+    },
+    {
+     "avgHighF": 34,
+     "avgLowF": 21.9,
+     "precipIn": 10.38,
+     "snowIn": 54.57,
+     "wetDays": 16.2
+    },
+    {
+     "avgHighF": 38.2,
+     "avgLowF": 24.9,
+     "precipIn": 8.55,
+     "snowIn": 44.16,
+     "wetDays": 14.9
+    },
+    {
+     "avgHighF": 48.3,
+     "avgLowF": 30.9,
+     "precipIn": 3.75,
+     "snowIn": 7.89,
+     "wetDays": 9.2
+    },
+    {
+     "avgHighF": 55.5,
+     "avgLowF": 36.5,
+     "precipIn": 3.35,
+     "snowIn": 0.85,
+     "wetDays": 8.5
+    },
+    {
+     "avgHighF": 63.9,
+     "avgLowF": 42.6,
+     "precipIn": 1.41,
+     "snowIn": 0,
+     "wetDays": 3.8
+    },
+    {
+     "avgHighF": 65.6,
+     "avgLowF": 43.6,
+     "precipIn": 1.87,
+     "snowIn": 0,
+     "wetDays": 4.2
+    },
+    {
+     "avgHighF": 56.8,
+     "avgLowF": 37.8,
+     "precipIn": 5.5,
+     "snowIn": 0.05,
+     "wetDays": 9.9
+    },
+    {
+     "avgHighF": 46.6,
+     "avgLowF": 31.5,
+     "precipIn": 12.17,
+     "snowIn": 9.24,
+     "wetDays": 13.9
+    },
+    {
+     "avgHighF": 35.9,
+     "avgLowF": 24,
+     "precipIn": 18.46,
+     "snowIn": 53.64,
+     "wetDays": 18.4
+    },
+    {
+     "avgHighF": 30.5,
+     "avgLowF": 20.4,
+     "precipIn": 18.28,
+     "snowIn": 81.14,
+     "wetDays": 19.4
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "pefo",
@@ -14306,7 +17840,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 34.98387664,
+   "longitude": -109.7877678,
+   "elevationM": 1626,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 44.8,
+     "avgLowF": 23.5,
+     "precipIn": 1.14,
+     "snowIn": 3.15,
+     "wetDays": 4.1
+    },
+    {
+     "avgHighF": 51.9,
+     "avgLowF": 28,
+     "precipIn": 0.85,
+     "snowIn": 3.1,
+     "wetDays": 3.2
+    },
+    {
+     "avgHighF": 59.9,
+     "avgLowF": 34.3,
+     "precipIn": 1.04,
+     "snowIn": 2.24,
+     "wetDays": 3.6
+    },
+    {
+     "avgHighF": 69.7,
+     "avgLowF": 41.6,
+     "precipIn": 0.4,
+     "snowIn": 0.12,
+     "wetDays": 1.1
+    },
+    {
+     "avgHighF": 77.6,
+     "avgLowF": 49.8,
+     "precipIn": 0.35,
+     "snowIn": 0.17,
+     "wetDays": 1.1
+    },
+    {
+     "avgHighF": 90,
+     "avgLowF": 62,
+     "precipIn": 0.22,
+     "snowIn": 0,
+     "wetDays": 0.6
+    },
+    {
+     "avgHighF": 91.4,
+     "avgLowF": 67,
+     "precipIn": 0.84,
+     "snowIn": 0,
+     "wetDays": 2.7
+    },
+    {
+     "avgHighF": 89.2,
+     "avgLowF": 64.8,
+     "precipIn": 0.58,
+     "snowIn": 0,
+     "wetDays": 1.3
+    },
+    {
+     "avgHighF": 83.1,
+     "avgLowF": 57.5,
+     "precipIn": 0.6,
+     "snowIn": 0,
+     "wetDays": 2
+    },
+    {
+     "avgHighF": 70.9,
+     "avgLowF": 44.9,
+     "precipIn": 0.68,
+     "snowIn": 0.27,
+     "wetDays": 2
+    },
+    {
+     "avgHighF": 57.6,
+     "avgLowF": 33,
+     "precipIn": 0.7,
+     "snowIn": 1.21,
+     "wetDays": 2.2
+    },
+    {
+     "avgHighF": 47.2,
+     "avgLowF": 26.2,
+     "precipIn": 0.84,
+     "snowIn": 2.09,
+     "wetDays": 2.6
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "pinn",
@@ -14648,7 +18275,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 36.49029208,
+   "longitude": -121.1813607,
+   "elevationM": 584,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 57.1,
+     "avgLowF": 39.8,
+     "precipIn": 4.24,
+     "snowIn": 0.05,
+     "wetDays": 6.8
+    },
+    {
+     "avgHighF": 59,
+     "avgLowF": 39.5,
+     "precipIn": 2.53,
+     "snowIn": 0.6,
+     "wetDays": 5.4
+    },
+    {
+     "avgHighF": 60.9,
+     "avgLowF": 41.4,
+     "precipIn": 2.83,
+     "snowIn": 0.16,
+     "wetDays": 6.7
+    },
+    {
+     "avgHighF": 68,
+     "avgLowF": 44.7,
+     "precipIn": 0.85,
+     "snowIn": 0.1,
+     "wetDays": 2.3
+    },
+    {
+     "avgHighF": 74,
+     "avgLowF": 48.6,
+     "precipIn": 0.45,
+     "snowIn": 0.01,
+     "wetDays": 1.2
+    },
+    {
+     "avgHighF": 84.9,
+     "avgLowF": 55.7,
+     "precipIn": 0.04,
+     "snowIn": 0,
+     "wetDays": 0.1
+    },
+    {
+     "avgHighF": 91.1,
+     "avgLowF": 61.8,
+     "precipIn": 0.05,
+     "snowIn": 0,
+     "wetDays": 0.2
+    },
+    {
+     "avgHighF": 90.4,
+     "avgLowF": 61.6,
+     "precipIn": 0.01,
+     "snowIn": 0,
+     "wetDays": 0
+    },
+    {
+     "avgHighF": 85.6,
+     "avgLowF": 58.4,
+     "precipIn": 0.12,
+     "snowIn": 0,
+     "wetDays": 0.5
+    },
+    {
+     "avgHighF": 78,
+     "avgLowF": 52.6,
+     "precipIn": 0.4,
+     "snowIn": 0,
+     "wetDays": 0.9
+    },
+    {
+     "avgHighF": 65,
+     "avgLowF": 43.5,
+     "precipIn": 1.38,
+     "snowIn": 0.04,
+     "wetDays": 3.2
+    },
+    {
+     "avgHighF": 57.3,
+     "avgLowF": 39.5,
+     "precipIn": 2.81,
+     "snowIn": 0.09,
+     "wetDays": 5.8
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "redw",
@@ -15053,7 +18773,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 41.37237268,
+   "longitude": -124.0318129,
+   "elevationM": 206,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 53.9,
+     "avgLowF": 40.5,
+     "precipIn": 11.55,
+     "snowIn": 0.67,
+     "wetDays": 14.6
+    },
+    {
+     "avgHighF": 52.7,
+     "avgLowF": 38.5,
+     "precipIn": 8.38,
+     "snowIn": 4.35,
+     "wetDays": 11
+    },
+    {
+     "avgHighF": 53.7,
+     "avgLowF": 39.4,
+     "precipIn": 8.3,
+     "snowIn": 3.87,
+     "wetDays": 12.7
+    },
+    {
+     "avgHighF": 56.1,
+     "avgLowF": 42.1,
+     "precipIn": 4.72,
+     "snowIn": 0.63,
+     "wetDays": 8.9
+    },
+    {
+     "avgHighF": 59.6,
+     "avgLowF": 46,
+     "precipIn": 2.68,
+     "snowIn": 0.04,
+     "wetDays": 5.1
+    },
+    {
+     "avgHighF": 64,
+     "avgLowF": 49.9,
+     "precipIn": 1.25,
+     "snowIn": 0,
+     "wetDays": 2.2
+    },
+    {
+     "avgHighF": 67.1,
+     "avgLowF": 52.9,
+     "precipIn": 0.15,
+     "snowIn": 0,
+     "wetDays": 0.4
+    },
+    {
+     "avgHighF": 68.6,
+     "avgLowF": 53.9,
+     "precipIn": 0.41,
+     "snowIn": 0,
+     "wetDays": 0.6
+    },
+    {
+     "avgHighF": 67.8,
+     "avgLowF": 52.1,
+     "precipIn": 1.33,
+     "snowIn": 0,
+     "wetDays": 2.5
+    },
+    {
+     "avgHighF": 63.1,
+     "avgLowF": 48,
+     "precipIn": 3.97,
+     "snowIn": 0,
+     "wetDays": 5.9
+    },
+    {
+     "avgHighF": 56.3,
+     "avgLowF": 42.2,
+     "precipIn": 8.39,
+     "snowIn": 0.41,
+     "wetDays": 11.2
+    },
+    {
+     "avgHighF": 52.9,
+     "avgLowF": 39.8,
+     "precipIn": 11.47,
+     "snowIn": 1.75,
+     "wetDays": 13.9
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "romo",
@@ -15320,7 +19133,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 40.3556924,
+   "longitude": -105.6972879,
+   "elevationM": 3383,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 20.4,
+     "avgLowF": 5.9,
+     "precipIn": 2.25,
+     "snowIn": 16.06,
+     "wetDays": 6.8
+    },
+    {
+     "avgHighF": 21.2,
+     "avgLowF": 5.7,
+     "precipIn": 2.67,
+     "snowIn": 18.9,
+     "wetDays": 9
+    },
+    {
+     "avgHighF": 28.2,
+     "avgLowF": 11.1,
+     "precipIn": 2.95,
+     "snowIn": 20.77,
+     "wetDays": 8.4
+    },
+    {
+     "avgHighF": 34.5,
+     "avgLowF": 16.5,
+     "precipIn": 3.03,
+     "snowIn": 20.77,
+     "wetDays": 9.7
+    },
+    {
+     "avgHighF": 43.1,
+     "avgLowF": 24.5,
+     "precipIn": 3.46,
+     "snowIn": 18.23,
+     "wetDays": 11.4
+    },
+    {
+     "avgHighF": 56.6,
+     "avgLowF": 33.9,
+     "precipIn": 2.1,
+     "snowIn": 4.01,
+     "wetDays": 6.5
+    },
+    {
+     "avgHighF": 63.9,
+     "avgLowF": 39.9,
+     "precipIn": 3.67,
+     "snowIn": 0.4,
+     "wetDays": 12.1
+    },
+    {
+     "avgHighF": 62.6,
+     "avgLowF": 39.5,
+     "precipIn": 2.98,
+     "snowIn": 0.42,
+     "wetDays": 10
+    },
+    {
+     "avgHighF": 57.3,
+     "avgLowF": 34.1,
+     "precipIn": 1.62,
+     "snowIn": 3.71,
+     "wetDays": 5.4
+    },
+    {
+     "avgHighF": 42.2,
+     "avgLowF": 21.7,
+     "precipIn": 1.74,
+     "snowIn": 10.8,
+     "wetDays": 5.4
+    },
+    {
+     "avgHighF": 28.7,
+     "avgLowF": 11.2,
+     "precipIn": 2.06,
+     "snowIn": 14.48,
+     "wetDays": 5.8
+    },
+    {
+     "avgHighF": 20.8,
+     "avgLowF": 5.7,
+     "precipIn": 2.4,
+     "snowIn": 17.09,
+     "wetDays": 7.8
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "sagu",
@@ -15545,7 +19451,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 32.20909636,
+   "longitude": -110.7574974,
+   "elevationM": 884,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 62.1,
+     "avgLowF": 39.5,
+     "precipIn": 2.05,
+     "snowIn": 0.01,
+     "wetDays": 4
+    },
+    {
+     "avgHighF": 66.4,
+     "avgLowF": 41.7,
+     "precipIn": 1.33,
+     "snowIn": 0,
+     "wetDays": 3.3
+    },
+    {
+     "avgHighF": 73.1,
+     "avgLowF": 47.4,
+     "precipIn": 1.05,
+     "snowIn": 0.06,
+     "wetDays": 2.2
+    },
+    {
+     "avgHighF": 82.2,
+     "avgLowF": 54.5,
+     "precipIn": 0.2,
+     "snowIn": 0,
+     "wetDays": 0.6
+    },
+    {
+     "avgHighF": 89,
+     "avgLowF": 62.1,
+     "precipIn": 0.12,
+     "snowIn": 0,
+     "wetDays": 0.2
+    },
+    {
+     "avgHighF": 99.4,
+     "avgLowF": 73,
+     "precipIn": 0.33,
+     "snowIn": 0,
+     "wetDays": 0.7
+    },
+    {
+     "avgHighF": 97.6,
+     "avgLowF": 77.1,
+     "precipIn": 1.72,
+     "snowIn": 0,
+     "wetDays": 3.7
+    },
+    {
+     "avgHighF": 95.8,
+     "avgLowF": 75.3,
+     "precipIn": 1.95,
+     "snowIn": 0,
+     "wetDays": 3.9
+    },
+    {
+     "avgHighF": 92.4,
+     "avgLowF": 70.1,
+     "precipIn": 1.73,
+     "snowIn": 0,
+     "wetDays": 3.3
+    },
+    {
+     "avgHighF": 84.8,
+     "avgLowF": 59.9,
+     "precipIn": 0.76,
+     "snowIn": 0,
+     "wetDays": 2.4
+    },
+    {
+     "avgHighF": 73.2,
+     "avgLowF": 48.6,
+     "precipIn": 0.76,
+     "snowIn": 0,
+     "wetDays": 1.9
+    },
+    {
+     "avgHighF": 64.3,
+     "avgLowF": 41.9,
+     "precipIn": 1.44,
+     "snowIn": 0,
+     "wetDays": 2.9
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "seki",
@@ -15837,7 +19836,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 36.71277299,
+   "longitude": -118.587429,
+   "elevationM": 2255,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 40.4,
+     "avgLowF": 19.7,
+     "precipIn": 7.26,
+     "snowIn": 36.54,
+     "wetDays": 7.1
+    },
+    {
+     "avgHighF": 40,
+     "avgLowF": 19.1,
+     "precipIn": 5.67,
+     "snowIn": 23.65,
+     "wetDays": 6.8
+    },
+    {
+     "avgHighF": 41.3,
+     "avgLowF": 21.1,
+     "precipIn": 6.18,
+     "snowIn": 25.24,
+     "wetDays": 7.8
+    },
+    {
+     "avgHighF": 47.8,
+     "avgLowF": 27.3,
+     "precipIn": 2.17,
+     "snowIn": 5.86,
+     "wetDays": 4.8
+    },
+    {
+     "avgHighF": 54.7,
+     "avgLowF": 31.9,
+     "precipIn": 1.97,
+     "snowIn": 2.48,
+     "wetDays": 5.3
+    },
+    {
+     "avgHighF": 69.8,
+     "avgLowF": 44,
+     "precipIn": 1,
+     "snowIn": 0.07,
+     "wetDays": 2.5
+    },
+    {
+     "avgHighF": 77.2,
+     "avgLowF": 51,
+     "precipIn": 0.72,
+     "snowIn": 0,
+     "wetDays": 2.4
+    },
+    {
+     "avgHighF": 75.8,
+     "avgLowF": 49.8,
+     "precipIn": 1.1,
+     "snowIn": 0,
+     "wetDays": 2
+    },
+    {
+     "avgHighF": 70,
+     "avgLowF": 44,
+     "precipIn": 0.36,
+     "snowIn": 0.01,
+     "wetDays": 0.7
+    },
+    {
+     "avgHighF": 61.2,
+     "avgLowF": 36.7,
+     "precipIn": 0.83,
+     "snowIn": 0.29,
+     "wetDays": 2.1
+    },
+    {
+     "avgHighF": 48,
+     "avgLowF": 25.6,
+     "precipIn": 2.78,
+     "snowIn": 7.96,
+     "wetDays": 3.9
+    },
+    {
+     "avgHighF": 40.9,
+     "avgLowF": 19.8,
+     "precipIn": 4.8,
+     "snowIn": 20.05,
+     "wetDays": 6.6
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "shen",
@@ -16131,7 +20223,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 38.49236644,
+   "longitude": -78.46907715,
+   "elevationM": 855,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 36.6,
+     "avgLowF": 21.1,
+     "precipIn": 2.97,
+     "snowIn": 6.48,
+     "wetDays": 6.8
+    },
+    {
+     "avgHighF": 42.3,
+     "avgLowF": 23.9,
+     "precipIn": 3.09,
+     "snowIn": 4.65,
+     "wetDays": 7.9
+    },
+    {
+     "avgHighF": 49.2,
+     "avgLowF": 29.3,
+     "precipIn": 2.81,
+     "snowIn": 3.85,
+     "wetDays": 6.3
+    },
+    {
+     "avgHighF": 59,
+     "avgLowF": 38.7,
+     "precipIn": 3.51,
+     "snowIn": 0.75,
+     "wetDays": 6.9
+    },
+    {
+     "avgHighF": 67.2,
+     "avgLowF": 49,
+     "precipIn": 3.9,
+     "snowIn": 0,
+     "wetDays": 10.4
+    },
+    {
+     "avgHighF": 75.6,
+     "avgLowF": 57.2,
+     "precipIn": 3.51,
+     "snowIn": 0,
+     "wetDays": 8.6
+    },
+    {
+     "avgHighF": 80.7,
+     "avgLowF": 62.4,
+     "precipIn": 3.82,
+     "snowIn": 0,
+     "wetDays": 8.8
+    },
+    {
+     "avgHighF": 77.8,
+     "avgLowF": 61.1,
+     "precipIn": 3.78,
+     "snowIn": 0,
+     "wetDays": 8.1
+    },
+    {
+     "avgHighF": 71.9,
+     "avgLowF": 55.4,
+     "precipIn": 4.6,
+     "snowIn": 0,
+     "wetDays": 7.9
+    },
+    {
+     "avgHighF": 61.5,
+     "avgLowF": 44.7,
+     "precipIn": 3.09,
+     "snowIn": 0,
+     "wetDays": 4.9
+    },
+    {
+     "avgHighF": 49.3,
+     "avgLowF": 32.6,
+     "precipIn": 2.51,
+     "snowIn": 0.46,
+     "wetDays": 4.9
+    },
+    {
+     "avgHighF": 42.1,
+     "avgLowF": 27.1,
+     "precipIn": 3.21,
+     "snowIn": 2.3,
+     "wetDays": 6.7
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "thro",
@@ -16430,7 +20615,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 47.17777274,
+   "longitude": -103.4300083,
+   "elevationM": 785,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 28.2,
+     "avgLowF": 11.2,
+     "precipIn": 0.53,
+     "snowIn": 3.25,
+     "wetDays": 1.4
+    },
+    {
+     "avgHighF": 28.9,
+     "avgLowF": 9.8,
+     "precipIn": 0.63,
+     "snowIn": 3.95,
+     "wetDays": 1.6
+    },
+    {
+     "avgHighF": 41.9,
+     "avgLowF": 21,
+     "precipIn": 0.75,
+     "snowIn": 3.97,
+     "wetDays": 2.5
+    },
+    {
+     "avgHighF": 51.8,
+     "avgLowF": 30.4,
+     "precipIn": 1.57,
+     "snowIn": 5.63,
+     "wetDays": 3.7
+    },
+    {
+     "avgHighF": 65.5,
+     "avgLowF": 43.8,
+     "precipIn": 2.41,
+     "snowIn": 0.72,
+     "wetDays": 6.2
+    },
+    {
+     "avgHighF": 77.2,
+     "avgLowF": 55.5,
+     "precipIn": 2.04,
+     "snowIn": 0,
+     "wetDays": 5.7
+    },
+    {
+     "avgHighF": 83.7,
+     "avgLowF": 61.5,
+     "precipIn": 1.71,
+     "snowIn": 0,
+     "wetDays": 3.8
+    },
+    {
+     "avgHighF": 81.5,
+     "avgLowF": 58.9,
+     "precipIn": 1.66,
+     "snowIn": 0,
+     "wetDays": 4.1
+    },
+    {
+     "avgHighF": 72.7,
+     "avgLowF": 50.9,
+     "precipIn": 1.96,
+     "snowIn": 0.03,
+     "wetDays": 4.5
+    },
+    {
+     "avgHighF": 55.1,
+     "avgLowF": 36.1,
+     "precipIn": 1.27,
+     "snowIn": 2.83,
+     "wetDays": 2.9
+    },
+    {
+     "avgHighF": 41.1,
+     "avgLowF": 24,
+     "precipIn": 0.64,
+     "snowIn": 3.24,
+     "wetDays": 1.6
+    },
+    {
+     "avgHighF": 30.3,
+     "avgLowF": 14.2,
+     "precipIn": 0.82,
+     "snowIn": 5.36,
+     "wetDays": 2.4
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "viis",
@@ -16694,7 +20972,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 18.34279656,
+   "longitude": -64.74194451,
+   "elevationM": 159,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 77,
+     "avgLowF": 74.4,
+     "precipIn": 1.29,
+     "snowIn": 0,
+     "wetDays": 3
+    },
+    {
+     "avgHighF": 76.4,
+     "avgLowF": 73.7,
+     "precipIn": 1.79,
+     "snowIn": 0,
+     "wetDays": 2.9
+    },
+    {
+     "avgHighF": 76.4,
+     "avgLowF": 73.9,
+     "precipIn": 1.04,
+     "snowIn": 0,
+     "wetDays": 2.5
+    },
+    {
+     "avgHighF": 77.3,
+     "avgLowF": 74.7,
+     "precipIn": 1.74,
+     "snowIn": 0,
+     "wetDays": 4.5
+    },
+    {
+     "avgHighF": 78.9,
+     "avgLowF": 76.3,
+     "precipIn": 2.44,
+     "snowIn": 0,
+     "wetDays": 5.7
+    },
+    {
+     "avgHighF": 80.4,
+     "avgLowF": 77.6,
+     "precipIn": 2.02,
+     "snowIn": 0,
+     "wetDays": 5
+    },
+    {
+     "avgHighF": 80.9,
+     "avgLowF": 78,
+     "precipIn": 3.15,
+     "snowIn": 0,
+     "wetDays": 7.1
+    },
+    {
+     "avgHighF": 81.5,
+     "avgLowF": 78.4,
+     "precipIn": 3.98,
+     "snowIn": 0,
+     "wetDays": 9.1
+    },
+    {
+     "avgHighF": 81.8,
+     "avgLowF": 78.6,
+     "precipIn": 4.99,
+     "snowIn": 0,
+     "wetDays": 10.1
+    },
+    {
+     "avgHighF": 81.4,
+     "avgLowF": 78.1,
+     "precipIn": 5.31,
+     "snowIn": 0,
+     "wetDays": 11.9
+    },
+    {
+     "avgHighF": 80.1,
+     "avgLowF": 76.8,
+     "precipIn": 5.02,
+     "snowIn": 0,
+     "wetDays": 11.3
+    },
+    {
+     "avgHighF": 78.6,
+     "avgLowF": 75.7,
+     "precipIn": 1.81,
+     "snowIn": 0,
+     "wetDays": 4.4
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "voya",
@@ -16967,7 +21338,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 48.48370609,
+   "longitude": -92.8382913,
+   "elevationM": 375,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 17,
+     "avgLowF": 3.2,
+     "precipIn": 1.05,
+     "snowIn": 7.31,
+     "wetDays": 3.1
+    },
+    {
+     "avgHighF": 18.1,
+     "avgLowF": 1.9,
+     "precipIn": 1.12,
+     "snowIn": 7.09,
+     "wetDays": 4
+    },
+    {
+     "avgHighF": 33.5,
+     "avgLowF": 16.8,
+     "precipIn": 1.34,
+     "snowIn": 6.83,
+     "wetDays": 3.6
+    },
+    {
+     "avgHighF": 45.5,
+     "avgLowF": 27.5,
+     "precipIn": 2.13,
+     "snowIn": 6.55,
+     "wetDays": 6.2
+    },
+    {
+     "avgHighF": 62.4,
+     "avgLowF": 41.9,
+     "precipIn": 2.78,
+     "snowIn": 0.49,
+     "wetDays": 7.2
+    },
+    {
+     "avgHighF": 73.2,
+     "avgLowF": 54.5,
+     "precipIn": 3.4,
+     "snowIn": 0,
+     "wetDays": 8.9
+    },
+    {
+     "avgHighF": 77,
+     "avgLowF": 61.4,
+     "precipIn": 3.6,
+     "snowIn": 0,
+     "wetDays": 7.9
+    },
+    {
+     "avgHighF": 74.5,
+     "avgLowF": 60.1,
+     "precipIn": 3.92,
+     "snowIn": 0,
+     "wetDays": 9.1
+    },
+    {
+     "avgHighF": 67.4,
+     "avgLowF": 53.6,
+     "precipIn": 4.43,
+     "snowIn": 0,
+     "wetDays": 9.8
+    },
+    {
+     "avgHighF": 51.3,
+     "avgLowF": 39.9,
+     "precipIn": 2.8,
+     "snowIn": 2.78,
+     "wetDays": 8.1
+    },
+    {
+     "avgHighF": 36.2,
+     "avgLowF": 25.7,
+     "precipIn": 2.1,
+     "snowIn": 8.99,
+     "wetDays": 6
+    },
+    {
+     "avgHighF": 23.7,
+     "avgLowF": 11.4,
+     "precipIn": 1.92,
+     "snowIn": 11.44,
+     "wetDays": 5.9
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "whsa",
@@ -17236,7 +21700,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 32.77907858,
+   "longitude": -106.3333461,
+   "elevationM": 1198,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 54.1,
+     "avgLowF": 32,
+     "precipIn": 0.64,
+     "snowIn": 0.75,
+     "wetDays": 2.1
+    },
+    {
+     "avgHighF": 60.7,
+     "avgLowF": 35.9,
+     "precipIn": 0.5,
+     "snowIn": 0.61,
+     "wetDays": 1.4
+    },
+    {
+     "avgHighF": 68.6,
+     "avgLowF": 43.2,
+     "precipIn": 0.4,
+     "snowIn": 0.06,
+     "wetDays": 1.1
+    },
+    {
+     "avgHighF": 77.1,
+     "avgLowF": 50.7,
+     "precipIn": 0.19,
+     "snowIn": 0,
+     "wetDays": 0.7
+    },
+    {
+     "avgHighF": 85.5,
+     "avgLowF": 58.8,
+     "precipIn": 0.24,
+     "snowIn": 0,
+     "wetDays": 0.8
+    },
+    {
+     "avgHighF": 94.5,
+     "avgLowF": 69.3,
+     "precipIn": 0.55,
+     "snowIn": 0,
+     "wetDays": 1.4
+    },
+    {
+     "avgHighF": 95,
+     "avgLowF": 72.8,
+     "precipIn": 0.64,
+     "snowIn": 0,
+     "wetDays": 1.9
+    },
+    {
+     "avgHighF": 92.3,
+     "avgLowF": 70.7,
+     "precipIn": 1.39,
+     "snowIn": 0,
+     "wetDays": 2.6
+    },
+    {
+     "avgHighF": 87.3,
+     "avgLowF": 64.6,
+     "precipIn": 0.87,
+     "snowIn": 0,
+     "wetDays": 2.2
+    },
+    {
+     "avgHighF": 76,
+     "avgLowF": 52.9,
+     "precipIn": 1.27,
+     "snowIn": 0.23,
+     "wetDays": 2.9
+    },
+    {
+     "avgHighF": 63.6,
+     "avgLowF": 40.5,
+     "precipIn": 0.76,
+     "snowIn": 0,
+     "wetDays": 1.8
+    },
+    {
+     "avgHighF": 55.6,
+     "avgLowF": 33.7,
+     "precipIn": 0.46,
+     "snowIn": 0.33,
+     "wetDays": 1.5
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "wica",
@@ -17486,7 +22043,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 43.58012365,
+   "longitude": -103.4394709,
+   "elevationM": 1218,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 37.5,
+     "avgLowF": 19.8,
+     "precipIn": 0.57,
+     "snowIn": 3.76,
+     "wetDays": 1.7
+    },
+    {
+     "avgHighF": 36.4,
+     "avgLowF": 17,
+     "precipIn": 0.98,
+     "snowIn": 5.92,
+     "wetDays": 3
+    },
+    {
+     "avgHighF": 46.7,
+     "avgLowF": 25.4,
+     "precipIn": 1.53,
+     "snowIn": 7.88,
+     "wetDays": 4.4
+    },
+    {
+     "avgHighF": 53.9,
+     "avgLowF": 31.8,
+     "precipIn": 2.74,
+     "snowIn": 8.38,
+     "wetDays": 7.6
+    },
+    {
+     "avgHighF": 63.1,
+     "avgLowF": 42.8,
+     "precipIn": 4.15,
+     "snowIn": 4.52,
+     "wetDays": 10.4
+    },
+    {
+     "avgHighF": 77,
+     "avgLowF": 55.7,
+     "precipIn": 3.66,
+     "snowIn": 0,
+     "wetDays": 8.7
+    },
+    {
+     "avgHighF": 82.8,
+     "avgLowF": 61.1,
+     "precipIn": 2.08,
+     "snowIn": 0,
+     "wetDays": 5.7
+    },
+    {
+     "avgHighF": 80.4,
+     "avgLowF": 59.2,
+     "precipIn": 1.83,
+     "snowIn": 0,
+     "wetDays": 4.5
+    },
+    {
+     "avgHighF": 74.1,
+     "avgLowF": 52.8,
+     "precipIn": 1.31,
+     "snowIn": 0.26,
+     "wetDays": 4.1
+    },
+    {
+     "avgHighF": 58.2,
+     "avgLowF": 38.2,
+     "precipIn": 1.48,
+     "snowIn": 2.84,
+     "wetDays": 4.2
+    },
+    {
+     "avgHighF": 47.3,
+     "avgLowF": 29,
+     "precipIn": 0.66,
+     "snowIn": 3.11,
+     "wetDays": 1.8
+    },
+    {
+     "avgHighF": 38,
+     "avgLowF": 21.3,
+     "precipIn": 0.77,
+     "snowIn": 5.19,
+     "wetDays": 2
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "wrst",
@@ -17817,7 +22467,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 61.4182147,
+   "longitude": -142.6028439,
+   "elevationM": 501,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 21.9,
+     "avgLowF": 12.4,
+     "precipIn": 2.21,
+     "snowIn": 13.05,
+     "wetDays": 6.4
+    },
+    {
+     "avgHighF": 22.2,
+     "avgLowF": 11.7,
+     "precipIn": 1.87,
+     "snowIn": 11.03,
+     "wetDays": 5.2
+    },
+    {
+     "avgHighF": 26.1,
+     "avgLowF": 15.3,
+     "precipIn": 1.9,
+     "snowIn": 8.9,
+     "wetDays": 5.4
+    },
+    {
+     "avgHighF": 36.8,
+     "avgLowF": 24.8,
+     "precipIn": 1,
+     "snowIn": 2.81,
+     "wetDays": 3.7
+    },
+    {
+     "avgHighF": 49.4,
+     "avgLowF": 36.9,
+     "precipIn": 1.96,
+     "snowIn": 0.26,
+     "wetDays": 6.6
+    },
+    {
+     "avgHighF": 60,
+     "avgLowF": 47.2,
+     "precipIn": 3.48,
+     "snowIn": 0,
+     "wetDays": 11.5
+    },
+    {
+     "avgHighF": 64.8,
+     "avgLowF": 53.2,
+     "precipIn": 3.77,
+     "snowIn": 0,
+     "wetDays": 11.3
+    },
+    {
+     "avgHighF": 60.1,
+     "avgLowF": 49.8,
+     "precipIn": 5.56,
+     "snowIn": 0,
+     "wetDays": 15
+    },
+    {
+     "avgHighF": 50.4,
+     "avgLowF": 40.7,
+     "precipIn": 4.61,
+     "snowIn": 0.13,
+     "wetDays": 10.9
+    },
+    {
+     "avgHighF": 37.6,
+     "avgLowF": 28.8,
+     "precipIn": 3.4,
+     "snowIn": 3.89,
+     "wetDays": 9
+    },
+    {
+     "avgHighF": 25.3,
+     "avgLowF": 15.9,
+     "precipIn": 2.51,
+     "snowIn": 9.79,
+     "wetDays": 7.1
+    },
+    {
+     "avgHighF": 23.7,
+     "avgLowF": 14.4,
+     "precipIn": 3.12,
+     "snowIn": 14.44,
+     "wetDays": 8.2
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "yell",
@@ -18358,7 +23101,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 44.59824417,
+   "longitude": -110.5471695,
+   "elevationM": 2463,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 21.9,
+     "avgLowF": 6.9,
+     "precipIn": 2.03,
+     "snowIn": 14.68,
+     "wetDays": 7.1
+    },
+    {
+     "avgHighF": 23.1,
+     "avgLowF": 7.8,
+     "precipIn": 2.84,
+     "snowIn": 20.06,
+     "wetDays": 9.7
+    },
+    {
+     "avgHighF": 31.8,
+     "avgLowF": 13.1,
+     "precipIn": 2.51,
+     "snowIn": 17.21,
+     "wetDays": 7.9
+    },
+    {
+     "avgHighF": 38.1,
+     "avgLowF": 17.9,
+     "precipIn": 2.72,
+     "snowIn": 17.19,
+     "wetDays": 9.3
+    },
+    {
+     "avgHighF": 47.5,
+     "avgLowF": 26,
+     "precipIn": 2.47,
+     "snowIn": 10.36,
+     "wetDays": 7.7
+    },
+    {
+     "avgHighF": 61.3,
+     "avgLowF": 35.3,
+     "precipIn": 2.32,
+     "snowIn": 2.29,
+     "wetDays": 7.4
+    },
+    {
+     "avgHighF": 71.3,
+     "avgLowF": 44.4,
+     "precipIn": 1.26,
+     "snowIn": 0.1,
+     "wetDays": 4
+    },
+    {
+     "avgHighF": 69.5,
+     "avgLowF": 44.8,
+     "precipIn": 1.79,
+     "snowIn": 0.19,
+     "wetDays": 5.2
+    },
+    {
+     "avgHighF": 60.2,
+     "avgLowF": 37.6,
+     "precipIn": 2.46,
+     "snowIn": 4.43,
+     "wetDays": 5.4
+    },
+    {
+     "avgHighF": 43.8,
+     "avgLowF": 24.2,
+     "precipIn": 2.55,
+     "snowIn": 10.67,
+     "wetDays": 7.3
+    },
+    {
+     "avgHighF": 29.8,
+     "avgLowF": 12.8,
+     "precipIn": 2.07,
+     "snowIn": 14.33,
+     "wetDays": 7.1
+    },
+    {
+     "avgHighF": 21.6,
+     "avgLowF": 6.9,
+     "precipIn": 2.41,
+     "snowIn": 17.29,
+     "wetDays": 8.3
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "yose",
@@ -18719,7 +23555,100 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 37.84883288,
+   "longitude": -119.5571873,
+   "elevationM": 2673,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 34.1,
+     "avgLowF": 11.1,
+     "precipIn": 8.77,
+     "snowIn": 58.77,
+     "wetDays": 9.1
+    },
+    {
+     "avgHighF": 33.7,
+     "avgLowF": 10.8,
+     "precipIn": 7.14,
+     "snowIn": 45.51,
+     "wetDays": 8.4
+    },
+    {
+     "avgHighF": 34.5,
+     "avgLowF": 13.3,
+     "precipIn": 8.25,
+     "snowIn": 54.93,
+     "wetDays": 10.1
+    },
+    {
+     "avgHighF": 40.9,
+     "avgLowF": 18.2,
+     "precipIn": 3.5,
+     "snowIn": 19.04,
+     "wetDays": 6.2
+    },
+    {
+     "avgHighF": 48,
+     "avgLowF": 22.3,
+     "precipIn": 2.53,
+     "snowIn": 8.2,
+     "wetDays": 7
+    },
+    {
+     "avgHighF": 63.9,
+     "avgLowF": 34.7,
+     "precipIn": 1.05,
+     "snowIn": 0.45,
+     "wetDays": 3.2
+    },
+    {
+     "avgHighF": 72,
+     "avgLowF": 43.4,
+     "precipIn": 0.75,
+     "snowIn": 0,
+     "wetDays": 2.3
+    },
+    {
+     "avgHighF": 70.6,
+     "avgLowF": 42.2,
+     "precipIn": 0.9,
+     "snowIn": 0,
+     "wetDays": 2.5
+    },
+    {
+     "avgHighF": 63.7,
+     "avgLowF": 35.1,
+     "precipIn": 1.18,
+     "snowIn": 0.8,
+     "wetDays": 2.8
+    },
+    {
+     "avgHighF": 54.8,
+     "avgLowF": 26.3,
+     "precipIn": 1.95,
+     "snowIn": 2.47,
+     "wetDays": 2.9
+    },
+    {
+     "avgHighF": 41.4,
+     "avgLowF": 14.8,
+     "precipIn": 3.96,
+     "snowIn": 24.21,
+     "wetDays": 6.4
+    },
+    {
+     "avgHighF": 34.2,
+     "avgLowF": 9.7,
+     "precipIn": 7.2,
+     "snowIn": 46.52,
+     "wetDays": 8.2
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  },
  {
   "parkCode": "zion",
@@ -19004,6 +23933,99 @@
    "asOf": "2026-09-30",
    "source": "NPS Land Resources Division, Listing of Acreage"
   },
-  "climate": null
+  "climate": {
+   "latitude": 37.29839254,
+   "longitude": -113.0265138,
+   "elevationM": 1804,
+   "startYear": 2015,
+   "endYear": 2024,
+   "months": [
+    {
+     "avgHighF": 39.5,
+     "avgLowF": 20.7,
+     "precipIn": 2.85,
+     "snowIn": 13.7,
+     "wetDays": 5.5
+    },
+    {
+     "avgHighF": 42.7,
+     "avgLowF": 21.6,
+     "precipIn": 2.09,
+     "snowIn": 9.59,
+     "wetDays": 5.2
+    },
+    {
+     "avgHighF": 49.4,
+     "avgLowF": 27.5,
+     "precipIn": 2.9,
+     "snowIn": 11.58,
+     "wetDays": 6.6
+    },
+    {
+     "avgHighF": 61.1,
+     "avgLowF": 35.6,
+     "precipIn": 1,
+     "snowIn": 1.24,
+     "wetDays": 3
+    },
+    {
+     "avgHighF": 69.4,
+     "avgLowF": 44,
+     "precipIn": 0.85,
+     "snowIn": 0.65,
+     "wetDays": 2.5
+    },
+    {
+     "avgHighF": 83.6,
+     "avgLowF": 57.2,
+     "precipIn": 0.18,
+     "snowIn": 0,
+     "wetDays": 0.3
+    },
+    {
+     "avgHighF": 87.8,
+     "avgLowF": 63.3,
+     "precipIn": 0.88,
+     "snowIn": 0,
+     "wetDays": 2.3
+    },
+    {
+     "avgHighF": 84.8,
+     "avgLowF": 60.4,
+     "precipIn": 1.31,
+     "snowIn": 0,
+     "wetDays": 3
+    },
+    {
+     "avgHighF": 78.2,
+     "avgLowF": 53.3,
+     "precipIn": 0.99,
+     "snowIn": 0,
+     "wetDays": 1.9
+    },
+    {
+     "avgHighF": 65.4,
+     "avgLowF": 41.4,
+     "precipIn": 1.02,
+     "snowIn": 0.92,
+     "wetDays": 2.6
+    },
+    {
+     "avgHighF": 51.9,
+     "avgLowF": 30.1,
+     "precipIn": 1.32,
+     "snowIn": 4.85,
+     "wetDays": 3
+    },
+    {
+     "avgHighF": 41.8,
+     "avgLowF": 22.2,
+     "precipIn": 2.02,
+     "snowIn": 9.17,
+     "wetDays": 4.3
+    }
+   ],
+   "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  }
  }
 ]

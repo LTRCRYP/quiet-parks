@@ -107,7 +107,7 @@ export default async function ParkPage({ params }: { params: Promise<{ code: str
                       {best.map((b) => <li key={b.month}>{b.rationale}</li>)}
                     </ul>
                     <p className="mt-3 text-xs text-ink-3">
-                      Scored 50% crowds (visits vs. peak month), 30% comfort (ERA5 average highs and precipitation), 20% access (explicit closures in NPS operating hours).
+                      Weighted geometric mean of crowds (45%, visits vs. peak month), comfort (35%, ERA5 average highs, precipitation and snowfall) and access (20%, explicit closures in NPS operating hours), so one bad signal sinks a month.
                       {!park.climate && " Climate data was unavailable for this park, so only crowds and access were scored."}
                       {" "}A heuristic, not a forecast. <Link href="/about" className="underline">How it works</Link>.
                     </p>

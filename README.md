@@ -58,7 +58,7 @@ Defined in `lib/crowd-index.ts`. For each park, three components are turned into
 
 ## Best months
 
-Defined in `lib/best-months.ts`. Per month: crowd = 1 − visits/peak-month visits; comfort = 0.7·temperature + 0.3·dryness (full marks for average highs of 55–80 °F and ≤ 1 in of precipitation); access = 0 if NPS operating hours have an all-"Closed" exception covering most of the month, else 1. `score = 0.5·crowd + 0.3·comfort + 0.2·access`; the top three months are shown with a one-line rationale built only from data that exists. Free-text alerts are shown, not scored.
+Defined in `lib/best-months.ts`. Per month: crowd = 1 − visits/peak-month visits; comfort = temperature · (0.6 + 0.25·dryness + 0.15·snow-free), so temperature gates the rest (full marks for average highs of 50–85 °F, zero at or below freezing, ≤ 1 in of precipitation and no snowfall); access = 0 if NPS operating hours have an all-"Closed" exception covering most of the month or the month averages under 1% of peak-month visits, else 1. `score = crowd^0.45 · comfort^0.35 · access^0.2`, a weighted geometric mean so that one bad signal sinks a month (a plain weighted sum recommended January in Yellowstone). The top three months are shown with a one-line rationale built only from data that exists. Free-text alerts are shown, not scored.
 
 ## Layout
 
