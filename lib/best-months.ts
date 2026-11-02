@@ -1,0 +1,112 @@
+import { MONTHS, type OperatingHours, type ParkRecord } from "./types";
+
+/**
+ * Best months to visit. Three signals per month, each scaled 0–1 (1 = good):
+ *
+ *   crowd    1 − (month's average visits / busiest month's average visits).
+ *            0 in the peak month, approaching 1 in the emptiest.
+ *   comfort  0.7 × temperature + 0.3 × dryness.
+ *            temperature: 1 when the average high is 55–80 °F, falling linearly
+ *            to 0 at 25 °F and at 100 °F.
+ *            dryness: 1 at ≤ 1 in of monthly precipitation, 0 at ≥ 6 in.
+ *   access   1 unless NPS operating-hours data has an exception whose hours are
+ *            "Closed" every day and whose date range covers most of the month;
+ *            then 0. Free-text alerts are NOT scored (they are shown as caveats).
+ *
+ *   score = 0.50 × crowd + 0.30 × comfort + 0.20 × access
+ *
+ * Missing climate drops the comfort term and renormalizes the weights. This is a
+ * heuristic ranking, not a forecast; the UI should say so and show the inputs.
+ */
+export const MONTH_WEIGHTS = { crowd: 0.5, comfort: 0.3, access: 0.2 } as const;
+
+export interface MonthScore {
+  month: number;
+  score: number;
+  crowd: number;
+  comfort: number | null;
+  access: number;
+  /** Percent below the peak month's visits. */
+  belowPeakPct: number;
+  avgHighF: number | null;
+  precipIn: number | null;
+  closed: boolean;
+  rationale: string;
+}
+
+function tempScore(highF: number): number {
+  if (highF >= 55 && highF <= 80) return 1;
+  if (highF < 55) return Math.max(0, (highF - 25) / 30);
+  return Math.max(0, (100 - highF) / 20);
+}
+const dryScore = (precipIn: number) => Math.min(1, Math.max(0, (6 - precipIn) / 5));
+
+/** Days of `month` (0-based) in a non-leap year covered by [start, end]. */
+function daysCovered(start: string, end: string, month: number): number {
+  const s = new Date(start), e = new Date(end);
+  if (Number.isNaN(s.getTime()) || Number.isNaN(e.getTime())) return 0;
+  const year = s.getFullYear();
+  let covered = 0;
+  for (let y = year; y <= e.getFullYear(); y++) {
+    const first = new Date(y, month, 1), last = new Date(y, month + 1, 0);
+    const lo = Math.max(first.getTime(), s.getTime()), hi = Math.min(last.getTime(), e.getTime());
+    if (hi >= lo) covered += Math.round((hi - lo) / 86_400_000) + 1;
+  }
+  return covered;
+}
+
+export function monthClosed(hours: OperatingHours[], month: number): boolean {
+  const daysInMonth = new Date(2025, month + 1, 0).getDate();
+  for (const h of hours) {
+    for (const ex of h.exceptions ?? []) {
+      const vals = Object.values(ex.exceptionHours ?? {});
+      if (!vals.length || !vals.every((v) => /closed/i.test(v))) continue;
+      if (daysCovered(ex.startDate, ex.endDate, month) >= daysInMonth / 2) return true;
+    }
+  }
+  return false;
+}
+
+export function scoreMonths(park: ParkRecord): MonthScore[] | null {
+  const v = park.visitation;
+  if (!v) return null;
+  const peak = Math.max(...v.monthlyAvg);
+  if (peak <= 0) return null;
+  return v.monthlyAvg.map((visits, m) => {
+    const crowd = 1 - visits / peak;
+    const c = park.climate?.months[m] ?? null;
+    const comfort = c ? 0.7 * tempScore(c.avgHighF) + 0.3 * dryScore(c.precipIn) : null;
+    const closed = monthClosed(park.operatingHours, m);
+    const access = closed ? 0 : 1;
+    const parts = [
+      { w: MONTH_WEIGHTS.crowd, s: crowd },
+      ...(comfort !== null ? [{ w: MONTH_WEIGHTS.comfort, s: comfort }] : []),
+      { w: MONTH_WEIGHTS.access, s: access },
+    ];
+    const wsum = parts.reduce((a, p) => a + p.w, 0);
+    const score = parts.reduce((a, p) => a + p.w * p.s, 0) / wsum;
+    const belowPeakPct = Math.round(crowd * 100);
+    const bits: string[] = [];
+    bits.push(belowPeakPct === 0 ? "the busiest month" : `~${belowPeakPct}% below peak crowds`);
+    if (c) {
+      bits.push(`highs in the ${Math.floor(c.avgHighF / 10) * 10}s`);
+      if (c.precipIn >= 4) bits.push("a wet month");
+      else if (c.precipIn <= 0.5) bits.push("very dry");
+      if (c.snowIn >= 10) bits.push("significant snow");
+    } else {
+      bits.push("no climate data");
+    }
+    if (closed) bits.push("listed as closed in NPS operating hours");
+    return {
+      month: m, score: Math.round(score * 1000) / 1000, crowd, comfort, access, belowPeakPct,
+      avgHighF: c?.avgHighF ?? null, precipIn: c?.precipIn ?? null, closed,
+      rationale: `${MONTHS[m]}: ${bits.join(", ")}.`,
+    };
+  });
+}
+
+export function bestMonths(park: ParkRecord, n = 3): MonthScore[] | null {
+  const scores = scoreMonths(park);
+  if (!scores) return null;
+  return [...scores].sort((a, b) => b.score - a.score).slice(0, n).sort((a, b) => a.month - b.month);
+}

@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-11-02T21:36:08.824Z",
+  "parkCount": 63,
+  "visitation": {
+    "startYear": 2021,
+    "endYear": 2025,
+    "package": "NPS Visitor Use Statistics Data Package, 2025",
+    "source": "NPS Visitor Use Statistics (IRMA), data.gov package 2025"
+  },
+  "acreage": {
+    "asOf": "2026-09-30",
+    "source": "NPS Land Resources Division, Listing of Acreage"
+  },
+  "climate": {
+    "startYear": 2015,
+    "endYear": 2024,
+    "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
+  },
+  "nps": {
+    "fetchedAt": "2026-11-02",
+    "source": "NPS API (developer.nps.gov)"
+  }
+}

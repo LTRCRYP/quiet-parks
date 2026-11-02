@@ -1,0 +1,42 @@
+import { manifest, parks, visitationVintage, climateVintage, acreageVintage } from "@/lib/parks";
+import { WEIGHTS } from "@/lib/crowd-index";
+import { MONTH_WEIGHTS } from "@/lib/best-months";
+
+export const metadata = { title: "Method" };
+
+export default function About() {
+  const withAcreage = parks.filter((p) => p.acreage).length;
+  const withClimate = parks.filter((p) => p.climate).length;
+  const withVisits = parks.filter((p) => p.visitation).length;
+  return (
+    <div className="prose mx-auto max-w-2xl px-4 py-12 leading-relaxed sm:px-6">
+      <h1 className="text-4xl">How the numbers work</h1>
+
+      <h2 className="mt-10 text-2xl">Which parks</h2>
+      <p className="mt-3">Every NPS unit whose designation is National Park, National Park &amp; Preserve, National Parks (Sequoia &amp; Kings Canyon, counted once as the NPS does) or National and State Parks (Redwood), plus National Park of American Samoa, which the NPS API lists with a blank designation. That is {parks.length} units.</p>
+
+      <h2 className="mt-10 text-2xl">Crowd Index</h2>
+      <p className="mt-3">A 0–100 score where lower means quieter, computed relative to the other national parks. Three components, each a percentile rank among the {withVisits} parks with visitation data:</p>
+      <ul className="mt-3 list-disc space-y-1 pl-5">
+        <li><strong>Annual visits</strong> (weight {WEIGHTS.visits * 100}%): average recreation visits per year, {manifest.visitation.startYear}–{manifest.visitation.endYear}.</li>
+        <li><strong>Visits per acre</strong> (weight {WEIGHTS.density * 100}%): annual visits divided by gross acreage. Gateway Arch and Great Smoky Mountains both score high here for opposite reasons.</li>
+        <li><strong>Peakiness</strong> (weight {WEIGHTS.peakiness * 100}%): the share of a year&apos;s visits that fall in the single busiest month. A park at 30% is far more crowded in season than its annual total suggests.</li>
+      </ul>
+      <p className="mt-3">If a component is missing the remaining weights are renormalized and the score is marked with an asterisk. Nothing is estimated. Currently {withAcreage} of {parks.length} parks have acreage and all {withVisits} have five complete years of visitation.</p>
+
+      <h2 className="mt-10 text-2xl">Best months</h2>
+      <p className="mt-3">Each month gets a score from three signals: crowds ({MONTH_WEIGHTS.crowd * 100}%, how far below the park&apos;s peak month its visits are), comfort ({MONTH_WEIGHTS.comfort * 100}%, average daily high between 55 and 80 °F scores full marks, with a penalty for wet months) and access ({MONTH_WEIGHTS.access * 100}%, zero if NPS operating hours list the park as closed for most of the month). The three highest-scoring months are shown. Free-text alerts and road closures are displayed but not scored, because they can&apos;t be parsed reliably. Treat it as a starting point, not a forecast.</p>
+      <p className="mt-3">Climate comes from the ERA5 reanalysis at the park&apos;s NPS coordinate. ERA5 is a 9 km grid, so for mountainous parks the numbers describe the grid cell (its elevation is shown on each page), not a specific trailhead. {withClimate} of {parks.length} parks have climate data.</p>
+
+      <h2 className="mt-10 text-2xl">Sources and vintage</h2>
+      <ul className="mt-3 list-disc space-y-1 pl-5">
+        <li>{visitationVintage}. Visits, not unique visitors; counting methods differ by park.</li>
+        <li>{acreageVintage}. Gross acres, with park-and-preserve units summed.</li>
+        <li>{climateVintage}.</li>
+        <li>Park descriptions, photos, fees, hours, things to do and alerts: NPS API, fetched {manifest.nps.fetchedAt}.</li>
+        <li>Nearby federal lands: Recreation.gov RIDB, live. ZIP centroids: US Census 2020 ZCTA gazetteer. City lookup: Nominatim.</li>
+      </ul>
+      <p className="mt-6 text-sm text-ink-3">Data generated {manifest.generatedAt.slice(0, 10)}.</p>
+    </div>
+  );
+}
