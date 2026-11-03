@@ -13,7 +13,6 @@ import { PixelScene } from "@/components/pixel/Pixel";
 import { biomeFor } from "@/lib/pixel-art";
 
 export const revalidate = 3600;
-export const dynamicParams = false;
 
 export function generateStaticParams() {
   return parks.map((p) => ({ code: p.parkCode }));
