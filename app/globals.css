@@ -35,6 +35,12 @@
   }
 }
 
+@theme {
+  /* DotGothic16 is a 16 px bitmap face; keep the smallest step at 13 px so it stays legible. */
+  --text-xs: 0.8125rem;
+  --text-xs--line-height: 1.5;
+}
+
 @theme inline {
   --color-paper: var(--paper);
   --color-paper-2: var(--paper-2);
@@ -47,8 +53,8 @@
   --color-moss-3: var(--moss-3);
   --color-clay: var(--clay);
   --color-sky: var(--sky);
-  --font-display: var(--font-fraunces), Georgia, serif;
-  --font-sans: var(--font-inter), system-ui, sans-serif;
+  --font-display: var(--font-jersey), "Jersey 25", sans-serif;
+  --font-sans: var(--font-dot), "DotGothic16", monospace;
 }
 
 html { background: var(--paper); }
@@ -58,7 +64,76 @@ body {
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
 }
-h1, h2, h3, .display { font-family: var(--font-display); font-weight: 500; letter-spacing: -0.01em; }
+h1, h2, h3, .display { font-family: var(--font-display); font-weight: 400; letter-spacing: 0.01em; line-height: 1; }
+body { line-height: 1.55; }
+.prose, .prose p { line-height: 1.6; }
 a { text-underline-offset: 3px; }
 .prose p { margin-bottom: 1em; }
 .leaflet-container { font-family: var(--font-sans); }
+
+/* ---------- pixel art ---------- */
+:root {
+  --px-ink: #1e261f;
+  --px-g: #3d6b4b;
+  --px-G: #78a884;
+  --px-t: #6b4a2e;
+  --px-s: #d9c28f;
+  --px-S: #ebdfbd;
+  --px-r: #8a8577;
+  --px-R: #b5b0a2;
+  --px-w: #5a7f9a;
+  --px-W: #a7c6d8;
+  --px-n: #fbfbf7;
+  --px-y: #e2b740;
+  --px-o: #b5603a;
+  --px-O: #d08a63;
+  --px-c: #e4ded0;
+  --px-m: #66767f;
+  --px-M: #9aaab3;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --px-ink: #0e120f;
+    --px-g: #2b5238;
+    --px-G: #4f8160;
+    --px-t: #4a3320;
+    --px-s: #8f7d52;
+    --px-S: #a99467;
+    --px-r: #4e4b44;
+    --px-R: #6f6b61;
+    --px-w: #2f4d61;
+    --px-W: #557d95;
+    --px-n: #d5dbdd;
+    --px-y: #e6cf7a;
+    --px-o: #8d4a2c;
+    --px-O: #a9653f;
+    --px-c: #394540;
+    --px-m: #3a464f;
+    --px-M: #55646e;
+  }
+}
+.pixel-art { shape-rendering: crispEdges; image-rendering: pixelated; }
+.pixel { font-family: var(--font-display); font-weight: 400; letter-spacing: 0.02em; }
+/* Toggle chip and segmented control. */
+.px-chip { border: 2px solid var(--rule); background: var(--paper); color: var(--ink-2); padding: 0.25rem 0.6rem; line-height: 1.2; cursor: pointer; }
+.px-chip:hover { border-color: var(--ink-3); color: var(--ink); }
+.px-chip[aria-pressed="true"] { border-color: var(--ink); background: var(--moss-3); color: var(--ink); box-shadow: 2px 2px 0 0 var(--ink); }
+.px-seg { display: inline-flex; border: 2px solid var(--rule); }
+.px-seg button { padding: 0.25rem 0.6rem; line-height: 1.2; color: var(--ink-2); cursor: pointer; border-left: 2px solid var(--rule); }
+.px-seg button:first-child { border-left: 0; }
+.px-seg button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+.px-label { display: block; margin-bottom: 0.2rem; color: var(--ink-3); font-family: var(--font-display); font-size: 0.95rem; letter-spacing: 0.02em; }
+.px-input { border: 2px solid var(--rule); border-radius: 0; background: var(--paper); color: var(--ink); }
+.px-input:focus { outline: none; border-color: var(--ink); }
+.px-btn { border: 2px solid var(--ink); background: var(--paper); color: var(--ink); box-shadow: 2px 2px 0 0 var(--ink); cursor: pointer; }
+.px-btn:active { transform: translate(2px, 2px); box-shadow: none; }
+.px-btn-primary { background: var(--moss); color: #fff; }
+/* A hard-edged tag with a one-step drop shadow. */
+.px-tag { border: 2px solid var(--ink); box-shadow: 2px 2px 0 0 var(--ink); border-radius: 0; }
+/* Dashed horizon rule. */
+.px-rule { height: 2px; background-image: repeating-linear-gradient(90deg, var(--rule) 0 6px, transparent 6px 10px); }
+/* Segmented meter: the fill is masked into 6px blocks with 2px gaps. */
+.px-bar { -webkit-mask-image: repeating-linear-gradient(90deg, #000 0 6px, transparent 6px 8px); mask-image: repeating-linear-gradient(90deg, #000 0 6px, transparent 6px 8px); }
+.px-frame { border: 2px solid var(--rule); border-radius: 0; }
+select.px-select { border: 2px solid var(--rule); border-radius: 0; background: var(--paper); }
+select.px-select:focus { outline: none; border-color: var(--ink); }

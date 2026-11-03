@@ -79,6 +79,8 @@ export interface ParkRecord {
   fullName: string;
   name: string;
   designation: string;
+  /** True for the 63 units designated National Park; false for other nature units. */
+  isNationalPark: boolean;
   states: string[];
   description: string;
   weatherInfo: string;
@@ -126,6 +128,7 @@ export interface Campground {
 export interface DataManifest {
   generatedAt: string;
   parkCount: number;
+  nationalParkCount: number;
   visitation: { startYear: number; endYear: number; package: string; source: string };
   acreage: { asOf: string; source: string };
   climate: { startYear: number; endYear: number; source: string };

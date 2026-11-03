@@ -3,14 +3,15 @@ import Image from "next/image";
 import { CrowdBadge } from "./CrowdBadge";
 import type { ParkSummary } from "@/lib/parks";
 import { MONTHS } from "@/lib/types";
+import { BiomeIcon } from "./pixel/Pixel";
 
 const fmt = new Intl.NumberFormat("en-US");
 
 export function ParkCard({ park, rank, distanceMiles }: { park: ParkSummary; rank?: number; distanceMiles?: number }) {
   const c = park.crowd;
   return (
-    <article className="group grid grid-cols-[112px_1fr] gap-4 border-b border-rule py-5 sm:grid-cols-[160px_1fr] sm:gap-6">
-      <Link href={`/parks/${park.parkCode}`} className="relative block aspect-[4/3] overflow-hidden rounded-sm bg-paper-2">
+    <article className="group grid grid-cols-[112px_1fr] gap-4 border-b-2 border-dotted border-rule py-5 sm:grid-cols-[160px_1fr] sm:gap-6">
+      <Link href={`/parks/${park.parkCode}`} className="px-frame relative block aspect-[4/3] overflow-hidden bg-paper-2">
         {park.image && (
           <Image src={park.image.url} alt={park.image.altText || park.fullName} fill sizes="160px" className="object-cover transition-transform duration-500 group-hover:scale-[1.03]" />
         )}
@@ -22,10 +23,11 @@ export function ParkCard({ park, rank, distanceMiles }: { park: ParkSummary; ran
               {rank !== undefined && <span className="mr-2 text-ink-3 tabular-nums">{rank}.</span>}
               <Link href={`/parks/${park.parkCode}`} className="hover:underline">{park.fullName}</Link>
             </h3>
-            <p className="mt-0.5 text-sm text-ink-2">
-              {park.states.join(", ")}
+            <p className="mt-1 flex flex-wrap items-center gap-x-1.5 text-sm text-ink-2">
+              <BiomeIcon biome={park.biome} scale={1.5} />
+              <span>{park.designation} · {park.states.join(", ")}
               {distanceMiles !== undefined && <> · {Math.round(distanceMiles)} mi away</>}
-              {park.hasEntranceFee ? " · entrance fee" : " · no entrance fee"}
+              {park.hasEntranceFee ? " · entrance fee" : " · no entrance fee"}</span>
             </p>
           </div>
           <CrowdBadge crowd={c} />
@@ -47,7 +49,7 @@ export function ParkCard({ park, rank, distanceMiles }: { park: ParkSummary; ran
         )}
         {park.best && (
           <p className="mt-3 text-sm">
-            <span className="text-ink-3">Best months </span>
+            <span className="pixel text-ink-3">Best months </span>
             {park.best.map((b) => MONTHS[b.month]).join(", ")}
           </p>
         )}
@@ -59,11 +61,11 @@ export function ParkCard({ park, rank, distanceMiles }: { park: ParkSummary; ran
 function Component({ label, value, pct }: { label: string; value: string; pct: number | null }) {
   return (
     <div>
-      <dt className="text-ink-3">{label}</dt>
+      <dt className="pixel text-sm text-ink-3">{label}</dt>
       <dd className="tabular-nums text-ink">{value}</dd>
       {pct !== null && (
-        <dd className="mt-1 h-1 w-full overflow-hidden rounded-full bg-paper-2" title={`${pct}th percentile among national parks`}>
-          <div className="h-full rounded-full bg-moss-2" style={{ width: `${pct}%` }} />
+        <dd className="px-bar mt-1.5 h-1.5 w-full bg-paper-2" title={`${pct}th percentile among ranked units`}>
+          <div className="h-full bg-moss-2" style={{ width: `${pct}%` }} />
         </dd>
       )}
     </div>

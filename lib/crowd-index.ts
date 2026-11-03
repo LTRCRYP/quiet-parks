@@ -1,8 +1,9 @@
 import type { ParkRecord } from "./types";
 
 /**
- * Crowd Index: 0–100, lower = quieter. Computed across the cohort of parks in
- * data/parks.json, so it is a *relative* measure among national parks.
+ * Crowd Index: 0–100, lower = quieter. Computed across the whole cohort in
+ * data/parks.json (the 63 national parks plus the other nature units), so it
+ * is a *relative* measure: a score of 50 means "median among ranked units".
  *
  * Three components, each expressed as a percentile rank (0–100) within the cohort:
  *

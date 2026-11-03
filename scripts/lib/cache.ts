@@ -1,4 +1,4 @@
-import { mkdirSync, existsSync, readFileSync, writeFileSync } from "node:fs";
+import { mkdirSync, existsSync, readFileSync, writeFileSync, rmSync } from "node:fs";
 import { resolve } from "node:path";
 
 const CACHE_DIR = resolve(process.cwd(), ".cache");
@@ -28,7 +28,14 @@ export async function cachedDownload(name: string, url: string, init?: RequestIn
 
 export async function cachedJson<T>(name: string, url: string, init?: RequestInit): Promise<T> {
   const buf = await cachedDownload(name, url, init);
-  return JSON.parse(buf.toString("utf8")) as T;
+  try {
+    return JSON.parse(buf.toString("utf8")) as T;
+  } catch (e) {
+    // A 200 with a non-JSON body (Open-Meteo returns "Unexpected error while
+    // streaming data" under load). Drop it so the next run refetches.
+    rmSync(resolve(CACHE_DIR, name), { force: true });
+    throw new Error(`${name}: response was not JSON (${buf.toString("utf8").slice(0, 60)}); cache entry removed`);
+  }
 }
 
 export const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));

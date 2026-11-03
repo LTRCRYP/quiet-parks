@@ -17,6 +17,43 @@ export const NATIONAL_PARK_DESIGNATIONS = new Set([
 export const EXTRA_PARK_CODES = new Set(["npsa"]);
 export const EXPECTED_PARK_COUNT = 63;
 
+/**
+ * Other nature-oriented NPS units ranked alongside the national parks. Any unit
+ * with one of these designations is included when the NPS reports recreation
+ * visits for it. Historic sites, memorials, battlefields and trails are left out.
+ */
+export const NATURE_DESIGNATIONS = new Set([
+  "National Preserve",
+  "National Monument & Preserve",
+  "National Seashore",
+  "National Lakeshore",
+  "National Recreation Area",
+  "National River & Recreation Area",
+  "National River",
+  "National Scenic River",
+  "National Scenic Riverway",
+  "National Scenic Riverways",
+  "National Recreational River",
+  "National Wild and Scenic River",
+  "Wild & Scenic River",
+  "Wild River",
+  "Scenic & Recreational River",
+  "National Reserve",
+  "Ecological & Historic Preserve",
+]);
+
+/**
+ * National Monuments are a mix of landscapes (Dinosaur, Devils Tower) and
+ * historic sites (Statue of Liberty, Stonewall). The NPS data has no field that
+ * separates them, so the landscape ones are listed by hand. Add a code here to
+ * include a monument; the pipeline warns if the NPS reports no visits for it.
+ */
+export const NATURE_MONUMENTS = new Set([
+  "agfo", "band", "buis", "cabr", "cach", "cakr", "camo", "cavo", "cebr", "colm", "depo", "deto",
+  "dino", "elma", "flfo", "fobu", "gicl", "hafo", "jeca", "joda", "kaww", "labe", "muwo", "nabr",
+  "orpi", "para", "rabr", "scbl", "sucr", "tica", "tusk", "vicr", "waca",
+]);
+
 export interface RawPark {
   parkCode: string;
   fullName: string;
@@ -44,17 +81,25 @@ export function isNationalPark(p: { parkCode: string; designation: string }): bo
   return NATIONAL_PARK_DESIGNATIONS.has(p.designation) || EXTRA_PARK_CODES.has(p.parkCode);
 }
 
-export async function fetchParks(key: string): Promise<RawPark[]> {
+export function isNatureUnit(p: { parkCode: string; designation: string }): boolean {
+  return !isNationalPark(p) && (NATURE_DESIGNATIONS.has(p.designation) || NATURE_MONUMENTS.has(p.parkCode));
+}
+
+/** Returns the national parks (asserted to be 63) followed by the other nature units. */
+export async function fetchParks(key: string): Promise<{ nationalParks: RawPark[]; natureUnits: RawPark[] }> {
   const res = await npsGet<{ total: string; data: RawPark[] }>("nps-parks.json", "/parks", { limit: "700" }, key);
   if (res.data.length < Number(res.total)) throw new Error(`/parks returned ${res.data.length} of ${res.total}`);
-  const parks = res.data.filter(isNationalPark);
-  if (parks.length !== EXPECTED_PARK_COUNT) {
+  const nationalParks = res.data.filter(isNationalPark);
+  if (nationalParks.length !== EXPECTED_PARK_COUNT) {
     throw new Error(
-      `Expected ${EXPECTED_PARK_COUNT} national park units, got ${parks.length}: ` +
-        parks.map((p) => p.parkCode).join(","),
+      `Expected ${EXPECTED_PARK_COUNT} national park units, got ${nationalParks.length}: ` +
+        nationalParks.map((p) => p.parkCode).join(","),
     );
   }
-  return parks;
+  const natureUnits = res.data.filter(isNatureUnit);
+  const missing = [...NATURE_MONUMENTS].filter((c) => !res.data.some((p) => p.parkCode === c));
+  if (missing.length) throw new Error(`NATURE_MONUMENTS codes not in /parks: ${missing.join(",")}`);
+  return { nationalParks, natureUnits };
 }
 
 export function normalizeFees(fees: RawPark["entranceFees"]): EntranceFee[] {

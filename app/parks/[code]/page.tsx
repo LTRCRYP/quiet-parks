@@ -9,6 +9,8 @@ import { fetchAlerts } from "@/lib/alerts";
 import { bestMonths, scoreMonths } from "@/lib/best-months";
 import { parks, getPark, getCrowd, getThingsToDo, getCampgrounds, visitationVintage, climateVintage, acreageVintage } from "@/lib/parks";
 import { MONTHS } from "@/lib/types";
+import { PixelScene } from "@/components/pixel/Pixel";
+import { biomeFor } from "@/lib/pixel-art";
 
 export const revalidate = 3600;
 export const dynamicParams = false;
@@ -37,6 +39,7 @@ export default async function ParkPage({ params }: { params: Promise<{ code: str
   const hero = park.images[0];
   const closures = alerts?.filter((a) => /closure/i.test(a.category)) ?? [];
   const yearsWithData = park.visitation ? Object.keys(park.visitation.byYear) : [];
+  const biome = biomeFor(park);
 
   return (
     <article>
@@ -48,11 +51,12 @@ export default async function ParkPage({ params }: { params: Promise<{ code: str
           </figcaption>
         </figure>
       )}
+      <PixelScene biome={biome} scale={3} />
 
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <header className="grid gap-6 py-10 md:grid-cols-[1fr_auto] md:items-end">
           <div>
-            <p className="text-sm text-ink-3"><Link href="/" className="hover:underline">Ranking</Link> / {park.designation}</p>
+            <p className="pixel text-base text-ink-3"><Link href="/" className="hover:underline">Ranking</Link> / {park.designation}</p>
             <h1 className="mt-1 text-4xl leading-tight sm:text-5xl">{park.fullName}</h1>
             <p className="mt-2 text-ink-2">
               {park.states.join(", ")}
@@ -61,14 +65,14 @@ export default async function ParkPage({ params }: { params: Promise<{ code: str
             </p>
           </div>
           <div className="md:text-right">
-            <p className="text-xs uppercase tracking-wide text-ink-3">Crowd Index</p>
+            <p className="pixel text-base text-ink-3">Crowd Index</p>
             <CrowdBadge crowd={crowd} size="lg" />
             {crowd && <p className="mt-1 text-xs text-ink-3">#{crowd.rank} quietest of {crowd.cohortSize}</p>}
           </div>
         </header>
 
         {crowd && (
-          <section className="grid gap-4 border-y border-rule py-5 text-sm sm:grid-cols-3">
+          <section className="grid gap-4 border-y-2 border-dotted border-rule py-5 text-sm sm:grid-cols-3">
             <div>
               <p className="text-ink-3">Annual visits (5-yr avg)</p>
               <p className="text-lg tabular-nums">{fmt.format(crowd.components.visits!.value)}</p>
@@ -100,8 +104,8 @@ export default async function ParkPage({ params }: { params: Promise<{ code: str
               <h2 className="text-2xl">When to go</h2>
               {best && park.visitation ? (
                 <>
-                  <div className="mt-4 rounded-sm border border-moss-2 bg-moss-3/40 p-4">
-                    <p className="text-xs uppercase tracking-wide text-ink-2">Best months</p>
+                  <div className="px-tag mt-4 bg-moss-3/40 p-4">
+                    <p className="pixel text-base text-ink-2">Best months</p>
                     <p className="display mt-1 text-2xl">{best.map((b) => MONTHS[b.month]).join(" · ")}</p>
                     <ul className="mt-2 space-y-1 text-sm text-ink-2">
                       {best.map((b) => <li key={b.month}>{b.rationale}</li>)}

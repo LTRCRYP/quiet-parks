@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-11-02T22:31:26.159Z",
-  "parkCount": 63,
+  "generatedAt": "2026-11-03T09:54:26.865Z",
+  "parkCount": 144,
+  "nationalParkCount": 63,
   "visitation": {
     "startYear": 2021,
     "endYear": 2025,
@@ -17,7 +18,7 @@
     "source": "Open-Meteo historical weather API (ERA5), 10-year monthly means"
   },
   "nps": {
-    "fetchedAt": "2026-11-02",
+    "fetchedAt": "2026-11-03",
     "source": "NPS API (developer.nps.gov)"
   }
 }

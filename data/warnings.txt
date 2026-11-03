@@ -1,1 +1,20 @@
-
+alag: only 266 visits/yr reported (under 1000); nature unit skipped
+ania: only 192 visits/yr reported (under 1000); nature unit skipped
+bith: no climate
+blue: no climate
+caha: no climate
+camo: unit CAMO missing months in 2021; visitation omitted
+camo: no recreation visits reported; nature unit skipped
+lode: unit LODE missing months in 2021; visitation omitted
+lode: no recreation visits reported; nature unit skipped
+obed: unit OBED missing months in 2021; visitation omitted
+obed: no recreation visits reported; nature unit skipped
+pais: no climate
+para: unit PARA missing months in 2021; visitation omitted
+para: no recreation visits reported; nature unit skipped
+pine: unit PINE missing months in 2021; visitation omitted
+pine: no recreation visits reported; nature unit skipped
+piro: no climate
+rigr: only 226 visits/yr reported (under 1000); nature unit skipped
+vicr: unit VICR missing months in 2021; visitation omitted
+vicr: no recreation visits reported; nature unit skipped

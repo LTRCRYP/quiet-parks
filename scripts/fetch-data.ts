@@ -24,6 +24,13 @@ import { buildZctaTable } from "./sources/zcta";
 import type { DataManifest, ParkRecord, ThingToDo } from "../lib/types";
 
 const DATA_DIR = resolve(process.cwd(), "data");
+/**
+ * Nature units reporting fewer visits than this are left out. Below it the
+ * count usually means the NPS tallies the unit's visitors under a neighbour
+ * (Rio Grande WSR under Big Bend, Alagnak under Katmai), so a rank would mislead.
+ * National parks are always kept.
+ */
+const MIN_NATURE_VISITS = 1000;
 const warnings: string[] = [];
 const warn = (m: string) => { warnings.push(m); process.stderr.write(`  ! ${m}\n`); };
 const log = (m: string) => process.stderr.write(`${m}\n`);
@@ -34,8 +41,10 @@ async function main() {
   mkdirSync(DATA_DIR, { recursive: true });
 
   log("NPS /parks");
-  const raw = await fetchParks(npsKey);
-  const codes = new Set(raw.map((p) => p.parkCode));
+  const { nationalParks, natureUnits } = await fetchParks(npsKey);
+  const nationalParkCodes = new Set(nationalParks.map((p) => p.parkCode));
+  const raw = [...nationalParks, ...natureUnits];
+  log(`  ${nationalParks.length} national parks, ${natureUnits.length} other nature units`);
 
   log("NPS /activities/parks");
   const activitiesByPark = await fetchActivitiesByPark(npsKey);
@@ -56,7 +65,16 @@ async function main() {
     const fromIndex = activitiesByPark.get(p.parkCode) ?? new Set<string>();
     const activities = [...new Set([...fromParks, ...fromIndex])].sort();
 
+    const isNationalPark = nationalParkCodes.has(p.parkCode);
     const visitation = buildVisitation(p.parkCode, visits, warn);
+    if (!visitation && !isNationalPark) {
+      warn(`${p.parkCode}: no recreation visits reported; nature unit skipped`);
+      continue;
+    }
+    if (visitation && !isNationalPark && visitation.annualAvg < MIN_NATURE_VISITS) {
+      warn(`${p.parkCode}: only ${visitation.annualAvg} visits/yr reported (under ${MIN_NATURE_VISITS}); nature unit skipped`);
+      continue;
+    }
     const acreage = buildAcreage(p.parkCode, acreageTable);
     if (!acreage) warn(`${p.parkCode}: no acreage alias`);
     const climate = await fetchClimate(p.parkCode, lat, lon);
@@ -68,6 +86,7 @@ async function main() {
       fullName: p.fullName,
       name: p.name,
       designation: p.designation || "National Park",
+      isNationalPark,
       states: p.states.split(",").map((s) => s.trim()).filter(Boolean),
       description: p.description,
       weatherInfo: p.weatherInfo,
@@ -87,6 +106,7 @@ async function main() {
   }
 
   log("NPS /campgrounds");
+  const codes = new Set(parks.map((p) => p.parkCode));
   const campgrounds = await fetchCampgrounds(codes, npsKey);
 
   log("Census ZCTA centroids");
@@ -95,6 +115,7 @@ async function main() {
   const manifest: DataManifest = {
     generatedAt: new Date().toISOString(),
     parkCount: parks.length,
+    nationalParkCount: parks.filter((p) => p.isNationalPark).length,
     visitation: { startYear: VISITATION_START, endYear: VISITATION_END, package: VISITATION_PACKAGE, source: VISITATION_SOURCE },
     acreage: { asOf: ACREAGE_AS_OF, source: ACREAGE_SOURCE },
     climate: { startYear: CLIMATE_START, endYear: CLIMATE_END, source: CLIMATE_SOURCE },

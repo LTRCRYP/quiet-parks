@@ -12,6 +12,30 @@
   "totalSites": 16
  },
  {
+  "id": "E432BD79-E5A8-4989-8F03-ADF9683A95A2",
+  "parkCode": "goga",
+  "name": "Kirby Cove Campground",
+  "url": "https://www.recreation.gov/camping/campgrounds/232491",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232491",
+  "latitude": 37.827897174,
+  "longitude": -122.490380233,
+  "sitesReservable": 6,
+  "sitesFirstCome": 0,
+  "totalSites": 6
+ },
+ {
+  "id": "0B860B12-04E9-46DB-A1C3-E7FBA8B1A3DE",
+  "parkCode": "buff",
+  "name": "Kyles Landing",
+  "url": "https://www.nps.gov/buff/planyourvisit/camping.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10391706",
+  "latitude": 36.05577198967615,
+  "longitude": -93.28074711723283,
+  "sitesReservable": 33,
+  "sitesFirstCome": 0,
+  "totalSites": 33
+ },
+ {
   "id": "D24D8C58-DF08-4A80-BC5F-531E6F086A1B",
   "parkCode": "hale",
   "name": "Kīpahulu Campground",
@@ -22,6 +46,18 @@
   "sitesReservable": 9,
   "sitesFirstCome": 0,
   "totalSites": 9
+ },
+ {
+  "id": "4DAAC939-A3E4-4CDA-AEE6-2C6B5B7BF499",
+  "parkCode": "pais",
+  "name": "Malaquite Campground",
+  "url": "https://www.nps.gov/pais/planyourvisit/malaquite_campground.htm",
+  "reservationUrl": "",
+  "latitude": 27.43023,
+  "longitude": -97.296189,
+  "sitesReservable": 0,
+  "sitesFirstCome": 48,
+  "totalSites": 48
  },
  {
   "id": "4CA589A7-8776-4E8E-BFB7-E5D1EF2E65E8",
@@ -60,6 +96,30 @@
   "totalSites": 124
  },
  {
+  "id": "655E8DDE-9586-447E-B531-A93B31EEE1A0",
+  "parkCode": "crmo",
+  "name": "Lava Flow Campground",
+  "url": "https://www.nps.gov/crmo/planyourvisit/camping.htm",
+  "reservationUrl": "",
+  "latitude": 43.4607003086,
+  "longitude": -113.559131945,
+  "sitesReservable": 0,
+  "sitesFirstCome": 42,
+  "totalSites": 42
+ },
+ {
+  "id": "B4212C55-8FAB-495E-9A12-DE6D57EB91D4",
+  "parkCode": "band",
+  "name": "Juniper Family Campground",
+  "url": "https://www.nps.gov/band/planyourvisit/juniper-family-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/233395",
+  "latitude": 35.795338186866466,
+  "longitude": -106.27904543051932,
+  "sitesReservable": 2,
+  "sitesFirstCome": 50,
+  "totalSites": 52
+ },
+ {
   "id": "F8DFAB23-EFE0-4F31-98D0-CD5A871596A9",
   "parkCode": "olym",
   "name": "Kalaloch Campround",
@@ -96,6 +156,30 @@
   "totalSites": 0
  },
  {
+  "id": "6EAB2A34-0D56-4A15-99E2-E41C06B0FF86",
+  "parkCode": "orpi",
+  "name": "Alamo Canyon Campground",
+  "url": "https://www.nps.gov/orpi/planyourvisit/alamo-canyon.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/247566",
+  "latitude": 32.072943,
+  "longitude": -112.728093,
+  "sitesReservable": 4,
+  "sitesFirstCome": 0,
+  "totalSites": 4
+ },
+ {
+  "id": "4F9E59DF-BFCB-400F-8F4E-6A5233A47324",
+  "parkCode": "biso",
+  "name": "Alum Ford Campground",
+  "url": "https://www.nps.gov/biso/planyourvisit/alumfordcampground.htm",
+  "reservationUrl": "",
+  "latitude": 36.7640337001,
+  "longitude": -84.5463375998,
+  "sitesReservable": 0,
+  "sitesFirstCome": 6,
+  "totalSites": 6
+ },
+ {
   "id": "2DEDB733-BCA8-41FF-8E0C-3E676DE620DF",
   "parkCode": "zion",
   "name": "Watchman Campground",
@@ -106,6 +190,18 @@
   "sitesReservable": 176,
   "sitesFirstCome": 0,
   "totalSites": 184
+ },
+ {
+  "id": "7D57A961-B5E9-4312-9519-21898097AD02",
+  "parkCode": "slbe",
+  "name": "Weather Station Campground - South Manitou Island",
+  "url": "https://www.nps.gov/slbe/planyourvisit/smicamping.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232456",
+  "latitude": 45.003301,
+  "longitude": -86.110347,
+  "sitesReservable": 3,
+  "sitesFirstCome": 20,
+  "totalSites": 23
  },
  {
   "id": "B491535B-8883-4684-8E34-228E49D01A5C",
@@ -144,6 +240,18 @@
   "totalSites": 23
  },
  {
+  "id": "CD57926C-D569-489B-8A4B-F528D026DE75",
+  "parkCode": "slbe",
+  "name": "Village Campground - North Manitou Island",
+  "url": "https://www.nps.gov/slbe/planyourvisit/nmicamping.htm",
+  "reservationUrl": "",
+  "latitude": 45.1281213,
+  "longitude": -85.9775979,
+  "sitesReservable": 0,
+  "sitesFirstCome": 8,
+  "totalSites": 8
+ },
+ {
   "id": "4072160F-820D-48BC-9E1A-84B9012F1288",
   "parkCode": "neri",
   "name": "War Ridge/Backus Mountain Campground",
@@ -156,6 +264,18 @@
   "totalSites": 8
  },
  {
+  "id": "B94FE8B9-2EF1-4464-A2E1-5803C9AE7648",
+  "parkCode": "buff",
+  "name": "Woolum",
+  "url": "",
+  "reservationUrl": "",
+  "latitude": 35.97030488536675,
+  "longitude": -92.88051313047835,
+  "sitesReservable": 0,
+  "sitesFirstCome": 0,
+  "totalSites": 0
+ },
+ {
   "id": "760FD8AD-0493-43CE-8D6F-C58438BD8212",
   "parkCode": "jotr",
   "name": "Sheep Pass Group Campground",
@@ -166,6 +286,30 @@
   "sitesReservable": 6,
   "sitesFirstCome": 0,
   "totalSites": 6
+ },
+ {
+  "id": "82A719D5-346C-476E-A819-F10D3363E351",
+  "parkCode": "whis",
+  "name": "Sheep Camp",
+  "url": "https://www.recreation.gov/camping/sheep-camp-primitive-campground/r/campgroundDetails.do?contractCode=NRSO&parkId=156990",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/272243",
+  "latitude": 40.5998762241,
+  "longitude": -122.594808442,
+  "sitesReservable": 4,
+  "sitesFirstCome": 0,
+  "totalSites": 4
+ },
+ {
+  "id": "150AF6E6-881A-4420-B535-7B31E3905549",
+  "parkCode": "buff",
+  "name": "Rush Campground",
+  "url": "https://www.nps.gov/buff/planyourvisit/camping.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/poi/258696",
+  "latitude": 36.12274064187162,
+  "longitude": -92.55044460875988,
+  "sitesReservable": 12,
+  "sitesFirstCome": 0,
+  "totalSites": 12
  },
  {
   "id": "F08972F9-3943-4003-8499-B0B2EA41A1C7",
@@ -190,6 +334,18 @@
   "sitesReservable": 0,
   "sitesFirstCome": 0,
   "totalSites": 22
+ },
+ {
+  "id": "44ECF5C9-C37D-478C-89A7-0A2ED81162B3",
+  "parkCode": "gate",
+  "name": "Sandy Hook Camp Ground",
+  "url": "https://www.nps.gov/gate/planyourvisit/camp-sandy-hook.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/234714",
+  "latitude": 40.4500495,
+  "longitude": -73.9950964,
+  "sitesReservable": 20,
+  "sitesFirstCome": 0,
+  "totalSites": 20
  },
  {
   "id": "36C60550-B5BE-4D8D-AFA3-F87E545CA54A",
@@ -264,6 +420,54 @@
   "totalSites": 91
  },
  {
+  "id": "1827DF3F-1EC6-4A91-9A57-8BD6CEE2039B",
+  "parkCode": "cebr",
+  "name": "Point Supreme Campground",
+  "url": "https://www.nps.gov/cebr/planyourvisit/psc.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/233392",
+  "latitude": 37.6103850583356,
+  "longitude": -112.830926692645,
+  "sitesReservable": 25,
+  "sitesFirstCome": 0,
+  "totalSites": 25
+ },
+ {
+  "id": "344FA89E-5F8A-49FC-A1E2-7F584B355393",
+  "parkCode": "band",
+  "name": "Ponderosa Group Campground",
+  "url": "https://www.nps.gov/band/planyourvisit/ponderosa-group-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/233394",
+  "latitude": 35.8328556593,
+  "longitude": -106.356758549,
+  "sitesReservable": 2,
+  "sitesFirstCome": 0,
+  "totalSites": 2
+ },
+ {
+  "id": "37A2C529-C63B-42B4-8AE1-DC0611B34690",
+  "parkCode": "slbe",
+  "name": "Popple Campground - South Manitou Island",
+  "url": "https://www.nps.gov/slbe/planyourvisit/smicamping.htm",
+  "reservationUrl": "",
+  "latitude": 45.046024,
+  "longitude": -86.116205,
+  "sitesReservable": 0,
+  "sitesFirstCome": 7,
+  "totalSites": 7
+ },
+ {
+  "id": "5CEA9F21-8CBB-4B5D-AB2F-7D6FC31AE52E",
+  "parkCode": "buff",
+  "name": "Ozark Campground",
+  "url": "https://www.nps.gov/buff/planyourvisit/camping.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10001451",
+  "latitude": 36.0640031821409,
+  "longitude": -93.15984994844179,
+  "sitesReservable": 31,
+  "sitesFirstCome": 0,
+  "totalSites": 32
+ },
+ {
   "id": "24D983CD-F853-49B3-A368-25DC3832F628",
   "parkCode": "olym",
   "name": "Ozette Campground",
@@ -274,6 +478,18 @@
   "sitesReservable": 0,
   "sitesFirstCome": 15,
   "totalSites": 15
+ },
+ {
+  "id": "15CB8D4F-5780-4293-95DE-153674F84667",
+  "parkCode": "whis",
+  "name": "Peltier Bridge",
+  "url": "https://www.nps.gov/whis/planyourvisit/peltier-bridge.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/272248",
+  "latitude": 40.5857833,
+  "longitude": -122.5518167,
+  "sitesReservable": 9,
+  "sitesFirstCome": 0,
+  "totalSites": 9
  },
  {
   "id": "4356D077-AE68-4822-B67E-3CF48A8BBDDB",
@@ -348,6 +564,18 @@
   "totalSites": 94
  },
  {
+  "id": "90B166B3-6065-41B2-9190-9F5AF76D9D8D",
+  "parkCode": "moja",
+  "name": "Mid Hills Campground",
+  "url": "https://www.nps.gov/moja/planyourvisit/mid-hills-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10332703",
+  "latitude": 35.12992041797481,
+  "longitude": -115.43579157547197,
+  "sitesReservable": 26,
+  "sitesFirstCome": 0,
+  "totalSites": 26
+ },
+ {
   "id": "FFD42463-76E6-4540-898A-0A70A8A8F747",
   "parkCode": "olym",
   "name": "North Fork Campground",
@@ -396,6 +624,18 @@
   "totalSites": 109
  },
  {
+  "id": "E8C25071-8A67-42F8-8160-66BF81E8C450",
+  "parkCode": "caha",
+  "name": "Ocracoke Campground",
+  "url": "https://www.recreation.gov/camping/campgrounds/232504",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232504/availability",
+  "latitude": 35.12571784418955,
+  "longitude": -75.92241525650024,
+  "sitesReservable": 131,
+  "sitesFirstCome": 0,
+  "totalSites": 135
+ },
+ {
   "id": "EE30401B-4172-4BBA-91AE-B63EAE532367",
   "parkCode": "mora",
   "name": "Ohanapecosh Campground",
@@ -408,6 +648,30 @@
   "totalSites": 179
  },
  {
+  "id": "C2BA0A25-CF73-48EB-8B4C-29E16D6E52B5",
+  "parkCode": "caha",
+  "name": "Oregon Inlet Campground",
+  "url": "https://www.recreation.gov/camping/campgrounds/251431",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/251431",
+  "latitude": 35.80027781,
+  "longitude": -75.545,
+  "sitesReservable": 107,
+  "sitesFirstCome": 0,
+  "totalSites": 107
+ },
+ {
+  "id": "8E2351CD-649C-41C3-B1EA-5EDE58F33CDD",
+  "parkCode": "dino",
+  "name": "Split Mountain Group Campground",
+  "url": "https://www.nps.gov/dino/planyourvisit/splitmountaincampground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/234751",
+  "latitude": 40.4405279563,
+  "longitude": -109.252312611,
+  "sitesReservable": 4,
+  "sitesFirstCome": 0,
+  "totalSites": 4
+ },
+ {
   "id": "2ABC98CE-A9E8-438C-8BDA-2935B0224BB4",
   "parkCode": "glac",
   "name": "Sprague Creek Campground",
@@ -418,6 +682,18 @@
   "sitesReservable": 25,
   "sitesFirstCome": 0,
   "totalSites": 25
+ },
+ {
+  "id": "517BA74F-FFC6-4B85-AF59-0DF4FBF65899",
+  "parkCode": "buff",
+  "name": "Spring Creek Campground",
+  "url": "https://www.nps.gov/buff/planyourvisit/camping.htm",
+  "reservationUrl": "",
+  "latitude": 36.02997126088951,
+  "longitude": -92.5844611071003,
+  "sitesReservable": 0,
+  "sitesFirstCome": 9,
+  "totalSites": 12
  },
  {
   "id": "8FFC1412-19CB-4AE7-9860-2BBC36799440",
@@ -444,6 +720,18 @@
   "totalSites": 148
  },
  {
+  "id": "DC5B8982-C3B5-40A4-B5C1-BE320C39F637",
+  "parkCode": "buff",
+  "name": "Tyler Bend Campground",
+  "url": "https://www.nps.gov/buff/planyourvisit/tyler-bend-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/233119",
+  "latitude": 35.98687697633934,
+  "longitude": -92.75952116213276,
+  "sitesReservable": 42,
+  "sitesFirstCome": 0,
+  "totalSites": 42
+ },
+ {
   "id": "99CA90B7-E669-41EE-8744-2BBF8215C2A8",
   "parkCode": "brca",
   "name": "Sunset Campground",
@@ -468,6 +756,18 @@
   "totalSites": 55
  },
  {
+  "id": "739CE881-991F-42CE-885B-3F0410D82ED5",
+  "parkCode": "buff",
+  "name": "South Maumee",
+  "url": "",
+  "reservationUrl": "",
+  "latitude": 36.03947940982508,
+  "longitude": -92.63563916987579,
+  "sitesReservable": 0,
+  "sitesFirstCome": 0,
+  "totalSites": 0
+ },
+ {
   "id": "368E0896-3B0D-4331-8882-5FBABBEF7739",
   "parkCode": "olym",
   "name": "Staircase Campground",
@@ -478,6 +778,18 @@
   "sitesReservable": 49,
   "sitesFirstCome": 0,
   "totalSites": 49
+ },
+ {
+  "id": "3EA23346-5C4D-4E01-A4E0-748033E92446",
+  "parkCode": "buff",
+  "name": "Steel Creek Campground",
+  "url": "https://www.nps.gov/buff/planyourvisit/camping.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10001451",
+  "latitude": 36.04002229553652,
+  "longitude": -93.3463120996123,
+  "sitesReservable": 39,
+  "sitesFirstCome": 0,
+  "totalSites": 39
  },
  {
   "id": "A8E8F0C6-9CF3-4E0A-AD89-A8C23990B1E2",
@@ -540,6 +852,18 @@
   "totalSites": 8
  },
  {
+  "id": "5DA9B21A-60C6-4B73-B115-D9273354A6C9",
+  "parkCode": "gari",
+  "name": "Gauley Tailwaters",
+  "url": "",
+  "reservationUrl": "",
+  "latitude": 38.2143903541,
+  "longitude": -80.8888515177,
+  "sitesReservable": 0,
+  "sitesFirstCome": 18,
+  "totalSites": 18
+ },
+ {
   "id": "C838E1A7-6558-4F7B-8F2D-FE51D9DC333D",
   "parkCode": "neri",
   "name": "Glade Creek Campground",
@@ -562,6 +886,18 @@
   "sitesReservable": 101,
   "sitesFirstCome": 0,
   "totalSites": 101
+ },
+ {
+  "id": "EAA2FD98-4F5D-4533-B65A-A11F73AA4494",
+  "parkCode": "labe",
+  "name": "Indian Well Campground",
+  "url": "https://www.nps.gov/labe/planyourvisit/campgrounds.htm",
+  "reservationUrl": "",
+  "latitude": 41.7174707353,
+  "longitude": -121.504144732,
+  "sitesReservable": 1,
+  "sitesFirstCome": 43,
+  "totalSites": 43
  },
  {
   "id": "26404A2A-AB76-4A51-9707-39D0E6E3368D",
@@ -684,6 +1020,30 @@
   "totalSites": 78
  },
  {
+  "id": "91F6D1D1-70F5-44EE-9930-4003ECC52A22",
+  "parkCode": "moja",
+  "name": "Hole-in-the-Wall Campground",
+  "url": "https://www.nps.gov/moja/planyourvisit/hole-in-the-wall-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10332664",
+  "latitude": 35.046023820605136,
+  "longitude": -115.39356516151247,
+  "sitesReservable": 38,
+  "sitesFirstCome": 0,
+  "totalSites": 38
+ },
+ {
+  "id": "22C22378-2697-4D14-B5F7-E8BAD9B7033D",
+  "parkCode": "whis",
+  "name": "Horse Camp",
+  "url": "https://www.nps.gov/whis/planyourvisit/horse-camp.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/272244",
+  "latitude": 40.57611111,
+  "longitude": -122.531388889,
+  "sitesReservable": 2,
+  "sitesFirstCome": 0,
+  "totalSites": 2
+ },
+ {
   "id": "75216514-60C2-4262-9107-35122A9194AC",
   "parkCode": "hale",
   "name": "Hosmer Grove Campground",
@@ -694,6 +1054,30 @@
   "sitesReservable": 6,
   "sitesFirstCome": 0,
   "totalSites": 6
+ },
+ {
+  "id": "6838ABBE-4A61-4668-9D33-FE56AD77D7E4",
+  "parkCode": "gate",
+  "name": "Fort Wadsworth Campsite",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/234715",
+  "latitude": 40.599998,
+  "longitude": -74.054771,
+  "sitesReservable": 7,
+  "sitesFirstCome": 0,
+  "totalSites": 7
+ },
+ {
+  "id": "5A68AFB0-A5CD-4892-9222-880AF77B37BE",
+  "parkCode": "caha",
+  "name": "Frisco Campground",
+  "url": "https://www.recreation.gov/camping/campgrounds/251430",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/251430",
+  "latitude": 35.237075,
+  "longitude": -75.60335700000002,
+  "sitesReservable": 117,
+  "sitesFirstCome": 0,
+  "totalSites": 117
  },
  {
   "id": "B1B4EA86-DDA9-416A-9E7B-D718DF3C3233",
@@ -708,6 +1092,30 @@
   "totalSites": 71
  },
  {
+  "id": "CF4FCDE0-60FD-42DE-9A64-816E3601A562",
+  "parkCode": "goga",
+  "name": "Hawk Campground",
+  "url": "https://www.recreation.gov/camping/campgrounds/258815",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/258815",
+  "latitude": 37.854152594,
+  "longitude": -122.520632833,
+  "sitesReservable": 3,
+  "sitesFirstCome": 0,
+  "totalSites": 3
+ },
+ {
+  "id": "0FAC4543-542C-4B14-9930-27EA43E2E842",
+  "parkCode": "goga",
+  "name": "Haypress Campground",
+  "url": "https://www.recreation.gov/camping/campgrounds/10067346",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10067346",
+  "latitude": 37.860780174,
+  "longitude": -122.546441233,
+  "sitesReservable": 6,
+  "sitesFirstCome": 0,
+  "totalSites": 6
+ },
+ {
   "id": "C4C0ACBD-0AE4-4970-9C6A-E75A0153050D",
   "parkCode": "olym",
   "name": "Heart O' the Hills Campground",
@@ -718,6 +1126,30 @@
   "sitesReservable": 0,
   "sitesFirstCome": 97,
   "totalSites": 97
+ },
+ {
+  "id": "C4CB1781-C59F-4065-AFE3-F7A327B075A2",
+  "parkCode": "pais",
+  "name": "Bird Island Basin Campground",
+  "url": "https://www.nps.gov/pais/planyourvisit/bird-island-basin-campground.htm",
+  "reservationUrl": "",
+  "latitude": 27.466794,
+  "longitude": -97.313693,
+  "sitesReservable": 0,
+  "sitesFirstCome": 34,
+  "totalSites": 34
+ },
+ {
+  "id": "BF423B82-7FE4-4101-B86D-9FE12E2315B4",
+  "parkCode": "moja",
+  "name": "Black Canyon Group and Equestrian Campground",
+  "url": "https://www.nps.gov/moja/planyourvisit/black-canyon-group-and-equestrian-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10332661",
+  "latitude": 35.04862556355997,
+  "longitude": -115.38295682337161,
+  "sitesReservable": 2,
+  "sitesFirstCome": 0,
+  "totalSites": 2
  },
  {
   "id": "33AA5642-343E-425B-89E9-69A0918A8502",
@@ -780,6 +1212,18 @@
   "totalSites": 11
  },
  {
+  "id": "2AFC7456-747A-4F35-8572-418E6E103989",
+  "parkCode": "goga",
+  "name": "Bicentennial Campground",
+  "url": "https://www.recreation.gov/camping/campgrounds/272229",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/272229",
+  "latitude": 37.8245721146,
+  "longitude": -122.52672547,
+  "sitesReservable": 3,
+  "sitesFirstCome": 0,
+  "totalSites": 3
+ },
+ {
   "id": "07B94648-198D-4762-9D87-236DEC0C58BA",
   "parkCode": "care",
   "name": "Backcountry Camping",
@@ -790,6 +1234,42 @@
   "sitesReservable": 0,
   "sitesFirstCome": 0,
   "totalSites": 0
+ },
+ {
+  "id": "AC81EBCF-B50B-420E-A286-13C67EE98B4F",
+  "parkCode": "fiis",
+  "name": "Backcountry Camping in the Otis Pike High Dune Wilderness",
+  "url": "https://www.nps.gov/fiis/planyourvisit/backcountry-camping.htm",
+  "reservationUrl": "https://www.recreation.gov/permits/234768",
+  "latitude": 40.71154865315634,
+  "longitude": -72.93188095092773,
+  "sitesReservable": 36,
+  "sitesFirstCome": 36,
+  "totalSites": 36
+ },
+ {
+  "id": "09BC0AFC-F118-44EA-B7E1-1FE0191CA77E",
+  "parkCode": "biso",
+  "name": "Bandy Creek Campground",
+  "url": "https://www.nps.gov/biso/planyourvisit/bandycreekcampground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232506?q=Bandy%20Creek",
+  "latitude": 36.4886610474,
+  "longitude": -84.6971229739,
+  "sitesReservable": 146,
+  "sitesFirstCome": 149,
+  "totalSites": 149
+ },
+ {
+  "id": "78C8F7E4-CDD1-475C-A540-5EA8E22B1CAC",
+  "parkCode": "biso",
+  "name": "Blue Heron Campground",
+  "url": "https://www.nps.gov/biso/planyourvisit/blueheroncampground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232505?q=Blue%20Heron%20Campground",
+  "latitude": 36.6775354462,
+  "longitude": -84.518505573,
+  "sitesReservable": 43,
+  "sitesFirstCome": 45,
+  "totalSites": 45
  },
  {
   "id": "3974D96D-C28E-4A4B-8CCA-4C0C4747C420",
@@ -828,6 +1308,30 @@
   "totalSites": 33
  },
  {
+  "id": "6EEB6398-2024-46B2-BFA0-B2A437464B37",
+  "parkCode": "slbe",
+  "name": "Bay Campground - South Manitou Island",
+  "url": "https://www.nps.gov/slbe/planyourvisit/smicamping.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232456",
+  "latitude": 45.018882,
+  "longitude": -86.102772,
+  "sitesReservable": 3,
+  "sitesFirstCome": 25,
+  "totalSites": 28
+ },
+ {
+  "id": "88FE257F-E2CF-45DC-858E-7DF1B92AFF4F",
+  "parkCode": "biso",
+  "name": "Bear Creek Campground",
+  "url": "https://www.nps.gov/biso/planyourvisit/horsecamps.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/251468?q=Bear%20Creek%20Horse%20Camp",
+  "latitude": 36.6423697454,
+  "longitude": -84.5243896747,
+  "sitesReservable": 22,
+  "sitesFirstCome": 22,
+  "totalSites": 23
+ },
+ {
   "id": "07E7E764-4D4F-4615-ADEB-28AB6BD87471",
   "parkCode": "jotr",
   "name": "Belle Campground",
@@ -840,6 +1344,54 @@
   "totalSites": 18
  },
  {
+  "id": "BCFEC04A-6E92-4CC5-844F-B0486E386268",
+  "parkCode": "deto",
+  "name": "Belle Fourche River Campground",
+  "url": "https://www.nps.gov/deto/planyourvisit/campgrounds.htm",
+  "reservationUrl": "",
+  "latitude": 44.5818340361,
+  "longitude": -104.706343547,
+  "sitesReservable": 0,
+  "sitesFirstCome": 46,
+  "totalSites": 45
+ },
+ {
+  "id": "849C892E-19ED-4539-8591-CF2D1670D380",
+  "parkCode": "ciro",
+  "name": "City of Rocks Campground",
+  "url": "https://www.nps.gov/ciro/planyourvisit/camping.htm",
+  "reservationUrl": "https://www.reserveamerica.com/explore/city-of-rocks-national-reserve/ID/315044/overview",
+  "latitude": 42.067203,
+  "longitude": -113.701382,
+  "sitesReservable": 67,
+  "sitesFirstCome": 6,
+  "totalSites": 67
+ },
+ {
+  "id": "1FEBD642-4DE4-49FD-9DF1-3EF8E499AC03",
+  "parkCode": "buff",
+  "name": "Carver Campground",
+  "url": "https://www.nps.gov/buff/planyourvisit/camping.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/poi/258698",
+  "latitude": 35.983566992059146,
+  "longitude": -93.04017708736124,
+  "sitesReservable": 8,
+  "sitesFirstCome": 0,
+  "totalSites": 8
+ },
+ {
+  "id": "CE2A760B-8A8F-4083-9E6F-3DB38B313145",
+  "parkCode": "orca",
+  "name": "Cave Creek Campground",
+  "url": "https://www.nps.gov/orca/planyourvisit/campgrounds.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10355837",
+  "latitude": 42.1139211879,
+  "longitude": -123.429613283,
+  "sitesReservable": 17,
+  "sitesFirstCome": 17,
+  "totalSites": 17
+ },
+ {
   "id": "92F73FF4-10AB-45D0-915E-AC0A063420E2",
   "parkCode": "badl",
   "name": "Cedar Pass Campground",
@@ -850,6 +1402,30 @@
   "sitesReservable": 96,
   "sitesFirstCome": 0,
   "totalSites": 96
+ },
+ {
+  "id": "C250A435-A020-4A92-A14F-1F9737B25F45",
+  "parkCode": "caha",
+  "name": "Cape Point Campground",
+  "url": "https://www.recreation.gov/camping/campgrounds/251945",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/251945",
+  "latitude": 35.235775,
+  "longitude": -75.53911,
+  "sitesReservable": 202,
+  "sitesFirstCome": 0,
+  "totalSites": 202
+ },
+ {
+  "id": "14084144-35CA-4862-96D8-72364E4A638B",
+  "parkCode": "samo",
+  "name": "Circle X Ranch Campground - CLOSED",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/233381",
+  "latitude": 34.1112789977,
+  "longitude": -118.926525539,
+  "sitesReservable": 1,
+  "sitesFirstCome": 1,
+  "totalSites": 1
  },
  {
   "id": "66473DAA-0E97-47DE-A5AD-F52B0DFF4E88",
@@ -876,6 +1452,18 @@
   "totalSites": 32
  },
  {
+  "id": "5AA6174E-B53C-46F7-9F7B-CC275DD91CBC",
+  "parkCode": "buff",
+  "name": "Buffalo Point Campground",
+  "url": "https://www.nps.gov/buff/planyourvisit/buffalo-point-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/234043",
+  "latitude": 36.07498055064062,
+  "longitude": -92.55687790996838,
+  "sitesReservable": 56,
+  "sitesFirstCome": 45,
+  "totalSites": 106
+ },
+ {
   "id": "46B56158-098F-454B-AA80-B4F167736A29",
   "parkCode": "neri",
   "name": "Burnwood Group Campsite",
@@ -886,6 +1474,30 @@
   "sitesReservable": 1,
   "sitesFirstCome": 0,
   "totalSites": 1
+ },
+ {
+  "id": "3EC422D6-D669-4C88-B906-EE5BB4DA2C21",
+  "parkCode": "whis",
+  "name": "Brandy Creek",
+  "url": "https://www.recreation.gov/camping/brandy-creek-primitive-campground/r/campgroundDetails.do?contractCode=NRSO&parkId=156940",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/272250",
+  "latitude": 40.6014296701,
+  "longitude": -122.582337508,
+  "sitesReservable": 2,
+  "sitesFirstCome": 0,
+  "totalSites": 2
+ },
+ {
+  "id": "520460C8-4CDF-4642-BABF-422217A7830D",
+  "parkCode": "whis",
+  "name": "Brandy Creek RV",
+  "url": "https://www.nps.gov/whis/planyourvisit/brandy-creek-rv.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10047085?q=Brandy%20Creek%20Rv%20Campground",
+  "latitude": 40.61705,
+  "longitude": -122.57476,
+  "sitesReservable": 32,
+  "sitesFirstCome": 32,
+  "totalSites": 15
  },
  {
   "id": "A9F2297C-AFF2-48EA-BD2A-2BBE35BDE306",
@@ -972,6 +1584,18 @@
   "totalSites": 10
  },
  {
+  "id": "74277392-66F4-4FEB-B95B-A9FD2B6D4258",
+  "parkCode": "buff",
+  "name": "Erbie Campground",
+  "url": "https://www.nps.gov/buff/planyourvisit/camping.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10341416",
+  "latitude": 36.071320382791384,
+  "longitude": -93.21493013275649,
+  "sitesReservable": 31,
+  "sitesFirstCome": 0,
+  "totalSites": 31
+ },
+ {
   "id": "5F2A45B9-4C98-4710-B06B-30D23ACF5E79",
   "parkCode": "kefj",
   "name": "Exit Glacier Campground",
@@ -1018,6 +1642,42 @@
   "sitesReservable": 133,
   "sitesFirstCome": 46,
   "totalSites": 179
+ },
+ {
+  "id": "4A67F766-D8C0-451B-86AD-CD7DD878EB80",
+  "parkCode": "whis",
+  "name": "Crystal Creek",
+  "url": "https://www.recreation.gov/camping/crystal-creek-primitive-campground/r/campgroundDetails.do?contractCode=NRSO&parkId=156890",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/272247",
+  "latitude": 40.6422,
+  "longitude": -122.6710333,
+  "sitesReservable": 2,
+  "sitesFirstCome": 0,
+  "totalSites": 2
+ },
+ {
+  "id": "70336B82-9090-4BFA-8D3D-47BDC91F4542",
+  "parkCode": "slbe",
+  "name": "D. H. Day Campground",
+  "url": "https://www.nps.gov/slbe/planyourvisit/dhdaycamp.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/259242",
+  "latitude": 44.89615,
+  "longitude": -86.02006,
+  "sitesReservable": 88,
+  "sitesFirstCome": 0,
+  "totalSites": 87
+ },
+ {
+  "id": "E33743CA-5B4A-4DC6-84D8-BCA4984BFE67",
+  "parkCode": "guis",
+  "name": "Davis Bayou Campground",
+  "url": "https://www.recreation.gov/camping/campgrounds/250796",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/250796",
+  "latitude": 30.397808,
+  "longitude": -88.795595,
+  "sitesReservable": 52,
+  "sitesFirstCome": 0,
+  "totalSites": 52
  },
  {
   "id": "B526C74A-2287-48D2-A480-F4FD2F832CE5",
@@ -1068,6 +1728,30 @@
   "totalSites": 0
  },
  {
+  "id": "4C4E2EBD-9A3D-4E59-A7D8-1E68EB5EA501",
+  "parkCode": "whis",
+  "name": "Dry Creek Group Campground",
+  "url": "https://www.nps.gov/whis/planyourvisit/dry-creek.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232455",
+  "latitude": 40.6253167,
+  "longitude": -122.5807,
+  "sitesReservable": 2,
+  "sitesFirstCome": 0,
+  "totalSites": 2
+ },
+ {
+  "id": "7AFE0D29-866B-4025-A403-3BCE20E4CF32",
+  "parkCode": "dino",
+  "name": "Rainbow Park Campground",
+  "url": "https://www.nps.gov/dino/planyourvisit/rainbowparkcampground.htm",
+  "reservationUrl": "",
+  "latitude": 40.4956930226722,
+  "longitude": -109.17443160392514,
+  "sitesReservable": 0,
+  "sitesFirstCome": 4,
+  "totalSites": 4
+ },
+ {
   "id": "3A770067-D79E-413F-AF38-D879707B79B6",
   "parkCode": "glac",
   "name": "Two Medicine Campground",
@@ -1104,6 +1788,18 @@
   "totalSites": 106
  },
  {
+  "id": "35E0D115-7743-49C8-9D9D-3A347BCF41CB",
+  "parkCode": "slbe",
+  "name": "White Pine Backcountry Campground",
+  "url": "https://www.nps.gov/slbe/planyourvisit/white-pine-backcountry-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10303139",
+  "latitude": 44.737174,
+  "longitude": -86.08701,
+  "sitesReservable": 6,
+  "sitesFirstCome": 0,
+  "totalSites": 6
+ },
+ {
   "id": "889D3F1F-C595-40D2-B66B-5DA52128DB6A",
   "parkCode": "grca",
   "name": "Desert View Campground (Reservations Required)",
@@ -1116,6 +1812,18 @@
   "totalSites": 49
  },
  {
+  "id": "B64B25ED-E087-4E45-BCF7-52A7D494CB18",
+  "parkCode": "colm",
+  "name": "Saddlehorn Campground",
+  "url": "https://www.nps.gov/colm/planyourvisit/saddlehorn-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/234778",
+  "latitude": 39.10560329010386,
+  "longitude": -108.73257527271574,
+  "sitesReservable": 51,
+  "sitesFirstCome": 29,
+  "totalSites": 80
+ },
+ {
   "id": "F3361651-FFA0-4671-B15E-FF496B65EA98",
   "parkCode": "deva",
   "name": "Stovepipe Wells Campground",
@@ -1126,6 +1834,42 @@
   "sitesReservable": 0,
   "sitesFirstCome": 190,
   "totalSites": 190
+ },
+ {
+  "id": "0AD1C4E8-ED05-426E-8332-EA369022B8C5",
+  "parkCode": "dino",
+  "name": "Green River Campground",
+  "url": "https://www.nps.gov/dino/planyourvisit/greenrivercampground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/234777",
+  "latitude": 40.42097742242215,
+  "longitude": -109.24317568503744,
+  "sitesReservable": 54,
+  "sitesFirstCome": 27,
+  "totalSites": 80
+ },
+ {
+  "id": "FD182876-4CAF-4630-8E88-0B710A434AE4",
+  "parkCode": "slbe",
+  "name": "D. H. Day Campground Group Campground",
+  "url": "https://www.nps.gov/slbe/planyourvisit/groupcamps.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232457",
+  "latitude": 44.89615,
+  "longitude": -86.02006,
+  "sitesReservable": 4,
+  "sitesFirstCome": 0,
+  "totalSites": 4
+ },
+ {
+  "id": "32C0E210-8389-49F0-BFDF-B434678FCFEE",
+  "parkCode": "dino",
+  "name": "Echo Park Campground",
+  "url": "https://www.nps.gov/dino/planyourvisit/echoparkcampground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/259557",
+  "latitude": 40.52086679435992,
+  "longitude": -108.99323071023503,
+  "sitesReservable": 1,
+  "sitesFirstCome": 17,
+  "totalSites": 22
  },
  {
   "id": "03CC7ABA-0A4F-4F74-96B8-317F981E3B8E",
@@ -1150,6 +1894,18 @@
   "sitesReservable": 108,
   "sitesFirstCome": 108,
   "totalSites": 108
+ },
+ {
+  "id": "64C7EA2F-FCB4-47A3-A19E-D6ED6EADF6F6",
+  "parkCode": "slbe",
+  "name": "Platte River Campground",
+  "url": "https://www.nps.gov/slbe/planyourvisit/platterivercamp.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232458",
+  "latitude": 44.71551,
+  "longitude": -86.11911399999997,
+  "sitesReservable": 179,
+  "sitesFirstCome": 0,
+  "totalSites": 179
  },
  {
   "id": "BCE824F6-C326-4753-9D3D-916A93A690ED",
@@ -1188,6 +1944,30 @@
   "totalSites": 20
  },
  {
+  "id": "A63DE856-B573-4F34-A8AC-8F2BE146C442",
+  "parkCode": "piro",
+  "name": "Little Beaver Lake Campground",
+  "url": "https://www.nps.gov/piro/planyourvisit/camping.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/246856",
+  "latitude": 46.5575,
+  "longitude": -86.3638,
+  "sitesReservable": 8,
+  "sitesFirstCome": 0,
+  "totalSites": 8
+ },
+ {
+  "id": "AB15EC6C-7761-4DFF-A4AC-38E6A9986FB7",
+  "parkCode": "ozar",
+  "name": "Alley Spring Campground",
+  "url": "https://www.nps.gov/ozar/planyourvisit/alley-spring-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/234046",
+  "latitude": 37.148223,
+  "longitude": -91.44976700000001,
+  "sitesReservable": 162,
+  "sitesFirstCome": 0,
+  "totalSites": 146
+ },
+ {
   "id": "833AF1FD-97F4-4CBF-AB54-5963E5A91382",
   "parkCode": "hale",
   "name": "Wilderness Cabins",
@@ -1200,6 +1980,42 @@
   "totalSites": 3
  },
  {
+  "id": "3AD1C657-F432-4C3E-9409-5F0FB6A4E8BD",
+  "parkCode": "gicl",
+  "name": "Upper Scorpion Campground",
+  "url": "https://www.nps.gov/gicl/planyourvisit/camping.htm",
+  "reservationUrl": "",
+  "latitude": 33.2304987375,
+  "longitude": -108.260995945,
+  "sitesReservable": 0,
+  "sitesFirstCome": 10,
+  "totalSites": 12
+ },
+ {
+  "id": "97FC7F59-6472-4AB6-A411-A7E6874680BD",
+  "parkCode": "glca",
+  "name": "Wahweap Campground & RV Park",
+  "url": "https://www.lakepowell.com/rv-camping/wahweap-rv-campground/",
+  "reservationUrl": "http://www.lakepowell.com/rv-camping/wahweap-rv-campground/",
+  "latitude": 36.99670665525133,
+  "longitude": -111.49938611160871,
+  "sitesReservable": 251,
+  "sitesFirstCome": 36,
+  "totalSites": 266
+ },
+ {
+  "id": "9B6BFDE9-F02F-473C-8826-9531A937758F",
+  "parkCode": "fiis",
+  "name": "Watch Hill Campground",
+  "url": "https://www.nps.gov/fiis/planyourvisit/camping.htm",
+  "reservationUrl": "https://www.lovefins.com/camping/",
+  "latitude": 40.6911470994,
+  "longitude": -72.9862470992,
+  "sitesReservable": 28,
+  "sitesFirstCome": 0,
+  "totalSites": 28
+ },
+ {
   "id": "5EC50DAF-A871-466C-80B6-9729BDBF090B",
   "parkCode": "grsm",
   "name": "Smokemont Campground",
@@ -1210,6 +2026,54 @@
   "sitesReservable": 142,
   "sitesFirstCome": 0,
   "totalSites": 142
+ },
+ {
+  "id": "5541512A-EAA8-472F-9B88-2435CCD0087F",
+  "parkCode": "ciro",
+  "name": "Smoky Mountain Campground",
+  "url": "https://www.nps.gov/ciro/planyourvisit/smoky-mountain-campground.htm",
+  "reservationUrl": "https://www.reserveamerica.com/explore/castle-rocks-state-park/ID/315045/overview",
+  "latitude": 42.0755503041,
+  "longitude": -113.651634013,
+  "sitesReservable": 38,
+  "sitesFirstCome": 38,
+  "totalSites": 38
+ },
+ {
+  "id": "81E44F0C-24B0-4B53-B526-9F66E46E7299",
+  "parkCode": "cuis",
+  "name": "Sea Camp Campground",
+  "url": "https://www.nps.gov/cuis/planyourvisit/seacamp.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/253730",
+  "latitude": 30.763639600509393,
+  "longitude": -81.4637252998283,
+  "sitesReservable": 16,
+  "sitesFirstCome": 0,
+  "totalSites": 18
+ },
+ {
+  "id": "9E82C5FE-EB28-41E1-B522-BD593426BE2C",
+  "parkCode": "chic",
+  "name": "Rock Creek Campground",
+  "url": "https://www.nps.gov/chic/planyourvisit/campgrounds.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/234051",
+  "latitude": 34.49802361160294,
+  "longitude": -96.98615069439728,
+  "sitesReservable": 1,
+  "sitesFirstCome": 99,
+  "totalSites": 100
+ },
+ {
+  "id": "5C7C13D2-AF27-47FD-96BE-3800E9D60162",
+  "parkCode": "kaww",
+  "name": "Sandbank Stream Campground",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10145539",
+  "latitude": 45.8627572638,
+  "longitude": -68.6745398701,
+  "sitesReservable": 3,
+  "sitesFirstCome": 0,
+  "totalSites": 3
  },
  {
   "id": "191F3831-AC51-41B2-8BAB-92A4D1BC7685",
@@ -1236,6 +2100,18 @@
   "totalSites": 142
  },
  {
+  "id": "E6330478-44B8-4112-A944-5B146F5BD0FC",
+  "parkCode": "goga",
+  "name": "Rob Hill Campground",
+  "url": "https://presidio.gov/explore/attractions/rob-hill-campground",
+  "reservationUrl": "",
+  "latitude": 37.7963921158,
+  "longitude": -122.476059459,
+  "sitesReservable": 0,
+  "sitesFirstCome": 0,
+  "totalSites": 0
+ },
+ {
   "id": "7FDEE7A6-EB52-43E9-A4D8-193545AB5207",
   "parkCode": "lacl",
   "name": "NPS Priest Rock Public Use Cabin",
@@ -1246,6 +2122,30 @@
   "sitesReservable": 0,
   "sitesFirstCome": 0,
   "totalSites": 0
+ },
+ {
+  "id": "7BBD3378-FC3C-46E4-9DF8-2F2AFFA92C2E",
+  "parkCode": "sacn",
+  "name": "Namekagon District",
+  "url": "https://www.nps.gov/sacn/planyourvisit/namekagon-river.htm",
+  "reservationUrl": "",
+  "latitude": 45.905263,
+  "longitude": -91.815991,
+  "sitesReservable": 0,
+  "sitesFirstCome": 67,
+  "totalSites": 67
+ },
+ {
+  "id": "3D8B7A3D-BC50-4270-8CD1-631D13A15C62",
+  "parkCode": "nabr",
+  "name": "Natural Bridges Campground",
+  "url": "https://www.nps.gov/nabr/planyourvisit/camping.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/272257",
+  "latitude": 37.6092184378,
+  "longitude": -109.984193122,
+  "sitesReservable": 13,
+  "sitesFirstCome": 0,
+  "totalSites": 13
  },
  {
   "id": "C772BBDA-274E-40A2-B213-3C7B8127E6A7",
@@ -1308,6 +2208,18 @@
   "totalSites": 40
  },
  {
+  "id": "BF1EF0FB-866C-41EC-AE20-39C588D6250A",
+  "parkCode": "laro",
+  "name": "North Gorge Campground",
+  "url": "https://www.nps.gov/laro/planyourvisit/cg-northgorge.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/274908",
+  "latitude": 48.786475673593145,
+  "longitude": -118.00328863248575,
+  "sitesReservable": 12,
+  "sitesFirstCome": 0,
+  "totalSites": 12
+ },
+ {
   "id": "46225547-072D-45AA-9261-558B27D92DB4",
   "parkCode": "havo",
   "name": "Nāmakanipaio",
@@ -1318,6 +2230,30 @@
   "sitesReservable": 16,
   "sitesFirstCome": 16,
   "totalSites": 16
+ },
+ {
+  "id": "EB7177AD-9252-4CAD-B85D-08D9BE25AA25",
+  "parkCode": "asis",
+  "name": "Oceanside Drive-in Campground",
+  "url": "https://www.nps.gov/asis/planyourvisit/oceanside-drive-in-campground-reservation.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232507",
+  "latitude": 38.2016105991,
+  "longitude": -75.1538650993,
+  "sitesReservable": 16,
+  "sitesFirstCome": 0,
+  "totalSites": 16
+ },
+ {
+  "id": "8DF34653-E2E5-4716-A58E-8856AC14C242",
+  "parkCode": "orpi",
+  "name": "Twin Peaks Campground",
+  "url": "https://www.nps.gov/orpi/planyourvisit/twin-peaks.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/270816",
+  "latitude": 31.940681081217072,
+  "longitude": -112.81094174286494,
+  "sitesReservable": 208,
+  "sitesFirstCome": 0,
+  "totalSites": 208
  },
  {
   "id": "9D5B57D0-793A-4C2B-B620-5B561EDFC031",
@@ -1356,6 +2292,18 @@
   "totalSites": 88
  },
  {
+  "id": "C8AA0A50-B50A-44C4-8535-84277F7160DA",
+  "parkCode": "biso",
+  "name": "Station Camp Campground",
+  "url": "https://www.nps.gov/biso/planyourvisit/horsecamps.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10004358?q=Station%20Camp%20Campground",
+  "latitude": 36.545849746,
+  "longitude": -84.635217274,
+  "sitesReservable": 28,
+  "sitesFirstCome": 0,
+  "totalSites": 24
+ },
+ {
   "id": "DF0F45FB-FEE4-47A9-ACD4-63E3DC9BF9DA",
   "parkCode": "grca",
   "name": "Trailer Village RV Park - South Rim",
@@ -1368,6 +2316,30 @@
   "totalSites": 123
  },
  {
+  "id": "68E04D73-F0F7-490C-B9B9-E95A03564825",
+  "parkCode": "pore",
+  "name": "Glen Campground",
+  "url": "https://www.nps.gov/pore/planyourvisit/glen-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/233359",
+  "latitude": 37.9893107085,
+  "longitude": -122.788487928,
+  "sitesReservable": 12,
+  "sitesFirstCome": 0,
+  "totalSites": 12
+ },
+ {
+  "id": "FFA388BF-3129-4FC4-80ED-D163E8199587",
+  "parkCode": "amis",
+  "name": "Governors Landing Campground",
+  "url": "https://www.nps.gov/amis/planyourvisit/governors-landing-campground.htm",
+  "reservationUrl": "",
+  "latitude": 29.47907637,
+  "longitude": -101.028863217,
+  "sitesReservable": 0,
+  "sitesFirstCome": 15,
+  "totalSites": 15
+ },
+ {
   "id": "F79BD2D4-B5CE-4405-99F4-AF59DD1913A6",
   "parkCode": "grte",
   "name": "Gros Ventre Campground",
@@ -1378,6 +2350,54 @@
   "sitesReservable": 322,
   "sitesFirstCome": 0,
   "totalSites": 279
+ },
+ {
+  "id": "0AE386BF-A726-4C86-91AE-253673ACB91B",
+  "parkCode": "labe",
+  "name": "Group Campsite",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10334752",
+  "latitude": 41.7174707353,
+  "longitude": -121.504144732,
+  "sitesReservable": 1,
+  "sitesFirstCome": 0,
+  "totalSites": 1
+ },
+ {
+  "id": "13B7970B-039E-415E-900A-E1E1A2C7B032",
+  "parkCode": "bica",
+  "name": "Horseshoe Bend Campground",
+  "url": "https://www.nps.gov/bica/planyourvisit/horseshoe-bend-campground.htm",
+  "reservationUrl": "https://www.hiddentreasurecharters.com/",
+  "latitude": 44.96,
+  "longitude": -108.26,
+  "sitesReservable": 10,
+  "sitesFirstCome": 38,
+  "totalSites": 68
+ },
+ {
+  "id": "18921332-CD30-4B8B-8CD7-08CAA365919E",
+  "parkCode": "guis",
+  "name": "Fort Pickens Campground",
+  "url": "https://www.recreation.gov/camping/campgrounds/234704",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/234704",
+  "latitude": 30.323208348,
+  "longitude": -87.275972776,
+  "sitesReservable": 188,
+  "sitesFirstCome": 0,
+  "totalSites": 200
+ },
+ {
+  "id": "12BCF9B8-3B58-4787-97E7-99D7D1EFA719",
+  "parkCode": "lamr",
+  "name": "Fritch Fortress",
+  "url": "https://www.nps.gov/lamr/planyourvisit/camping.htm",
+  "reservationUrl": "",
+  "latitude": 35.681745781668646,
+  "longitude": -101.59831125353469,
+  "sitesReservable": 0,
+  "sitesFirstCome": 15,
+  "totalSites": 15
  },
  {
   "id": "E7CC7363-9C34-42ED-B3F0-769BB39E9400",
@@ -1402,6 +2422,30 @@
   "sitesReservable": 52,
   "sitesFirstCome": 0,
   "totalSites": 52
+ },
+ {
+  "id": "D0B26144-86D6-4F31-9296-4455BA0A3DDB",
+  "parkCode": "lake",
+  "name": "Boulder Beach Campground",
+  "url": "https://www.recreation.gov/camping/campgrounds/10075120",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10075120",
+  "latitude": 36.0369503297,
+  "longitude": -114.801916601,
+  "sitesReservable": 126,
+  "sitesFirstCome": 9,
+  "totalSites": 135
+ },
+ {
+  "id": "CF03117B-0727-4497-885A-0C81227D2F11",
+  "parkCode": "bicy",
+  "name": "Bear Island Campground",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov",
+  "latitude": 26.1832397477,
+  "longitude": -81.2474752745,
+  "sitesReservable": 40,
+  "sitesFirstCome": 0,
+  "totalSites": 40
  },
  {
   "id": "D3397636-7BAA-419B-A634-9C53D6AD7E55",
@@ -1452,6 +2496,18 @@
   "totalSites": 121
  },
  {
+  "id": "EED1CD77-7B8F-478E-89C3-466C44B2D047",
+  "parkCode": "mnrr",
+  "name": "Bow Creek Primitive Camping",
+  "url": "https://www.nps.gov/mnrr/planyourvisit/campgrounds.htm",
+  "reservationUrl": "",
+  "latitude": 42.7776,
+  "longitude": -97.1481,
+  "sitesReservable": 0,
+  "sitesFirstCome": 5,
+  "totalSites": 5
+ },
+ {
   "id": "D62E0AD6-E402-4D82-B250-236876F667A3",
   "parkCode": "lavo",
   "name": "Manzanita Lake Campground",
@@ -1500,6 +2556,18 @@
   "totalSites": 1
  },
  {
+  "id": "DC29D4FD-0E76-41AF-8A2E-74FA3626C3EF",
+  "parkCode": "dewa",
+  "name": "Dingmans Campground",
+  "url": "https://www.dingmanscampground.com/",
+  "reservationUrl": "",
+  "latitude": 41.2112426601,
+  "longitude": -74.8732561846,
+  "sitesReservable": 136,
+  "sitesFirstCome": 136,
+  "totalSites": 136
+ },
+ {
   "id": "D00BE92E-B246-4C6E-8CDD-77F437678AF2",
   "parkCode": "meve",
   "name": "Morefield Campground",
@@ -1510,6 +2578,18 @@
   "sitesReservable": 267,
   "sitesFirstCome": 267,
   "totalSites": 267
+ },
+ {
+  "id": "B2E3FA84-A72E-4193-95E9-A53557BBDCF5",
+  "parkCode": "cure",
+  "name": "Elk Creek Campground",
+  "url": "https://www.nps.gov/cure/planyourvisit/camp_elk_creek.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/234053",
+  "latitude": 38.46742027831317,
+  "longitude": -107.17206684366982,
+  "sitesReservable": 145,
+  "sitesFirstCome": 0,
+  "totalSites": 155
  },
  {
   "id": "8C42E6D8-1819-46F3-A363-3C8107A1AFAC",
@@ -1548,6 +2628,18 @@
   "totalSites": 9
  },
  {
+  "id": "CDA8256A-9CBB-4965-95FC-E3BDA19D1DF9",
+  "parkCode": "gicl",
+  "name": "Lower Scorpion Campground",
+  "url": "https://www.nps.gov/gicl/planyourvisit/camping.htm",
+  "reservationUrl": "",
+  "latitude": 33.229944,
+  "longitude": -108.25757,
+  "sitesReservable": 0,
+  "sitesFirstCome": 7,
+  "totalSites": 7
+ },
+ {
   "id": "5A3B6615-6E41-47CD-A13A-A717684296E5",
   "parkCode": "grte",
   "name": "Jenny Lake Campground",
@@ -1570,6 +2662,30 @@
   "sitesReservable": 10,
   "sitesFirstCome": 0,
   "totalSites": 10
+ },
+ {
+  "id": "8F3F1AE3-1B25-4E83-9662-C76E3EF0A06A",
+  "parkCode": "pore",
+  "name": "Sky Campground",
+  "url": "https://www.nps.gov/pore/planyourvisit/sky-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/233359",
+  "latitude": 38.039915109550705,
+  "longitude": -122.82882744007327,
+  "sitesReservable": 12,
+  "sitesFirstCome": 0,
+  "totalSites": 12
+ },
+ {
+  "id": "A512F2E3-3925-43C5-9743-6B2A9B782DDA",
+  "parkCode": "laro",
+  "name": "Snag Cove Campground",
+  "url": "https://www.nps.gov/laro/planyourvisit/cg-snagcove.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/275027",
+  "latitude": 48.7337074258,
+  "longitude": -118.060418094,
+  "sitesReservable": 9,
+  "sitesFirstCome": 0,
+  "totalSites": 9
  },
  {
   "id": "13674F30-F2B4-4254-BD42-036039834FA0",
@@ -1608,6 +2724,18 @@
   "totalSites": 202
  },
  {
+  "id": "5D9FE77F-9C30-4B0C-A0F6-CD60E86B38FB",
+  "parkCode": "amis",
+  "name": "Rough Canyon Campground",
+  "url": "https://www.nps.gov/amis/planyourvisit/rough-canyon-campground.htm",
+  "reservationUrl": "",
+  "latitude": 29.573599,
+  "longitude": -100.97746,
+  "sitesReservable": 0,
+  "sitesFirstCome": 4,
+  "totalSites": 4
+ },
+ {
   "id": "2940AF6F-D2F2-4AEE-91E3-1D0DDDA7B84B",
   "parkCode": "bibe",
   "name": "Rio Grande Village Campground",
@@ -1618,6 +2746,18 @@
   "sitesReservable": 93,
   "sitesFirstCome": 0,
   "totalSites": 93
+ },
+ {
+  "id": "8D116916-7528-4629-B983-99F5D19C4668",
+  "parkCode": "sacn",
+  "name": "Middle St. Croix",
+  "url": "https://www.nps.gov/sacn/planyourvisit/middlestcroix.htm",
+  "reservationUrl": "",
+  "latitude": 45.773341,
+  "longitude": -92.781074,
+  "sitesReservable": 0,
+  "sitesFirstCome": 57,
+  "totalSites": 57
  },
  {
   "id": "FCA57A5F-BC58-44D8-83BD-EDC0FC9CCB17",
@@ -1642,6 +2782,30 @@
   "sitesReservable": 8,
   "sitesFirstCome": 0,
   "totalSites": 7
+ },
+ {
+  "id": "454AA69A-21A7-4825-8240-C47CE1422934",
+  "parkCode": "cuis",
+  "name": "Stafford Beach Campground",
+  "url": "https://www.nps.gov/cuis/planyourvisit/staffordbeach.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/253730",
+  "latitude": 30.80667,
+  "longitude": -81.45139,
+  "sitesReservable": 10,
+  "sitesFirstCome": 0,
+  "totalSites": 10
+ },
+ {
+  "id": "8F9F7BD4-CA1C-42DB-948A-B3CABF750037",
+  "parkCode": "piro",
+  "name": "Twelvemile Beach Campground",
+  "url": "https://www.nps.gov/piro/planyourvisit/camping.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/247602",
+  "latitude": 46.6408,
+  "longitude": -86.21583,
+  "sitesReservable": 36,
+  "sitesFirstCome": 0,
+  "totalSites": 36
  },
  {
   "id": "BE18116D-35DF-4187-8B8C-D86810C17899",
@@ -1692,6 +2856,18 @@
   "totalSites": 19
  },
  {
+  "id": "7CB72719-D7D0-49B9-B3AF-D71316CAB9B4",
+  "parkCode": "mnrr",
+  "name": "Green Island Primitive Camping",
+  "url": "https://www.nps.gov/mnrr/planyourvisit/campgrounds.htm",
+  "reservationUrl": "",
+  "latitude": 42.86381530885288,
+  "longitude": -97.4033088680153,
+  "sitesReservable": 0,
+  "sitesFirstCome": 5,
+  "totalSites": 5
+ },
+ {
   "id": "EAA68679-D1DF-4327-AA61-7B1293EA17E5",
   "parkCode": "gumo",
   "name": "Guadalupe Peak Wilderness Campground",
@@ -1714,6 +2890,18 @@
   "sitesReservable": 104,
   "sitesFirstCome": 0,
   "totalSites": 100
+ },
+ {
+  "id": "01F1984D-7345-4D6B-A6C6-D4565B7FBC57",
+  "parkCode": "ozar",
+  "name": "Big Spring Campground",
+  "url": "https://www.nps.gov/ozar/planyourvisit/big-spring-campground-map11.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/234044",
+  "latitude": 36.96099384748342,
+  "longitude": -90.98586951446981,
+  "sitesReservable": 134,
+  "sitesFirstCome": 0,
+  "totalSites": 123
  },
  {
   "id": "D82D2D01-80E6-4394-BEC0-C41ECAC12798",
@@ -1764,6 +2952,18 @@
   "totalSites": 27
  },
  {
+  "id": "7461D94E-67E8-4C2B-BEFF-B93174B8CE06",
+  "parkCode": "lamr",
+  "name": "Blue West Campground",
+  "url": "https://www.nps.gov/lamr/planyourvisit/camping.htm",
+  "reservationUrl": "",
+  "latitude": 35.682455837,
+  "longitude": -101.62856187,
+  "sitesReservable": 0,
+  "sitesFirstCome": 30,
+  "totalSites": 30
+ },
+ {
   "id": "289944B3-8869-44CF-BCAC-192CA620B028",
   "parkCode": "cong",
   "name": "Bluff Campground",
@@ -1774,6 +2974,30 @@
   "sitesReservable": 6,
   "sitesFirstCome": 6,
   "totalSites": 6
+ },
+ {
+  "id": "4EAF0F61-6361-4CAC-BB23-F93C5CF4A8E2",
+  "parkCode": "bica",
+  "name": "Barry's Landing & Trail Creek Campground",
+  "url": "https://www.nps.gov/bica/planyourvisit/trail-creek-campground.htm",
+  "reservationUrl": "http://www.hiddentreasurecharters.com",
+  "latitude": 45.104412827253675,
+  "longitude": -108.22557108416072,
+  "sitesReservable": 1,
+  "sitesFirstCome": 30,
+  "totalSites": 30
+ },
+ {
+  "id": "700E6BD8-F6CA-4A1A-A361-CFEAF028902A",
+  "parkCode": "asis",
+  "name": "Bayside Drive-in Campground",
+  "url": "https://www.nps.gov/asis/planyourvisit/bayside-drive-in-campground-reservation.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232507",
+  "latitude": 38.2077371009,
+  "longitude": -75.1593790995,
+  "sitesReservable": 22,
+  "sitesFirstCome": 0,
+  "totalSites": 22
  },
  {
   "id": "89CB27D1-22A1-437E-9528-3D99DE6A22F0",
@@ -1788,6 +3012,42 @@
   "totalSites": 5
  },
  {
+  "id": "4AFE2D11-908E-489B-B8A0-A2222AE752A3",
+  "parkCode": "chic",
+  "name": "Central Campground",
+  "url": "https://www.nps.gov/chic/planyourvisit/campgrounds.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/234050",
+  "latitude": 34.5037926212,
+  "longitude": -96.9705646015,
+  "sitesReservable": 10,
+  "sitesFirstCome": 0,
+  "totalSites": 0
+ },
+ {
+  "id": "4285489C-2D25-4967-91E7-18597C645A0F",
+  "parkCode": "glca",
+  "name": "Bullfrog RV & Campground",
+  "url": "https://www.lakepowell.com/rv-camping/bullfrog-rv-campground/",
+  "reservationUrl": "http://www.lakepowell.com/rv-camping/bullfrog-rv-campground/",
+  "latitude": 37.5199691547,
+  "longitude": -110.721029501,
+  "sitesReservable": 24,
+  "sitesFirstCome": 75,
+  "totalSites": 98
+ },
+ {
+  "id": "46473049-16E4-4629-A3AD-00E108D06584",
+  "parkCode": "bicy",
+  "name": "Burns Lake",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/246890",
+  "latitude": 25.8931188481,
+  "longitude": -81.2297696752,
+  "sitesReservable": 15,
+  "sitesFirstCome": 0,
+  "totalSites": 0
+ },
+ {
   "id": "711EFDE3-F836-4A4C-B58C-D3E28386BDE4",
   "parkCode": "grsm",
   "name": "Cades Cove Campground",
@@ -1798,6 +3058,18 @@
   "sitesReservable": 164,
   "sitesFirstCome": 0,
   "totalSites": 161
+ },
+ {
+  "id": "726B4856-7914-4952-BF9F-C3D48D0E5712",
+  "parkCode": "lake",
+  "name": "Boulder Beach Group Campground",
+  "url": "https://www.recreation.gov/camping/campgrounds/10048964",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10048964?tab=info",
+  "latitude": 36.037525200483586,
+  "longitude": -114.80257310045306,
+  "sitesReservable": 5,
+  "sitesFirstCome": 0,
+  "totalSites": 5
  },
  {
   "id": "04BD1762-2DB8-47D1-BF95-2AAB3564A4DD",
@@ -1812,6 +3084,18 @@
   "totalSites": 14
  },
  {
+  "id": "522A398C-D05C-4F67-B1E4-E4F8DF7ED18D",
+  "parkCode": "dino",
+  "name": "Deerlodge Park Campground",
+  "url": "https://www.nps.gov/dino/planyourvisit/deerlodgecampground.htm",
+  "reservationUrl": "",
+  "latitude": 40.4464807631,
+  "longitude": -108.513304134,
+  "sitesReservable": 0,
+  "sitesFirstCome": 7,
+  "totalSites": 7
+ },
+ {
   "id": "1A5B19B8-BF1F-4803-8D87-2D4091D59A4D",
   "parkCode": "yell",
   "name": "Bridge Bay Campground",
@@ -1824,6 +3108,18 @@
   "totalSites": 432
  },
  {
+  "id": "D8737D28-750B-4C8D-9E0D-78F327C77CBB",
+  "parkCode": "cure",
+  "name": "Lake Fork Campground",
+  "url": "https://www.nps.gov/cure/planyourvisit/camp_lake_fork.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/234054",
+  "latitude": 38.454825258,
+  "longitude": -107.326981187,
+  "sitesReservable": 57,
+  "sitesFirstCome": 19,
+  "totalSites": 90
+ },
+ {
   "id": "9FF275B6-E645-4860-A614-19463177E32B",
   "parkCode": "noca",
   "name": "Lower Goodell Group Campground",
@@ -1834,6 +3130,42 @@
   "sitesReservable": 2,
   "sitesFirstCome": 2,
   "totalSites": 2
+ },
+ {
+  "id": "476252BB-E411-46A7-BC5C-77CCE0281781",
+  "parkCode": "laro",
+  "name": "Kettle River Campground",
+  "url": "https://www.nps.gov/laro/planyourvisit/cg-kettleriver.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/275028",
+  "latitude": 48.715930874,
+  "longitude": -118.122687333,
+  "sitesReservable": 13,
+  "sitesFirstCome": 0,
+  "totalSites": 13
+ },
+ {
+  "id": "C838D310-D10F-4670-91C8-E375C0F294F4",
+  "parkCode": "lake",
+  "name": "Lake Mead RV Village",
+  "url": "https://lakemeadmohaveadventures.com/lake-mead-rv-village/",
+  "reservationUrl": "https://lakemeadmohaveadventures.com/lake-mead-rv-village/",
+  "latitude": 36.03503,
+  "longitude": -114.800453,
+  "sitesReservable": 115,
+  "sitesFirstCome": 0,
+  "totalSites": 115
+ },
+ {
+  "id": "16DA32CA-C0E9-4AF2-A6BD-39AD52887B80",
+  "parkCode": "sacn",
+  "name": "Lower St. Croix District",
+  "url": "https://www.nps.gov/sacn/planyourvisit/lowerstcroix.htm",
+  "reservationUrl": "",
+  "latitude": 45.253281,
+  "longitude": -92.760328,
+  "sitesReservable": 0,
+  "sitesFirstCome": 19,
+  "totalSites": 19
  },
  {
   "id": "C56C81F5-BF2C-481C-A63E-FFAB374F5664",
@@ -1872,6 +3204,18 @@
   "totalSites": 30
  },
  {
+  "id": "4F9ED6A5-3ED1-443D-9E4C-859D7988F199",
+  "parkCode": "bica",
+  "name": "Afterbay Campground",
+  "url": "https://www.nps.gov/bica/planyourvisit/afterbay-campground.htm",
+  "reservationUrl": "",
+  "latitude": 45.3154409191,
+  "longitude": -107.941548948,
+  "sitesReservable": 22,
+  "sitesFirstCome": 0,
+  "totalSites": 22
+ },
+ {
   "id": "8EB5A87A-535B-4EDE-8475-AC63B225B1A7",
   "parkCode": "grba",
   "name": "Wheeler Peak Campground",
@@ -1882,6 +3226,18 @@
   "sitesReservable": 37,
   "sitesFirstCome": 0,
   "totalSites": 37
+ },
+ {
+  "id": "938474DC-C66E-4577-A107-0628E0C8E4C0",
+  "parkCode": "pore",
+  "name": "Wildcat Campground",
+  "url": "https://www.nps.gov/pore/planyourvisit/wildcat-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/233359",
+  "latitude": 37.9701531068,
+  "longitude": -122.790688226,
+  "sitesReservable": 8,
+  "sitesFirstCome": 0,
+  "totalSites": 8
  },
  {
   "id": "67AC9C0C-E0E8-406F-88D2-EF0BD3FC471D",
@@ -1908,6 +3264,30 @@
   "totalSites": 89
  },
  {
+  "id": "C5E40A77-D82E-4B36-8E69-444ED825F332",
+  "parkCode": "ozar",
+  "name": "Round Spring Campground",
+  "url": "https://www.nps.gov/ozar/planyourvisit/round-spring-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/234045",
+  "latitude": 37.2795173,
+  "longitude": -91.4068743,
+  "sitesReservable": 62,
+  "sitesFirstCome": 0,
+  "totalSites": 55
+ },
+ {
+  "id": "225E6D27-6AA8-42EE-AE4E-E6C85DE8A8C9",
+  "parkCode": "amis",
+  "name": "San Pedro Campground",
+  "url": "https://www.nps.gov/amis/planyourvisit/san-pedro-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10182617",
+  "latitude": 29.4676822985,
+  "longitude": -100.951974351,
+  "sitesReservable": 1,
+  "sitesFirstCome": 40,
+  "totalSites": 41
+ },
+ {
   "id": "1FCF67D3-6986-494F-8031-CE45E1B33796",
   "parkCode": "dena",
   "name": "Sanctuary River",
@@ -1918,6 +3298,18 @@
   "sitesReservable": 5,
   "sitesFirstCome": 2,
   "totalSites": 7
+ },
+ {
+  "id": "0B61F802-F8D6-46D0-9A2C-708177036C95",
+  "parkCode": "dewa",
+  "name": "Rivers Bend Group Campground",
+  "url": "https://www.nps.gov/dewa/planyourvisit/group-camping.htm",
+  "reservationUrl": "https://www.recreation.gov/search?q=Delaware%20Water%20Gap%20National%20Recreation%20Area&entity_id=2663&entity_type=recarea",
+  "latitude": 41.0964770657,
+  "longitude": -74.9654114157,
+  "sitesReservable": 5,
+  "sitesFirstCome": 0,
+  "totalSites": 5
  },
  {
   "id": "0A45C29D-7CE3-455D-BA28-1C982B68F5A6",
@@ -1944,6 +3336,42 @@
   "totalSites": 81
  },
  {
+  "id": "B9B39C25-D4C1-47AE-B02A-AC0E6CB93DCB",
+  "parkCode": "asis",
+  "name": "Oceanside Walk-in campground",
+  "url": "https://www.nps.gov/asis/planyourvisit/oceanside-walk-in-campground-reservation.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232507",
+  "latitude": 38.1948063,
+  "longitude": -75.1564668,
+  "sitesReservable": 21,
+  "sitesFirstCome": 0,
+  "totalSites": 62
+ },
+ {
+  "id": "AF84F9D4-0115-4F06-9D20-8108F2CF44E2",
+  "parkCode": "calo",
+  "name": "South Core Banks -- Beach camping",
+  "url": "https://go.nps.gov/x2s8yq",
+  "reservationUrl": "",
+  "latitude": 34.76055561111111,
+  "longitude": -76.41222219444445,
+  "sitesReservable": 0,
+  "sitesFirstCome": 0,
+  "totalSites": 0
+ },
+ {
+  "id": "103C0AB5-429C-4AF9-AEC1-B645228FD967",
+  "parkCode": "cure",
+  "name": "Stevens Creek Campground",
+  "url": "https://www.nps.gov/cure/planyourvisit/camp_stevens_creek.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/234055",
+  "latitude": 38.48692337591971,
+  "longitude": -107.09112479896771,
+  "sitesReservable": 0,
+  "sitesFirstCome": 54,
+  "totalSites": 53
+ },
+ {
   "id": "E641DC39-3D00-4AFB-8E7E-EFDFE9433AB5",
   "parkCode": "lavo",
   "name": "Summit Lake North Campground",
@@ -1968,6 +3396,54 @@
   "totalSites": 98
  },
  {
+  "id": "EDF9CACD-CA15-478C-830B-581FB3A18BDE",
+  "parkCode": "bicy",
+  "name": "Gator Head",
+  "url": "",
+  "reservationUrl": "",
+  "latitude": 26.2238175004,
+  "longitude": -81.2677556997,
+  "sitesReservable": 0,
+  "sitesFirstCome": 9,
+  "totalSites": 9
+ },
+ {
+  "id": "09141625-F881-4441-AF5E-B0FAA9887D4F",
+  "parkCode": "mnrr",
+  "name": "Goat Island Primitive Camping",
+  "url": "https://www.nps.gov/mnrr/planyourvisit/campgrounds.htm",
+  "reservationUrl": "",
+  "latitude": 42.765746,
+  "longitude": -97.066858,
+  "sitesReservable": 0,
+  "sitesFirstCome": 2,
+  "totalSites": 2
+ },
+ {
+  "id": "2279D883-668A-490A-A794-2060011B8960",
+  "parkCode": "glca",
+  "name": "Halls Crossing RV & Campground",
+  "url": "https://www.lakepowell.com/rv-camping/halls-crossing-rv-campground/",
+  "reservationUrl": "https://www.lakepowell.com/rv-camping/halls-crossing-rv-campground/",
+  "latitude": 37.4577993989289,
+  "longitude": -110.71820138480479,
+  "sitesReservable": 24,
+  "sitesFirstCome": 41,
+  "totalSites": 72
+ },
+ {
+  "id": "06069540-A17B-448D-BFE2-4F84CF26ABC1",
+  "parkCode": "piro",
+  "name": "Hurricane River Campground",
+  "url": "https://www.nps.gov/piro/planyourvisit/camping.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/247603",
+  "latitude": 46.663953,
+  "longitude": -86.1661587,
+  "sitesReservable": 21,
+  "sitesFirstCome": 0,
+  "totalSites": 21
+ },
+ {
   "id": "33204668-CC4F-4F22-8041-CE65C86B47F7",
   "parkCode": "isro",
   "name": "Birch Island Campground",
@@ -1990,6 +3466,30 @@
   "sitesReservable": 40,
   "sitesFirstCome": 0,
   "totalSites": 40
+ },
+ {
+  "id": "3E73BA85-7545-4A30-9ACD-A9E3C073DB2A",
+  "parkCode": "lamr",
+  "name": "Chimney Hollow Campground",
+  "url": "",
+  "reservationUrl": "",
+  "latitude": 35.6918602438,
+  "longitude": -101.642234024,
+  "sitesReservable": 0,
+  "sitesFirstCome": 0,
+  "totalSites": 15
+ },
+ {
+  "id": "9607DA82-8507-4D92-A3DB-5FE81E4CD5C8",
+  "parkCode": "chic",
+  "name": "Buckhorn Campground Loop A",
+  "url": "https://www.nps.gov/chic/planyourvisit/campgrounds.htm",
+  "reservationUrl": "",
+  "latitude": 34.4296702009,
+  "longitude": -96.9881113868,
+  "sitesReservable": 0,
+  "sitesFirstCome": 19,
+  "totalSites": 19
  },
  {
   "id": "FB7ECE1E-C9F6-4841-B52A-071DFBD4FAFC",
@@ -2023,6 +3523,18 @@
   "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232499",
   "latitude": 34.0110749692465,
   "longitude": -119.66034053976585,
+  "sitesReservable": 4,
+  "sitesFirstCome": 0,
+  "totalSites": 4
+ },
+ {
+  "id": "CD6FC82F-A9B7-46EA-A6A4-2FD69E7E017D",
+  "parkCode": "cuis",
+  "name": "Hickory Hill Wilderness Campsite",
+  "url": "https://www.nps.gov/cuis/planyourvisit/hickoryhill.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/253730",
+  "latitude": 30.8327,
+  "longitude": -81.4514,
   "sitesReservable": 4,
   "sitesFirstCome": 0,
   "totalSites": 4
@@ -2064,6 +3576,18 @@
   "totalSites": 74
  },
  {
+  "id": "14A6565A-E77A-45D7-9F6D-67BF3FEA2251",
+  "parkCode": "kaww",
+  "name": "Lunksoos Campsites",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10145539",
+  "latitude": 45.908436,
+  "longitude": -68.613925,
+  "sitesReservable": 7,
+  "sitesFirstCome": 0,
+  "totalSites": 7
+ },
+ {
   "id": "BFBDA380-305A-4821-BB62-C72A939C78FC",
   "parkCode": "shen",
   "name": "Loft Mountain Campground",
@@ -2074,6 +3598,30 @@
   "sitesReservable": 141,
   "sitesFirstCome": 50,
   "totalSites": 207
+ },
+ {
+  "id": "2358E196-5E36-4A03-842F-C2C6FE81EFFD",
+  "parkCode": "lake",
+  "name": "Las Vegas Bay Campground",
+  "url": "https://www.recreation.gov/camping/campgrounds/10082283",
+  "reservationUrl": "",
+  "latitude": 36.127844586013985,
+  "longitude": -114.87256967198311,
+  "sitesReservable": 0,
+  "sitesFirstCome": 84,
+  "totalSites": 85
+ },
+ {
+  "id": "047E1B9A-FF2B-4BD0-B98A-65ED0857639C",
+  "parkCode": "glca",
+  "name": "Lees Ferry Campground",
+  "url": "https://www.nps.gov/glca/planyourvisit/lees-ferry.htm",
+  "reservationUrl": "https://www.pay.gov/public/form/start/1578620920",
+  "latitude": 36.859347016972556,
+  "longitude": -111.60627470521104,
+  "sitesReservable": 0,
+  "sitesFirstCome": 54,
+  "totalSites": 54
  },
  {
   "id": "77017AF3-91BF-4166-BE1E-F17D903294ED",
@@ -2100,6 +3648,30 @@
   "totalSites": 15
  },
  {
+  "id": "023C3AE0-CA2D-42B0-8F0A-A3106336BFAA",
+  "parkCode": "dewa",
+  "name": "Valley View Group Campground",
+  "url": "https://www.nps.gov/dewa/planyourvisit/group-camping.htm",
+  "reservationUrl": "https://www.recreation.gov/search?q=Delaware%20Water%20Gap%20National%20Recreation%20Area&entity_id=2663&entity_type=recarea",
+  "latitude": 41.1154464833,
+  "longitude": -74.9645601568,
+  "sitesReservable": 5,
+  "sitesFirstCome": 0,
+  "totalSites": 5
+ },
+ {
+  "id": "81DE0EE8-2328-4F98-A59D-CF41B00BC6BD",
+  "parkCode": "ozar",
+  "name": "Pulltite Campground",
+  "url": "https://www.nps.gov/ozar/planyourvisit/pulltite-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/234357",
+  "latitude": 37.33436009004692,
+  "longitude": -91.47824618603327,
+  "sitesReservable": 58,
+  "sitesFirstCome": 0,
+  "totalSites": 55
+ },
+ {
   "id": "6134A1E6-4A8B-473E-9FA5-7DAEEAA3FD14",
   "parkCode": "bibe",
   "name": "Rio Grande Village RV",
@@ -2112,6 +3684,18 @@
   "totalSites": 25
  },
  {
+  "id": "0CBEC1FE-AEED-4AA7-BE9F-7A25E9EB602B",
+  "parkCode": "piro",
+  "name": "Masse Homestead Group Backpacking Site",
+  "url": "https://www.nps.gov/piro/planyourvisit/backcountry.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/256367",
+  "latitude": 46.6468043665,
+  "longitude": -86.0956764204,
+  "sitesReservable": 1,
+  "sitesFirstCome": 0,
+  "totalSites": 1
+ },
+ {
   "id": "D322E1E9-8058-4C42-80A3-9FBC82583190",
   "parkCode": "romo",
   "name": "Moraine Park Campground",
@@ -2122,6 +3706,42 @@
   "sitesReservable": 244,
   "sitesFirstCome": 0,
   "totalSites": 244
+ },
+ {
+  "id": "4C753B83-8E55-4969-A918-7CF37BEBEF34",
+  "parkCode": "bicy",
+  "name": "Midway Campground",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/246892",
+  "latitude": 25.851926,
+  "longitude": -80.989444,
+  "sitesReservable": 36,
+  "sitesFirstCome": 0,
+  "totalSites": 36
+ },
+ {
+  "id": "27416013-2F23-4D0A-86FA-42FC24D7A03E",
+  "parkCode": "asis",
+  "name": "Oceanside Group Campground",
+  "url": "https://www.nps.gov/asis/planyourvisit/oceanside-group-campground-reservation.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232507",
+  "latitude": 38.20377,
+  "longitude": -75.1524,
+  "sitesReservable": 5,
+  "sitesFirstCome": 0,
+  "totalSites": 5
+ },
+ {
+  "id": "BB3E9361-0E41-4CF7-ADCC-AA19234877FD",
+  "parkCode": "amis",
+  "name": "Spur 406 Campground",
+  "url": "https://www.nps.gov/amis/planyourvisit/spur-406-campground.htm",
+  "reservationUrl": "",
+  "latitude": 29.5503255208,
+  "longitude": -101.019765629,
+  "sitesReservable": 0,
+  "sitesFirstCome": 6,
+  "totalSites": 6
  },
  {
   "id": "D7B03A9E-7B8F-4515-9F1A-B315CB260FC5",
@@ -2148,6 +3768,18 @@
   "totalSites": 53
  },
  {
+  "id": "C37B6AA5-24C5-4982-9058-8BBEA3E07DE3",
+  "parkCode": "dino",
+  "name": "Gates of Lodore Campground",
+  "url": "https://www.nps.gov/dino/planyourvisit/gatesoflodorecampground.htm",
+  "reservationUrl": "",
+  "latitude": 40.7249234842,
+  "longitude": -108.887824372,
+  "sitesReservable": 0,
+  "sitesFirstCome": 19,
+  "totalSites": 19
+ },
+ {
   "id": "43B0C61B-D068-48EB-9AD9-F06A0DE250BE",
   "parkCode": "noca",
   "name": "Gorge Lake Campground",
@@ -2160,6 +3792,30 @@
   "totalSites": 8
  },
  {
+  "id": "59EF188B-482C-4E9F-BD9B-414411DB6727",
+  "parkCode": "bica",
+  "name": "Grapevine Campground",
+  "url": "https://www.nps.gov/bica/planyourvisit/grapevine-campground.htm",
+  "reservationUrl": "",
+  "latitude": 45.3178530044,
+  "longitude": -107.940162692,
+  "sitesReservable": 12,
+  "sitesFirstCome": 0,
+  "totalSites": 14
+ },
+ {
+  "id": "95C99A7D-D423-4F04-967D-B22EEC464C56",
+  "parkCode": "lamr",
+  "name": "Harbor Bay Campground",
+  "url": "https://www.nps.gov/lamr/planyourvisit/camping.htm",
+  "reservationUrl": "",
+  "latitude": 35.64785605441618,
+  "longitude": -101.62898319764503,
+  "sitesReservable": 0,
+  "sitesFirstCome": 25,
+  "totalSites": 25
+ },
+ {
   "id": "BC707FA3-F575-4734-8E62-34689982F615",
   "parkCode": "seki",
   "name": "Atwell Mill Campground",
@@ -2170,6 +3826,30 @@
   "sitesReservable": 21,
   "sitesFirstCome": 0,
   "totalSites": 21
+ },
+ {
+  "id": "6EBE4D11-5079-45B7-BDA5-84280A8EE7DF",
+  "parkCode": "pore",
+  "name": "Coast Campground",
+  "url": "https://www.nps.gov/pore/planyourvisit/coast-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/233359",
+  "latitude": 38.0171728058,
+  "longitude": -122.854375341,
+  "sitesReservable": 14,
+  "sitesFirstCome": 0,
+  "totalSites": 14
+ },
+ {
+  "id": "70748762-AEEB-4057-82DD-B0509183305A",
+  "parkCode": "chic",
+  "name": "Cold Springs Campground",
+  "url": "https://www.nps.gov/chic/planyourvisit/campgrounds.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/234049",
+  "latitude": 34.5022721776,
+  "longitude": -96.9559082833,
+  "sitesReservable": 65,
+  "sitesFirstCome": 0,
+  "totalSites": 65
  },
  {
   "id": "35B51EB0-EB3E-4C41-9753-2C97CFDDAD93",
@@ -2232,6 +3912,18 @@
   "totalSites": 7
  },
  {
+  "id": "41D2DEC1-F454-45FD-9239-B0E91C665BE7",
+  "parkCode": "laro",
+  "name": "Evans Campground",
+  "url": "https://www.nps.gov/laro/planyourvisit/cg-evans.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10064643",
+  "latitude": 48.69881814753475,
+  "longitude": -118.01765146049189,
+  "sitesReservable": 43,
+  "sitesFirstCome": 0,
+  "totalSites": 43
+ },
+ {
   "id": "C1388F86-68A9-4C1C-85C2-193CD4BD3EE1",
   "parkCode": "acad",
   "name": "Duck Harbor Campground",
@@ -2242,6 +3934,30 @@
   "sitesReservable": 5,
   "sitesFirstCome": 0,
   "totalSites": 5
+ },
+ {
+  "id": "CCDC908D-4B98-46C9-83BB-AFE6EF2E9869",
+  "parkCode": "cuis",
+  "name": "Yankee Paradise Wilderness Campsite",
+  "url": "https://www.nps.gov/cuis/planyourvisit/yankeeparadise.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/253730",
+  "latitude": 30.8492,
+  "longitude": -81.4478,
+  "sitesReservable": 4,
+  "sitesFirstCome": 0,
+  "totalSites": 4
+ },
+ {
+  "id": "B6981A2D-2C0B-47DF-B7F8-67A25A35D24A",
+  "parkCode": "cure",
+  "name": "Cimarron Campground",
+  "url": "https://www.nps.gov/cure/planyourvisit/camp_cimarron.htm",
+  "reservationUrl": "",
+  "latitude": 38.4443044382,
+  "longitude": -107.555542862,
+  "sitesReservable": 0,
+  "sitesFirstCome": 0,
+  "totalSites": 21
  },
  {
   "id": "E8EB610A-8BBA-490F-BC39-CBCB28909F20",
@@ -2278,6 +3994,30 @@
   "sitesReservable": 0,
   "sitesFirstCome": 26,
   "totalSites": 26
+ },
+ {
+  "id": "BF0E7B53-5990-4465-8242-172A24A0083A",
+  "parkCode": "glca",
+  "name": "Lone Rock Beach Primitive Camping Area",
+  "url": "https://www.nps.gov/glca/planyourvisit/lone-rock-beach.htm",
+  "reservationUrl": "https://www.pay.gov/public/form/start/1578620920",
+  "latitude": 37.01615993404822,
+  "longitude": -111.54034656777577,
+  "sitesReservable": 0,
+  "sitesFirstCome": 0,
+  "totalSites": 0
+ },
+ {
+  "id": "EA81BC45-C361-437F-89B8-5C89FB0D0F86",
+  "parkCode": "amis",
+  "name": "277 North Campground",
+  "url": "https://www.nps.gov/amis/planyourvisit/277-north-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10182621",
+  "latitude": 29.512373695509215,
+  "longitude": -100.90816633365614,
+  "sitesReservable": 1,
+  "sitesFirstCome": 17,
+  "totalSites": 18
  },
  {
   "id": "1241C56B-7003-4FDF-A449-29DA8BCB0A41",
@@ -2328,6 +4068,78 @@
   "totalSites": 1
  },
  {
+  "id": "0F440585-6E8F-4D63-AC22-92312953FB5E",
+  "parkCode": "cure",
+  "name": "Ponderosa Campground",
+  "url": "https://www.nps.gov/cure/planyourvisit/camp_ponderosa.htm",
+  "reservationUrl": "",
+  "latitude": 38.5257080484,
+  "longitude": -107.314899399,
+  "sitesReservable": 0,
+  "sitesFirstCome": 0,
+  "totalSites": 28
+ },
+ {
+  "id": "60569FBD-2B27-45BD-9FF7-68722E5BF02D",
+  "parkCode": "bicy",
+  "name": "Mitchell's Landing",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov",
+  "latitude": 25.7564496486,
+  "longitude": -80.9305981756,
+  "sitesReservable": 11,
+  "sitesFirstCome": 0,
+  "totalSites": 11
+ },
+ {
+  "id": "D7BA07C5-8453-4E03-A178-2C20AB591360",
+  "parkCode": "dewa",
+  "name": "Mohican Outdoor Center",
+  "url": "https://www.outdoors.org/lodging-camping/lodges/mohican",
+  "reservationUrl": "https://reservations.outdoors.org/",
+  "latitude": 41.0350110352,
+  "longitude": -75.0015694557,
+  "sitesReservable": 8,
+  "sitesFirstCome": 7,
+  "totalSites": 16
+ },
+ {
+  "id": "59D597C2-D37E-41A8-AEBA-FA0D219280D4",
+  "parkCode": "bica",
+  "name": "Medicine Creek Campground",
+  "url": "https://www.nps.gov/bica/planyourvisit/medicine-creek.htm",
+  "reservationUrl": "",
+  "latitude": 45.110180659,
+  "longitude": -108.204311582,
+  "sitesReservable": 0,
+  "sitesFirstCome": 8,
+  "totalSites": 5
+ },
+ {
+  "id": "0EDCA7B8-76C4-4D1B-8B8A-F9549DCC256D",
+  "parkCode": "ozar",
+  "name": "Two Rivers Campground",
+  "url": "https://www.nps.gov/ozar/planyourvisit/two-rivers-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/234441",
+  "latitude": 37.189929,
+  "longitude": -91.276297,
+  "sitesReservable": 22,
+  "sitesFirstCome": 0,
+  "totalSites": 22
+ },
+ {
+  "id": "EFA96348-96DA-4AC5-AED7-78C4F84C6512",
+  "parkCode": "kaww",
+  "name": "Upper East Branch Campsite",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10145539",
+  "latitude": 46.11382000143561,
+  "longitude": -68.79790999991025,
+  "sitesReservable": 1,
+  "sitesFirstCome": 0,
+  "totalSites": 1
+ },
+ {
   "id": "2FBEED6C-9CD6-4DBE-A532-5F73F4B4A361",
   "parkCode": "lavo",
   "name": "Southwest Campground - Summer/Fall",
@@ -2338,6 +4150,30 @@
   "sitesReservable": 0,
   "sitesFirstCome": 25,
   "totalSites": 35
+ },
+ {
+  "id": "18007353-02EB-4352-A8A3-08E39A1A5D8F",
+  "parkCode": "pore",
+  "name": "Tomales Bay Boat-in Camping",
+  "url": "https://www.nps.gov/pore/planyourvisit/kayak_libc.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/233359",
+  "latitude": 38.163318,
+  "longitude": -122.915392,
+  "sitesReservable": 20,
+  "sitesFirstCome": 0,
+  "totalSites": 20
+ },
+ {
+  "id": "EC2CFFFC-1EF2-4D95-B812-699AEB0DBEF5",
+  "parkCode": "chic",
+  "name": "The Point Campground",
+  "url": "https://www.nps.gov/chic/planyourvisit/campgrounds.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/234048",
+  "latitude": 34.4595143568,
+  "longitude": -97.019805817,
+  "sitesReservable": 17,
+  "sitesFirstCome": 38,
+  "totalSites": 55
  },
  {
   "id": "A198B338-B372-4396-A4FD-74C3262957BD",
@@ -2376,6 +4212,30 @@
   "totalSites": 10
  },
  {
+  "id": "27EBFE30-BE1A-4511-9244-CF83F67E3085",
+  "parkCode": "asis",
+  "name": "Horse camping",
+  "url": "https://www.nps.gov/asis/planyourvisit/horse-campground-reservation.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232507",
+  "latitude": 38.1928210009,
+  "longitude": -75.1574710006,
+  "sitesReservable": 2,
+  "sitesFirstCome": 0,
+  "totalSites": 2
+ },
+ {
+  "id": "18436909-D300-44A7-BD73-553AF16E576E",
+  "parkCode": "piro",
+  "name": "Au Sable East Group Backpacking Site",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/256367",
+  "latitude": 46.670375,
+  "longitude": -86.13682,
+  "sitesReservable": 1,
+  "sitesFirstCome": 0,
+  "totalSites": 1
+ },
+ {
   "id": "1410EA4F-FA47-40E0-9C51-B7C012EFD228",
   "parkCode": "noca",
   "name": "Colonial Creek North Campground",
@@ -2386,6 +4246,30 @@
   "sitesReservable": 31,
   "sitesFirstCome": 0,
   "totalSites": 38
+ },
+ {
+  "id": "34A6DDB4-815E-484B-A366-6DB3024920B3",
+  "parkCode": "lake",
+  "name": "Callville Bay Campground",
+  "url": "https://www.recreation.gov/camping/campgrounds/10068459",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10068459",
+  "latitude": 36.1378088552,
+  "longitude": -114.728612162,
+  "sitesReservable": 0,
+  "sitesFirstCome": 52,
+  "totalSites": 52
+ },
+ {
+  "id": "DF24E937-0AA1-4E65-84A8-3F2458EFD1C5",
+  "parkCode": "lamr",
+  "name": "Cedar Canyon Campground",
+  "url": "https://www.nps.gov/lamr/planyourvisit/camping.htm",
+  "reservationUrl": "",
+  "latitude": 35.79584,
+  "longitude": -101.24451,
+  "sitesReservable": 0,
+  "sitesFirstCome": 15,
+  "totalSites": 15
  },
  {
   "id": "6BCF7F8D-71B1-4B29-A925-5DCFDD0CB38E",
@@ -2412,6 +4296,18 @@
   "totalSites": 112
  },
  {
+  "id": "1036CB25-3FAD-48EA-A264-E197016C6D77",
+  "parkCode": "laro",
+  "name": "Evans Group Site",
+  "url": "https://www.nps.gov/laro/planyourvisit/cg-group-evans.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/234065",
+  "latitude": 48.701517,
+  "longitude": -118.018959,
+  "sitesReservable": 1,
+  "sitesFirstCome": 0,
+  "totalSites": 1
+ },
+ {
   "id": "4C757AF8-2F39-49A8-A624-F63EB7F5BA90",
   "parkCode": "isro",
   "name": "East Chickenbone Campground",
@@ -2421,6 +4317,18 @@
   "longitude": -88.69425862129464,
   "sitesReservable": 1,
   "sitesFirstCome": 3,
+  "totalSites": 4
+ },
+ {
+  "id": "530F6E66-6603-41A9-AC88-6E8750923E1A",
+  "parkCode": "cuis",
+  "name": "Brickhill Bluff Wilderness Campsite",
+  "url": "https://www.nps.gov/cuis/planyourvisit/brickhillbluff.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/253730",
+  "latitude": 30.8945,
+  "longitude": -81.444,
+  "sitesReservable": 4,
+  "sitesFirstCome": 0,
   "totalSites": 4
  },
  {
@@ -2448,6 +4356,30 @@
   "totalSites": 16
  },
  {
+  "id": "BE7AB8F1-8ED2-40DA-A2DB-B4C7F7EC3531",
+  "parkCode": "laro",
+  "name": "Kamloops Island Campground",
+  "url": "https://www.nps.gov/laro/planyourvisit/cg-kamloopsisland.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/275029",
+  "latitude": 48.6783241502,
+  "longitude": -118.117008794,
+  "sitesReservable": 17,
+  "sitesFirstCome": 0,
+  "totalSites": 17
+ },
+ {
+  "id": "9FAE941D-D7E8-4F36-A28F-8556628242BA",
+  "parkCode": "ozar",
+  "name": "Akers Group Campground",
+  "url": "https://www.nps.gov/ozar/planyourvisit/akers-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/234442",
+  "latitude": 37.3764551871,
+  "longitude": -91.5615463252,
+  "sitesReservable": 4,
+  "sitesFirstCome": 0,
+  "totalSites": 4
+ },
+ {
   "id": "A0363A97-D1E8-46F8-A75E-3DF8BC93DC39",
   "parkCode": "isro",
   "name": "West Chickenbone Campground",
@@ -2472,6 +4404,30 @@
   "totalSites": 28
  },
  {
+  "id": "BF1E54D4-20CA-48F4-85ED-DBE673A14696",
+  "parkCode": "dewa",
+  "name": "Worthington State Forest Campground",
+  "url": "https://nj.gov/dep/parksandforests/parks/worthingtonstateforest.html",
+  "reservationUrl": "https://www.njportal.com/DEP/NJOutdoors/Park/Details?locationId=20",
+  "latitude": 41.012967211,
+  "longitude": -75.084841158,
+  "sitesReservable": 78,
+  "sitesFirstCome": 0,
+  "totalSites": 0
+ },
+ {
+  "id": "C72EDEA2-FA0E-422B-A32A-440F6C48937B",
+  "parkCode": "piro",
+  "name": "Sevenmile Creek Group Backpacking Site",
+  "url": "https://www.nps.gov/piro/planyourvisit/backcountry.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/256367",
+  "latitude": 46.61946398113322,
+  "longitude": -86.25810096766202,
+  "sitesReservable": 1,
+  "sitesFirstCome": 0,
+  "totalSites": 1
+ },
+ {
   "id": "02998E8A-00C5-4873-A437-A0DD07B4F758",
   "parkCode": "chis",
   "name": "San Miguel Island Campground",
@@ -2482,6 +4438,30 @@
   "sitesReservable": 9,
   "sitesFirstCome": 0,
   "totalSites": 9
+ },
+ {
+  "id": "91B3E7C5-3AEE-44DF-B806-3A9468D334C9",
+  "parkCode": "lamr",
+  "name": "McBride Canyon and Mullinaw Creek Campgrounds",
+  "url": "https://www.nps.gov/lamr/planyourvisit/camping.htm",
+  "reservationUrl": "",
+  "latitude": 35.529449,
+  "longitude": -101.759431,
+  "sitesReservable": 0,
+  "sitesFirstCome": 40,
+  "totalSites": 40
+ },
+ {
+  "id": "AC717D5E-F55A-4539-AC8E-4B4C5009ABBB",
+  "parkCode": "bicy",
+  "name": "Monument Lake",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/246894",
+  "latitude": 25.8684663478,
+  "longitude": -81.1131314755,
+  "sitesReservable": 36,
+  "sitesFirstCome": 0,
+  "totalSites": 36
  },
  {
   "id": "5CE6E59D-5DC8-4ED7-8789-764BADBB5994",
@@ -2520,6 +4500,30 @@
   "totalSites": 12
  },
  {
+  "id": "B4603AC8-E7B9-46B2-B717-A8C8183562F8",
+  "parkCode": "kaww",
+  "name": "Stair Falls Campsite",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10145539",
+  "latitude": 46.0872700635,
+  "longitude": -68.7779047174,
+  "sitesReservable": 1,
+  "sitesFirstCome": 0,
+  "totalSites": 1
+ },
+ {
+  "id": "694F54CD-F504-4E78-AE02-27FB53F2A48E",
+  "parkCode": "glca",
+  "name": "Stanton Creek Primitive Camping Area",
+  "url": "https://www.nps.gov/glca/planyourvisit/stanton-creek-primitive-area.htm",
+  "reservationUrl": "https://www.pay.gov/public/form/start/1578620920",
+  "latitude": 37.498985,
+  "longitude": -110.699117,
+  "sitesReservable": 0,
+  "sitesFirstCome": 0,
+  "totalSites": 0
+ },
+ {
   "id": "793AAB2C-885E-44F7-A0A1-D64B37291338",
   "parkCode": "yose",
   "name": "Tuolumne Meadows Campground",
@@ -2530,6 +4534,54 @@
   "sitesReservable": 289,
   "sitesFirstCome": 0,
   "totalSites": 289
+ },
+ {
+  "id": "19323FC8-387C-4F88-870A-BDE13D3E5447",
+  "parkCode": "calo",
+  "name": "Great Island Cabin Camp",
+  "url": "https://www.nps.gov/calo/planyourvisit/lodging.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/233332",
+  "latitude": 34.76055561111111,
+  "longitude": -76.41222219444445,
+  "sitesReservable": 23,
+  "sitesFirstCome": 0,
+  "totalSites": 23
+ },
+ {
+  "id": "D9E5422D-1BC9-436A-9695-857D7CE64FD5",
+  "parkCode": "chic",
+  "name": "Guy Sandy Campground",
+  "url": "https://www.nps.gov/chic/planyourvisit/campgrounds.htm",
+  "reservationUrl": "",
+  "latitude": 34.4561844865,
+  "longitude": -97.0523038042,
+  "sitesReservable": 0,
+  "sitesFirstCome": 40,
+  "totalSites": 40
+ },
+ {
+  "id": "A1C3F421-F571-4448-B105-EA5DE06AB1AB",
+  "parkCode": "bica",
+  "name": "Black Canyon Campground",
+  "url": "https://www.nps.gov/bica/planyourvisit/black-canyon.htm",
+  "reservationUrl": "",
+  "latitude": 45.250918029250876,
+  "longitude": -107.96260372066132,
+  "sitesReservable": 0,
+  "sitesFirstCome": 17,
+  "totalSites": 17
+ },
+ {
+  "id": "BEAF9758-4BAB-4FE7-A6C0-7336362BDE42",
+  "parkCode": "asis",
+  "name": "Back Country Camping - Pine Tree",
+  "url": "https://www.nps.gov/asis/planyourvisit/backcountry-camping.htm",
+  "reservationUrl": "",
+  "latitude": 38.1432380999,
+  "longitude": -75.1883865005,
+  "sitesReservable": 0,
+  "sitesFirstCome": 1,
+  "totalSites": 1
  },
  {
   "id": "559F6C6D-8688-4269-9578-86DE30B01674",
@@ -2556,6 +4608,18 @@
   "totalSites": 93
  },
  {
+  "id": "8131F253-D893-42FA-A162-4CDE07363AD5",
+  "parkCode": "lake",
+  "name": "Callville Bay RV Park",
+  "url": "https://callvillebay.com/lodging-rv-camp/",
+  "reservationUrl": "",
+  "latitude": 36.143263,
+  "longitude": -114.725594,
+  "sitesReservable": 0,
+  "sitesFirstCome": 0,
+  "totalSites": 5
+ },
+ {
   "id": "DF1FBE98-BC80-4770-84A3-F207D1F8A27A",
   "parkCode": "grte",
   "name": "Colter Bay Tent Village",
@@ -2566,6 +4630,18 @@
   "sitesReservable": 66,
   "sitesFirstCome": 0,
   "totalSites": 66
+ },
+ {
+  "id": "1D41C0D1-7DA9-44AE-8692-12A63255B0D6",
+  "parkCode": "cure",
+  "name": "Dry Gulch Campground",
+  "url": "https://www.nps.gov/cure/planyourvisit/camp_dry_gulch.htm",
+  "reservationUrl": "",
+  "latitude": 38.4841144832,
+  "longitude": -107.188437346,
+  "sitesReservable": 0,
+  "sitesFirstCome": 0,
+  "totalSites": 9
  },
  {
   "id": "8E2A7F5B-FD6E-4367-B2E8-CA5C41758EED",
@@ -2616,6 +4692,30 @@
   "totalSites": 9
  },
  {
+  "id": "2CDFC89A-7CC5-4601-97BF-E8F86EB9E3C1",
+  "parkCode": "lake",
+  "name": "Willow Beach Campground",
+  "url": "https://willowbeachharbor.com/willow-beach-campground-and-rv-park/",
+  "reservationUrl": "",
+  "latitude": 35.87336335565259,
+  "longitude": -114.65216334308997,
+  "sitesReservable": 0,
+  "sitesFirstCome": 0,
+  "totalSites": 9
+ },
+ {
+  "id": "188B6F61-E7A3-4A44-AF27-EE0F6E1CE2D7",
+  "parkCode": "amis",
+  "name": "Rock Quarry Group Campsite",
+  "url": "https://www.nps.gov/amis/planyourvisit/rock-quarry-group-campsite.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10182619?tab=seasons",
+  "latitude": 29.494070500881776,
+  "longitude": -101.03871297244228,
+  "sitesReservable": 1,
+  "sitesFirstCome": 0,
+  "totalSites": 1
+ },
+ {
   "id": "9AF9B28F-F268-4833-9DB5-C7657918720B",
   "parkCode": "chis",
   "name": "Santa Barbara Island Campground",
@@ -2628,6 +4728,114 @@
   "totalSites": 10
  },
  {
+  "id": "F8CE676C-E77D-4E75-980C-DE468E740CD0",
+  "parkCode": "dewa",
+  "name": "River Camping",
+  "url": "https://www.nps.gov/dewa/planyourvisit/river-camping.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10174884",
+  "latitude": 41.0705897437,
+  "longitude": -75.0169594403,
+  "sitesReservable": 62,
+  "sitesFirstCome": 0,
+  "totalSites": 62
+ },
+ {
+  "id": "49F2E692-7A04-488E-BEED-C4C0E195B1E2",
+  "parkCode": "lamr",
+  "name": "Plum Creek Campgrounds",
+  "url": "https://www.nps.gov/lamr/planyourvisit/camping.htm",
+  "reservationUrl": "",
+  "latitude": 35.516667,
+  "longitude": -102.78332999999998,
+  "sitesReservable": 0,
+  "sitesFirstCome": 45,
+  "totalSites": 45
+ },
+ {
+  "id": "63A57214-A247-405D-ACBD-254D56A1FDE7",
+  "parkCode": "bicy",
+  "name": "Pinecrest",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/246895",
+  "latitude": 25.7612069517,
+  "longitude": -80.9181580247,
+  "sitesReservable": 4,
+  "sitesFirstCome": 0,
+  "totalSites": 4
+ },
+ {
+  "id": "F1D0E963-7D3A-4CDF-A5CC-1759D8994679",
+  "parkCode": "guis",
+  "name": "Naval Live Oaks Youth Group Camping",
+  "url": "https://www.nps.gov/guis/planyourvisit/nlo-group.htm",
+  "reservationUrl": "",
+  "latitude": 30.368989248000002,
+  "longitude": -87.14231197599997,
+  "sitesReservable": 1,
+  "sitesFirstCome": 0,
+  "totalSites": 1
+ },
+ {
+  "id": "8726E707-FD8F-4024-B38A-0FE51CC7EAB7",
+  "parkCode": "calo",
+  "name": "North Core Banks - Beach Camping",
+  "url": "",
+  "reservationUrl": "",
+  "latitude": 34.89901666155087,
+  "longitude": -76.25734806060791,
+  "sitesReservable": 0,
+  "sitesFirstCome": 0,
+  "totalSites": 0
+ },
+ {
+  "id": "15655876-DFFA-4A3A-8EA8-FE4F4F0F0559",
+  "parkCode": "laro",
+  "name": "Marcus Island Campground",
+  "url": "https://www.nps.gov/laro/planyourvisit/cg-marcusisland.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/274993",
+  "latitude": 48.6687321922,
+  "longitude": -118.057368267,
+  "sitesReservable": 25,
+  "sitesFirstCome": 0,
+  "totalSites": 25
+ },
+ {
+  "id": "DF092FA4-F3AB-4BC7-91B3-DB65FB71114B",
+  "parkCode": "piro",
+  "name": "Trappers Lake Group Backpacking Site",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/256367",
+  "latitude": 46.5876435919,
+  "longitude": -86.3154888155,
+  "sitesReservable": 1,
+  "sitesFirstCome": 0,
+  "totalSites": 1
+ },
+ {
+  "id": "C30126DE-6D62-42C9-9A3C-5C3B99485016",
+  "parkCode": "ozar",
+  "name": "Big Tree Campground",
+  "url": "https://www.nps.gov/ozar/planyourvisit/big-tree-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10344920",
+  "latitude": 36.92469699758,
+  "longitude": -90.90248555213,
+  "sitesReservable": 7,
+  "sitesFirstCome": 0,
+  "totalSites": 7
+ },
+ {
+  "id": "B9AF19E6-8B7F-482F-AFB7-E606FFD4BA4E",
+  "parkCode": "asis",
+  "name": "Back Country Camping - Tingles Island",
+  "url": "https://www.nps.gov/asis/planyourvisit/backcountry-camping.htm",
+  "reservationUrl": "",
+  "latitude": 38.1777120006,
+  "longitude": -75.175432,
+  "sitesReservable": 0,
+  "sitesFirstCome": 1,
+  "totalSites": 1
+ },
+ {
   "id": "7B17E712-1EA9-4FE8-A8B2-B677ED81B385",
   "parkCode": "gumo",
   "name": "Blue Ridge Wilderness Campground",
@@ -2638,6 +4846,18 @@
   "sitesReservable": 5,
   "sitesFirstCome": 0,
   "totalSites": 5
+ },
+ {
+  "id": "7E99AF3C-193D-4F89-8AA3-A799590CB89C",
+  "parkCode": "glca",
+  "name": "Beehives Primitive Campground",
+  "url": "https://www.pay.gov/public/form/start/1578620920",
+  "reservationUrl": "https://www.pay.gov/public/form/start/1578620920",
+  "latitude": 36.938243,
+  "longitude": -111.496291,
+  "sitesReservable": 0,
+  "sitesFirstCome": 21,
+  "totalSites": 21
  },
  {
   "id": "8B71E7E6-5EF0-49D8-8E33-2578A64A6DD5",
@@ -2664,6 +4884,42 @@
   "totalSites": 7
  },
  {
+  "id": "90EF147D-A958-4C60-9414-193FC048A66C",
+  "parkCode": "chic",
+  "name": "Buckhorn Campground Loop B",
+  "url": "https://www.nps.gov/chic/planyourvisit/campgrounds.htm",
+  "reservationUrl": "",
+  "latitude": 34.4271613461,
+  "longitude": -96.9920669818,
+  "sitesReservable": 0,
+  "sitesFirstCome": 25,
+  "totalSites": 25
+ },
+ {
+  "id": "C7040322-AF55-456C-A03B-5EF85E48E83B",
+  "parkCode": "cure",
+  "name": "East Portal Campground",
+  "url": "https://www.nps.gov/cure/planyourvisit/camp_east_portal.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10104819",
+  "latitude": 38.5270595998855,
+  "longitude": -107.6494840185174,
+  "sitesReservable": 0,
+  "sitesFirstCome": 15,
+  "totalSites": 15
+ },
+ {
+  "id": "E8A7594F-7F0C-4E5D-8465-2C4A4A055855",
+  "parkCode": "kaww",
+  "name": "Esker Campsite",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10145539",
+  "latitude": 45.9083960065,
+  "longitude": -68.6795909864,
+  "sitesReservable": 1,
+  "sitesFirstCome": 0,
+  "totalSites": 1
+ },
+ {
   "id": "B1396AAB-EA01-4A6C-B45E-A9BBA51A89A1",
   "parkCode": "yose",
   "name": "Crane Flat Campground",
@@ -2686,6 +4942,18 @@
   "sitesReservable": 35,
   "sitesFirstCome": 0,
   "totalSites": 35
+ },
+ {
+  "id": "A7C0F001-EDB5-4832-BB9A-5DF82A4EC57A",
+  "parkCode": "bica",
+  "name": "Dayboard 9 Campground",
+  "url": "https://www.nps.gov/bica/planyourvisit/day-board-nine.htm",
+  "reservationUrl": "",
+  "latitude": 45.2651648,
+  "longitude": -108.0028519,
+  "sitesReservable": 0,
+  "sitesFirstCome": 5,
+  "totalSites": 5
  },
  {
   "id": "6AAEA981-168E-4F68-AABC-5140D75F05F4",
@@ -2724,6 +4992,30 @@
   "totalSites": 85
  },
  {
+  "id": "E6B4725F-B2C0-4E4B-BD4C-D15EC8CF6212",
+  "parkCode": "laro",
+  "name": "Kettle Falls Campground",
+  "url": "https://www.nps.gov/laro/planyourvisit/cg-kettlefalls.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/234061",
+  "latitude": 48.6015176487,
+  "longitude": -118.123571271,
+  "sitesReservable": 74,
+  "sitesFirstCome": 0,
+  "totalSites": 74
+ },
+ {
+  "id": "C4863E55-CDB6-4BE8-9E1B-4AE5AE18962D",
+  "parkCode": "piro",
+  "name": "Lowney Creek Group Backpacking Site",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/256367",
+  "latitude": 46.557203,
+  "longitude": -86.344702,
+  "sitesReservable": 1,
+  "sitesFirstCome": 0,
+  "totalSites": 1
+ },
+ {
   "id": "EE0BEF31-3C7D-4249-A131-156D31114388",
   "parkCode": "lavo",
   "name": "Juniper Lake Campground",
@@ -2736,6 +5028,18 @@
   "totalSites": 18
  },
  {
+  "id": "5867E623-661C-49E1-ADC1-DFACA828D8F0",
+  "parkCode": "kaww",
+  "name": "Katahdin Brook Lean-to",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10145539",
+  "latitude": 45.9204007642,
+  "longitude": -68.7628803658,
+  "sitesReservable": 1,
+  "sitesFirstCome": 0,
+  "totalSites": 1
+ },
+ {
   "id": "37E012F8-43AE-4145-A8F1-BFA6BBD7332E",
   "parkCode": "noca",
   "name": "Purple Point Campground",
@@ -2746,6 +5050,18 @@
   "sitesReservable": 0,
   "sitesFirstCome": 6,
   "totalSites": 6
+ },
+ {
+  "id": "F5482EE1-0DC2-473D-AB4E-A6132ECFEF2D",
+  "parkCode": "bicy",
+  "name": "Pink Jeep",
+  "url": "",
+  "reservationUrl": "",
+  "latitude": 26.2163309999,
+  "longitude": -81.2951434004,
+  "sitesReservable": 0,
+  "sitesFirstCome": 9,
+  "totalSites": 9
  },
  {
   "id": "6B63B182-983C-41D9-82F7-F879170A3517",
@@ -2772,6 +5088,30 @@
   "totalSites": 8
  },
  {
+  "id": "F39CEE51-9A7E-4289-AE3D-06B46216EAF5",
+  "parkCode": "ozar",
+  "name": "Gooseneck Campground",
+  "url": "https://www.nps.gov/ozar/planyourvisit/gooseneck-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10344920",
+  "latitude": 36.819938,
+  "longitude": -90.947562,
+  "sitesReservable": 7,
+  "sitesFirstCome": 0,
+  "totalSites": 7
+ },
+ {
+  "id": "69F9A531-5149-4E1B-B356-A12AFF2AF391",
+  "parkCode": "guis",
+  "name": "Fort Pickens Group Campground",
+  "url": "https://www.recreation.gov/camping/campsites/91444",
+  "reservationUrl": "",
+  "latitude": 30.322816453903407,
+  "longitude": -87.27811186694629,
+  "sitesReservable": 0,
+  "sitesFirstCome": 0,
+  "totalSites": 0
+ },
+ {
   "id": "C015D3D1-180D-408C-88AB-B73EAEA89E10",
   "parkCode": "grte",
   "name": "Headwaters Campground",
@@ -2784,6 +5124,18 @@
   "totalSites": 171
  },
  {
+  "id": "43CF9CC2-4B3F-496F-9587-26F98A454217",
+  "parkCode": "asis",
+  "name": "Back Country Camping - Green Run",
+  "url": "https://www.nps.gov/asis/planyourvisit/backcountry-camping.htm",
+  "reservationUrl": "",
+  "latitude": 38.0799523002,
+  "longitude": -75.2135101008,
+  "sitesReservable": 1,
+  "sitesFirstCome": 1,
+  "totalSites": 1
+ },
+ {
   "id": "8F36DEB6-298E-4214-A677-064BD457996A",
   "parkCode": "yose",
   "name": "Camp 4 Campground",
@@ -2794,6 +5146,42 @@
   "sitesReservable": 61,
   "sitesFirstCome": 0,
   "totalSites": 61
+ },
+ {
+  "id": "FFC17012-1267-43CF-B294-D56FD7F89E47",
+  "parkCode": "chic",
+  "name": "Buckhorn Campground Loop C",
+  "url": "https://www.nps.gov/chic/planyourvisit/campgrounds.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/234047",
+  "latitude": 34.4330928672,
+  "longitude": -96.9968411341,
+  "sitesReservable": 41,
+  "sitesFirstCome": 0,
+  "totalSites": 41
+ },
+ {
+  "id": "DAC620D3-F276-4073-9DBF-0815C1A74BBA",
+  "parkCode": "lamr",
+  "name": "Bugbee Canyon",
+  "url": "https://www.nps.gov/lamr/planyourvisit/camping.htm",
+  "reservationUrl": "",
+  "latitude": 35.7248098991,
+  "longitude": -101.5901470184,
+  "sitesReservable": 0,
+  "sitesFirstCome": 10,
+  "totalSites": 10
+ },
+ {
+  "id": "B6682425-0D1C-4646-846F-1C0E248CBCFA",
+  "parkCode": "lake",
+  "name": "Cottonwood Cove Campground",
+  "url": "https://cottonwoodcoveresort.com/lower-campground/",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10068512",
+  "latitude": 35.487755719796056,
+  "longitude": -114.69503347257717,
+  "sitesReservable": 45,
+  "sitesFirstCome": 0,
+  "totalSites": 45
  },
  {
   "id": "4A08D24E-F719-429A-9A04-75004B564822",
@@ -2832,6 +5220,42 @@
   "totalSites": 92
  },
  {
+  "id": "E5AD5A49-2C7A-45D3-9B91-21B5F02EE573",
+  "parkCode": "glca",
+  "name": "Dirty Devil Primitive Camping Area",
+  "url": "https://www.pay.gov/public/form/start/1578620920",
+  "reservationUrl": "https://www.pay.gov/public/form/start/1578620920",
+  "latitude": 37.901909097564534,
+  "longitude": -110.39913601111749,
+  "sitesReservable": 0,
+  "sitesFirstCome": 0,
+  "totalSites": 0
+ },
+ {
+  "id": "B9E356D7-B123-45F9-961B-F6AAE98FD6E0",
+  "parkCode": "cure",
+  "name": "East Elk Creek Group Campground",
+  "url": "https://www.nps.gov/cure/planyourvisit/camp_east_elk.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/234057",
+  "latitude": 38.484167,
+  "longitude": -107.188333,
+  "sitesReservable": 1,
+  "sitesFirstCome": 0,
+  "totalSites": 1
+ },
+ {
+  "id": "E5093CF2-87B9-4099-840B-56BF12701918",
+  "parkCode": "laro",
+  "name": "Locust Grove Group Sites",
+  "url": "https://www.nps.gov/laro/planyourvisit/cg-group-locustgrove.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/234066",
+  "latitude": 48.592901,
+  "longitude": -118.114979,
+  "sitesReservable": 2,
+  "sitesFirstCome": 0,
+  "totalSites": 2
+ },
+ {
   "id": "2B396150-CB50-4013-AAF2-B862D4FA4823",
   "parkCode": "yose",
   "name": "White Wolf Campground",
@@ -2842,6 +5266,30 @@
   "sitesReservable": 68,
   "sitesFirstCome": 0,
   "totalSites": 68
+ },
+ {
+  "id": "6865D5F5-853C-4A07-9CF4-FC9467F37F85",
+  "parkCode": "kaww",
+  "name": "Wassataquoik Lean-to",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10145539",
+  "latitude": 45.93284162669815,
+  "longitude": -68.71556310448597,
+  "sitesReservable": 1,
+  "sitesFirstCome": 0,
+  "totalSites": 1
+ },
+ {
+  "id": "4D753D24-3797-45AA-976C-8419EA35B585",
+  "parkCode": "cure",
+  "name": "Red Creek Campground",
+  "url": "https://www.nps.gov/cure/planyourvisit/camp_red_creek.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/234056",
+  "latitude": 38.4793732434752,
+  "longitude": -107.23198978485885,
+  "sitesReservable": 1,
+  "sitesFirstCome": 0,
+  "totalSites": 1
  },
  {
   "id": "FB8D1AFA-AD1F-48F1-AFF4-B649857B6D61",
@@ -2880,6 +5328,18 @@
   "totalSites": 3
  },
  {
+  "id": "3A3A571D-14D7-4939-91A2-026756CFC2A7",
+  "parkCode": "lake",
+  "name": "Temple Bar Campground",
+  "url": "https://www.recreation.gov/camping/campgrounds/10085626",
+  "reservationUrl": "",
+  "latitude": 36.0303182899,
+  "longitude": -114.32485227,
+  "sitesReservable": 0,
+  "sitesFirstCome": 0,
+  "totalSites": 71
+ },
+ {
   "id": "55555B90-B545-4045-BB65-1FBB696E4515",
   "parkCode": "noca",
   "name": "Harlequin Campground",
@@ -2892,6 +5352,18 @@
   "totalSites": 7
  },
  {
+  "id": "FB37FF71-E7EE-4B25-8117-842784111EEC",
+  "parkCode": "asis",
+  "name": "Back Country Camping - Pope Bay",
+  "url": "https://www.nps.gov/asis/planyourvisit/backcountry-camping.htm",
+  "reservationUrl": "",
+  "latitude": 38.0477905996,
+  "longitude": -75.2341248008,
+  "sitesReservable": 1,
+  "sitesFirstCome": 1,
+  "totalSites": 1
+ },
+ {
   "id": "E3D6E089-3B10-46E0-91C8-F7A5C7BBE409",
   "parkCode": "grsm",
   "name": "Balsam Mountain Campground",
@@ -2902,6 +5374,78 @@
   "sitesReservable": 43,
   "sitesFirstCome": 0,
   "totalSites": 43
+ },
+ {
+  "id": "A7E4AEDA-09DB-4E57-A6C0-615867B8A299",
+  "parkCode": "lamr",
+  "name": "Blue Creek",
+  "url": "https://www.nps.gov/lamr/planyourvisit/camping.htm",
+  "reservationUrl": "",
+  "latitude": 35.72307202084483,
+  "longitude": -101.6638412514535,
+  "sitesReservable": 0,
+  "sitesFirstCome": 50,
+  "totalSites": 50
+ },
+ {
+  "id": "3F80AF80-BE69-4B59-8D55-7D73B437F65D",
+  "parkCode": "ozar",
+  "name": "Clubhouse Campground",
+  "url": "https://www.nps.gov/ozar/planyourvisit/clubhouse-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10344920",
+  "latitude": 36.92053279713,
+  "longitude": -90.89930713713,
+  "sitesReservable": 5,
+  "sitesFirstCome": 0,
+  "totalSites": 5
+ },
+ {
+  "id": "E7B327F1-7369-40B6-BC6D-35221C41F9D6",
+  "parkCode": "chic",
+  "name": "Buckhorn Campground Loop D",
+  "url": "https://www.nps.gov/chic/planyourvisit/campgrounds.htm",
+  "reservationUrl": "",
+  "latitude": 34.432766546,
+  "longitude": -96.9974819194,
+  "sitesReservable": 0,
+  "sitesFirstCome": 48,
+  "totalSites": 48
+ },
+ {
+  "id": "3BE59EF8-1327-4B0F-B4ED-AFE4C6085DEE",
+  "parkCode": "glca",
+  "name": "Farley Canyon Primitive Camping Area",
+  "url": "https://www.pay.gov/public/form/start/1578620920",
+  "reservationUrl": "https://www.pay.gov/public/form/start/1578620920",
+  "latitude": 37.82000584562783,
+  "longitude": -110.39452772555836,
+  "sitesReservable": 0,
+  "sitesFirstCome": 0,
+  "totalSites": 0
+ },
+ {
+  "id": "894E2817-C7C9-48DA-BABF-3C1679567835",
+  "parkCode": "piro",
+  "name": "Coves Group Backpacking Site",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/256367",
+  "latitude": 46.56088,
+  "longitude": -86.395902,
+  "sitesReservable": 1,
+  "sitesFirstCome": 0,
+  "totalSites": 1
+ },
+ {
+  "id": "E157BF96-DE49-4851-950B-36DEEC9994A7",
+  "parkCode": "guis",
+  "name": "Davis Bayou Group Campground",
+  "url": "https://www.recreation.gov/camping/campsites/102929",
+  "reservationUrl": "",
+  "latitude": 30.39673819660346,
+  "longitude": -88.79362092590446,
+  "sitesReservable": 0,
+  "sitesFirstCome": 0,
+  "totalSites": 0
  },
  {
   "id": "690C7677-FD55-430A-BB36-85410822EB5F",
@@ -2940,6 +5484,30 @@
   "totalSites": 214
  },
  {
+  "id": "2F950808-AEC8-4AF4-9B87-50BF4C1299BA",
+  "parkCode": "kaww",
+  "name": "Wassataquoik Campsite",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10145539",
+  "latitude": 45.9329028826,
+  "longitude": -68.7146921405,
+  "sitesReservable": 1,
+  "sitesFirstCome": 0,
+  "totalSites": 1
+ },
+ {
+  "id": "2DD0D227-A228-41ED-A2FF-E52FFB3434EB",
+  "parkCode": "lamr",
+  "name": "Rosita Flats",
+  "url": "https://www.nps.gov/lamr/planyourvisit/camping.htm",
+  "reservationUrl": "",
+  "latitude": 35.366288206932325,
+  "longitude": -101.23698230287619,
+  "sitesReservable": 0,
+  "sitesFirstCome": 75,
+  "totalSites": 75
+ },
+ {
   "id": "AFD1869B-19F1-4C47-9B9B-75A6625C7A6D",
   "parkCode": "yose",
   "name": "Porcupine Flat Campground",
@@ -2964,6 +5532,18 @@
   "totalSites": 8
  },
  {
+  "id": "F4C0B48E-944E-42FC-9E18-D579786BBC93",
+  "parkCode": "piro",
+  "name": "Mosquito River Group Backpacking Site",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/256367",
+  "latitude": 46.5226013349,
+  "longitude": -86.4938020699,
+  "sitesReservable": 1,
+  "sitesFirstCome": 0,
+  "totalSites": 1
+ },
+ {
   "id": "E39D6E00-78C0-445C-BBDB-EF9D9CD25BE2",
   "parkCode": "isro",
   "name": "South Lake Desor Campground",
@@ -2974,6 +5554,30 @@
   "sitesReservable": 3,
   "sitesFirstCome": 7,
   "totalSites": 10
+ },
+ {
+  "id": "5B7FB84F-E9EB-448D-B721-9176B8B4B11A",
+  "parkCode": "cure",
+  "name": "Gateview Campground",
+  "url": "https://www.nps.gov/cure/planyourvisit/camp_gateview.htm",
+  "reservationUrl": "",
+  "latitude": 38.3844578821,
+  "longitude": -107.242874927,
+  "sitesReservable": 0,
+  "sitesFirstCome": 6,
+  "totalSites": 6
+ },
+ {
+  "id": "13D9E8A8-CF13-4AC4-9482-81AFC6ADBAF6",
+  "parkCode": "laro",
+  "name": "Haag Cove Campground",
+  "url": "https://www.nps.gov/laro/planyourvisit/cg-haagcove.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/275082",
+  "latitude": 48.560660881,
+  "longitude": -118.151804154,
+  "sitesReservable": 18,
+  "sitesFirstCome": 0,
+  "totalSites": 18
  },
  {
   "id": "AD024FB6-EE7E-4DC0-A151-5A09F7A35B02",
@@ -2988,6 +5592,18 @@
   "totalSites": 75
  },
  {
+  "id": "8540D911-6CCA-4DD7-A515-34A3939BABFE",
+  "parkCode": "asis",
+  "name": "Back Country Camping - Little Levels",
+  "url": "https://www.nps.gov/asis/planyourvisit/backcountry-camping.htm",
+  "reservationUrl": "",
+  "latitude": 38.1521378004,
+  "longitude": -75.1727158,
+  "sitesReservable": 0,
+  "sitesFirstCome": 1,
+  "totalSites": 1
+ },
+ {
   "id": "59FF3268-C5EE-4B92-BA4D-1AF15023115E",
   "parkCode": "lavo",
   "name": "Backcountry Camping in Lassen's Wilderness",
@@ -2998,6 +5614,42 @@
   "sitesReservable": 99,
   "sitesFirstCome": 0,
   "totalSites": 0
+ },
+ {
+  "id": "3DC83C15-25CE-488E-816B-64FEBB1F79FF",
+  "parkCode": "glca",
+  "name": "Colorado River Primitive Camping Between Glen Canyon Dam and Lees Ferry",
+  "url": "https://www.nps.gov/glca/planyourvisit/kayaking.htm",
+  "reservationUrl": "",
+  "latitude": 36.86618866356771,
+  "longitude": -111.58668629578499,
+  "sitesReservable": 0,
+  "sitesFirstCome": 5,
+  "totalSites": 5
+ },
+ {
+  "id": "94566C80-E7F0-4CA6-AD2B-44BDC343F23D",
+  "parkCode": "ozar",
+  "name": "Cedar Spring Campground",
+  "url": "https://www.nps.gov/ozar/planyourvisit/cedar-spring-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10344920",
+  "latitude": 36.84206952519,
+  "longitude": -90.92381984264,
+  "sitesReservable": 2,
+  "sitesFirstCome": 0,
+  "totalSites": 2
+ },
+ {
+  "id": "FBCE7DA5-896A-4A5B-939E-4AEACC63CC76",
+  "parkCode": "lake",
+  "name": "Echo Bay Campground",
+  "url": "https://www.recreation.gov/camping/poi/10108391",
+  "reservationUrl": "",
+  "latitude": 36.308137340628555,
+  "longitude": -114.43689786415871,
+  "sitesReservable": 0,
+  "sitesFirstCome": 37,
+  "totalSites": 52
  },
  {
   "id": "1B42DF20-EB0E-4F6A-8094-BCF63BA6B54F",
@@ -3060,6 +5712,102 @@
   "totalSites": 74
  },
  {
+  "id": "41B38315-53CC-489C-B69D-11DA7878E491",
+  "parkCode": "lamr",
+  "name": "Sanford Yake Campground",
+  "url": "https://www.nps.gov/lamr/planyourvisit/camping.htm",
+  "reservationUrl": "",
+  "latitude": 35.413937,
+  "longitude": -101.333084,
+  "sitesReservable": 0,
+  "sitesFirstCome": 51,
+  "totalSites": 51
+ },
+ {
+  "id": "48FB18A4-0D49-4C1B-B705-1263F14D1DDE",
+  "parkCode": "ozar",
+  "name": "Grubb Hollow Campground",
+  "url": "https://www.nps.gov/ozar/planyourvisit/grubb-hollow-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10344920",
+  "latitude": 36.83374904809873,
+  "longitude": -90.93704581260681,
+  "sitesReservable": 5,
+  "sitesFirstCome": 0,
+  "totalSites": 5
+ },
+ {
+  "id": "B238585C-BEFC-446C-B433-F785D295873E",
+  "parkCode": "asis",
+  "name": "Back Country Camping - State Line",
+  "url": "https://www.nps.gov/asis/planyourvisit/backcountry-camping.htm",
+  "reservationUrl": "",
+  "latitude": 38.04472,
+  "longitude": -75.23139,
+  "sitesReservable": 0,
+  "sitesFirstCome": 1,
+  "totalSites": 1
+ },
+ {
+  "id": "3CCB0AF7-A364-4490-A788-EE00700BD108",
+  "parkCode": "glca",
+  "name": "Antelope Point RV Park",
+  "url": "https://antelopepointlakepowell.com/explore-lake-powell/rv-park/",
+  "reservationUrl": "https://www.roverpass.com/c/antelope-point-rv-park-page-az/booking/?slug=antelope-point-rv-park-page-az",
+  "latitude": 36.956030575674106,
+  "longitude": -111.43123626708984,
+  "sitesReservable": 104,
+  "sitesFirstCome": 0,
+  "totalSites": 104
+ },
+ {
+  "id": "CC6D39E3-EA7C-4E86-BBD8-3847DD3CF539",
+  "parkCode": "kaww",
+  "name": "Big Seboeis Campsite",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10145539",
+  "latitude": 45.93215466508404,
+  "longitude": -68.63566875457764,
+  "sitesReservable": 1,
+  "sitesFirstCome": 0,
+  "totalSites": 1
+ },
+ {
+  "id": "E9451131-5026-4E61-B72E-F385A0C6AC48",
+  "parkCode": "piro",
+  "name": "Cliffs Group Backpacking Site",
+  "url": "https://www.nps.gov/piro/planyourvisit/backcountry.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/256367",
+  "latitude": 46.48567,
+  "longitude": -86.556577,
+  "sitesReservable": 1,
+  "sitesFirstCome": 0,
+  "totalSites": 1
+ },
+ {
+  "id": "79EC784A-70FD-4C73-BD0E-C5D0C96F4F57",
+  "parkCode": "laro",
+  "name": "Cloverleaf Campground",
+  "url": "https://www.nps.gov/laro/planyourvisit/cg-cloverleaf.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/275085",
+  "latitude": 48.297110974,
+  "longitude": -118.146858533,
+  "sitesReservable": 7,
+  "sitesFirstCome": 0,
+  "totalSites": 7
+ },
+ {
+  "id": "5B501930-E3AB-4CB2-A5F7-9605E922A025",
+  "parkCode": "lake",
+  "name": "Echo Bay RV Park",
+  "url": "https://lakemeadmohaveadventures.com/echo-bay-rv-village/",
+  "reservationUrl": "",
+  "latitude": 36.310075538623266,
+  "longitude": -114.43199832188293,
+  "sitesReservable": 0,
+  "sitesFirstCome": 0,
+  "totalSites": 55
+ },
+ {
   "id": "0DFCB514-30BF-4FFE-B944-65FC6F41D214",
   "parkCode": "isro",
   "name": "Duncan Bay Campground",
@@ -3120,6 +5868,30 @@
   "totalSites": 82
  },
  {
+  "id": "C015EB54-D443-4622-9557-298F2566C481",
+  "parkCode": "ozar",
+  "name": "Powder Mill Campground",
+  "url": "https://www.nps.gov/ozar/planyourvisit/powder-mill-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10344874",
+  "latitude": 37.18183,
+  "longitude": -91.174454,
+  "sitesReservable": 8,
+  "sitesFirstCome": 0,
+  "totalSites": 8
+ },
+ {
+  "id": "FFC19C0E-A862-4F84-A269-BBE89791789F",
+  "parkCode": "piro",
+  "name": "Masse Homestead Individual Backpacking Sites",
+  "url": "https://www.nps.gov/piro/planyourvisit/backcountry.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/256367",
+  "latitude": 46.647693,
+  "longitude": -86.090932,
+  "sitesReservable": 3,
+  "sitesFirstCome": 0,
+  "totalSites": 3
+ },
+ {
   "id": "88397D32-BCEE-494E-8305-3BB22143019B",
   "parkCode": "yose",
   "name": "Tamarack Flat Campground",
@@ -3130,6 +5902,30 @@
   "sitesReservable": 52,
   "sitesFirstCome": 0,
   "totalSites": 52
+ },
+ {
+  "id": "F45274CB-22BB-46A9-91FF-F83EF7CC45E8",
+  "parkCode": "laro",
+  "name": "Gifford Campground",
+  "url": "https://www.nps.gov/laro/planyourvisit/cg-gifford.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10064687",
+  "latitude": 48.285857573656216,
+  "longitude": -118.14279963356319,
+  "sitesReservable": 42,
+  "sitesFirstCome": 0,
+  "totalSites": 42
+ },
+ {
+  "id": "A873A126-9BD6-4979-8FA2-9692AB909A9E",
+  "parkCode": "kaww",
+  "name": "Big Spring Brook Campsite",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campsites/10145544",
+  "latitude": 46.028793610847195,
+  "longitude": -68.72568772801355,
+  "sitesReservable": 1,
+  "sitesFirstCome": 0,
+  "totalSites": 1
  },
  {
   "id": "E4E470BE-46E5-44B6-A65A-31CFAAB939DB",
@@ -3168,6 +5964,18 @@
   "totalSites": 16
  },
  {
+  "id": "8DCA6EEF-7D95-4522-8E03-E4E301F36EA0",
+  "parkCode": "ozar",
+  "name": "Log Yard Campground",
+  "url": "https://www.nps.gov/ozar/planyourvisit/log-yard-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10344874",
+  "latitude": 37.11382283977141,
+  "longitude": -91.12748039470037,
+  "sitesReservable": 6,
+  "sitesFirstCome": 0,
+  "totalSites": 6
+ },
+ {
   "id": "30033AFC-D90E-4B30-BDFC-6495D2B9CB64",
   "parkCode": "grsm",
   "name": "Smokemont Group Campground",
@@ -3190,6 +5998,54 @@
   "sitesReservable": 5,
   "sitesFirstCome": 0,
   "totalSites": 5
+ },
+ {
+  "id": "D746FA26-C749-405F-856B-07F482EF7CC2",
+  "parkCode": "lake",
+  "name": "Temple Bar RV Park",
+  "url": "https://templebarlakemead.com/rv-park-campground/",
+  "reservationUrl": "",
+  "latitude": 36.03413715620238,
+  "longitude": -114.32279284224819,
+  "sitesReservable": 0,
+  "sitesFirstCome": 0,
+  "totalSites": 10
+ },
+ {
+  "id": "D55642DE-EA9F-4B67-85AE-0A85556616E6",
+  "parkCode": "laro",
+  "name": "Gifford Group Site",
+  "url": "https://www.nps.gov/laro/planyourvisit/cg-group-gifford.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/234067",
+  "latitude": 48.288223,
+  "longitude": -118.143881,
+  "sitesReservable": 1,
+  "sitesFirstCome": 0,
+  "totalSites": 1
+ },
+ {
+  "id": "3A459D88-DF35-41D2-AE2F-2D0829B4BE08",
+  "parkCode": "kaww",
+  "name": "Haskell Deadwater Campsite",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10145539",
+  "latitude": 46.073046,
+  "longitude": -68.768473,
+  "sitesReservable": 1,
+  "sitesFirstCome": 0,
+  "totalSites": 1
+ },
+ {
+  "id": "F3ED602F-ECEE-4C10-9FBF-299331032221",
+  "parkCode": "piro",
+  "name": "Au Sable East Individual Backpacking Sites",
+  "url": "https://www.nps.gov/piro/planyourvisit/backcountry.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/256367",
+  "latitude": 46.669327,
+  "longitude": -86.135215,
+  "sitesReservable": 6,
+  "sitesFirstCome": 0,
+  "totalSites": 6
  },
  {
   "id": "3851B132-FEA2-45BD-9F47-CE177AC59489",
@@ -3228,6 +6084,18 @@
   "totalSites": 7
  },
  {
+  "id": "87AC7E6E-5020-4E63-ADC1-90BA6D3F73CE",
+  "parkCode": "kaww",
+  "name": "Pond Pitch Campsite",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10145539",
+  "latitude": 46.063320408,
+  "longitude": -68.754878487,
+  "sitesReservable": 1,
+  "sitesFirstCome": 0,
+  "totalSites": 1
+ },
+ {
   "id": "97A7C642-B9C6-463B-8FAC-B9480FE5503A",
   "parkCode": "seki",
   "name": "Moraine Campground",
@@ -3252,6 +6120,18 @@
   "totalSites": 2
  },
  {
+  "id": "0D61BB7D-56EC-4B90-870B-C54B4B23F627",
+  "parkCode": "laro",
+  "name": "Hunters Campground",
+  "url": "https://www.nps.gov/laro/planyourvisit/cg-hunters.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10064730",
+  "latitude": 48.1255472973,
+  "longitude": -118.231331985,
+  "sitesReservable": 37,
+  "sitesFirstCome": 0,
+  "totalSites": 37
+ },
+ {
   "id": "66DA0C26-4D6E-4C02-AA89-794655DF2C38",
   "parkCode": "gumo",
   "name": "Frijole Horse Corral Campground",
@@ -3262,6 +6142,42 @@
   "sitesReservable": 1,
   "sitesFirstCome": 0,
   "totalSites": 1
+ },
+ {
+  "id": "B0B0CF0A-F97A-4DA8-AC53-B72516E0B248",
+  "parkCode": "piro",
+  "name": "Benchmark Individual Backpacking Sites",
+  "url": "https://www.nps.gov/piro/planyourvisit/backcountry.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/256367",
+  "latitude": 46.647014,
+  "longitude": -86.200461,
+  "sitesReservable": 6,
+  "sitesFirstCome": 0,
+  "totalSites": 6
+ },
+ {
+  "id": "3C8749FB-19C2-4646-B4B0-44B24A8909AA",
+  "parkCode": "ozar",
+  "name": "Blue Spring Campground",
+  "url": "https://www.nps.gov/ozar/planyourvisit/blue-spring-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10344874",
+  "latitude": 37.051863774696606,
+  "longitude": -91.63261543054398,
+  "sitesReservable": 7,
+  "sitesFirstCome": 0,
+  "totalSites": 7
+ },
+ {
+  "id": "7260C786-CEE8-46B2-9C76-DC0828B7E468",
+  "parkCode": "lake",
+  "name": "Cottonwood Cove RV Park",
+  "url": "https://cottonwoodcoveresort.com/explore/lodging-rv-camp/",
+  "reservationUrl": "",
+  "latitude": 35.49080255042127,
+  "longitude": -114.68835234952485,
+  "sitesReservable": 0,
+  "sitesFirstCome": 0,
+  "totalSites": 72
  },
  {
   "id": "DE70B459-9D01-4859-954D-766D6999B6D3",
@@ -3288,6 +6204,42 @@
   "totalSites": 111
  },
  {
+  "id": "4C464BE7-AA33-4E3F-BBF8-C731A4BC35D6",
+  "parkCode": "piro",
+  "name": "Sevenmile Creek Individual Backpacking Sites",
+  "url": "https://www.nps.gov/piro/planyourvisit/backcountry.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/256367",
+  "latitude": 46.619268,
+  "longitude": -86.258742,
+  "sitesReservable": 5,
+  "sitesFirstCome": 0,
+  "totalSites": 5
+ },
+ {
+  "id": "6929599F-D083-481C-A5A9-D551EC31CAA3",
+  "parkCode": "kaww",
+  "name": "Grand Pitch Lean-to",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10145539",
+  "latitude": 46.057785,
+  "longitude": -68.748256,
+  "sitesReservable": 1,
+  "sitesFirstCome": 0,
+  "totalSites": 1
+ },
+ {
+  "id": "4F237B6C-D314-4A2C-ADBF-1A86D0DCC98A",
+  "parkCode": "laro",
+  "name": "Hunters Group Sites",
+  "url": "https://www.nps.gov/laro/planyourvisit/cg-group-hunters.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/234068",
+  "latitude": 48.12477237918491,
+  "longitude": -118.23309302330017,
+  "sitesReservable": 3,
+  "sitesFirstCome": 0,
+  "totalSites": 3
+ },
+ {
   "id": "374DF57A-1323-4107-B5B2-5C31633CEB80",
   "parkCode": "isro",
   "name": "Hatchet Lake Campground",
@@ -3298,6 +6250,42 @@
   "sitesReservable": 3,
   "sitesFirstCome": 5,
   "totalSites": 8
+ },
+ {
+  "id": "C4A9305D-DB55-4BA5-9798-223AA716F350",
+  "parkCode": "ozar",
+  "name": "Bay Creek Campground",
+  "url": "https://www.nps.gov/ozar/planyourvisit/bay-creek-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10344874",
+  "latitude": 37.121818,
+  "longitude": -91.50405,
+  "sitesReservable": 11,
+  "sitesFirstCome": 0,
+  "totalSites": 11
+ },
+ {
+  "id": "77D2C8BE-94A4-4550-9823-7183C50F4803",
+  "parkCode": "cana",
+  "name": "Canaveral National Seashore Backcountry Island Camping",
+  "url": "https://www.nps.gov/cana/planyourvisit/camping.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/251854/itinerary",
+  "latitude": 28.92700096310608,
+  "longitude": -80.82460296672082,
+  "sitesReservable": 14,
+  "sitesFirstCome": 0,
+  "totalSites": 14
+ },
+ {
+  "id": "E8C3E388-D8B0-49DD-B44D-EAFA3009A380",
+  "parkCode": "lake",
+  "name": "Willow Beach RV Park",
+  "url": "https://willowbeachharbor.com/willow-beach-campground-and-rv-park/",
+  "reservationUrl": "",
+  "latitude": 35.8733633557,
+  "longitude": -114.652163343,
+  "sitesReservable": 0,
+  "sitesFirstCome": 0,
+  "totalSites": 28
  },
  {
   "id": "45D3FDD7-DB1F-4DCE-83BD-B5C6EFA683DD",
@@ -3312,6 +6300,18 @@
   "totalSites": 4
  },
  {
+  "id": "B1FD9610-9535-46B7-901A-5B230DBAC3E5",
+  "parkCode": "piro",
+  "name": "Trappers Lake Individual Backpacking Sites",
+  "url": "https://www.nps.gov/piro/planyourvisit/backcountry.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/256367",
+  "latitude": 46.586517,
+  "longitude": -86.316522,
+  "sitesReservable": 5,
+  "sitesFirstCome": 0,
+  "totalSites": 5
+ },
+ {
   "id": "59C82327-07CE-4C77-BEB3-29BDABA8A60F",
   "parkCode": "isro",
   "name": "Hay Bay Campground",
@@ -3321,6 +6321,90 @@
   "longitude": -88.93999432938057,
   "sitesReservable": 0,
   "sitesFirstCome": 1,
+  "totalSites": 1
+ },
+ {
+  "id": "1CE97109-25B0-4A15-B4B9-3525EF22C1C5",
+  "parkCode": "kaww",
+  "name": "Big Spring Brook Hut",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campsites/10159127",
+  "latitude": 46.0341848184,
+  "longitude": -68.7742321228,
+  "sitesReservable": 1,
+  "sitesFirstCome": 0,
+  "totalSites": 1
+ },
+ {
+  "id": "67556C13-75CF-4470-BBED-D800E5734FDB",
+  "parkCode": "ozar",
+  "name": "Bachers Campground",
+  "url": "https://www.nps.gov/ozar/planyourvisit/bachers-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10344874",
+  "latitude": 37.048044452655304,
+  "longitude": -91.61828398704529,
+  "sitesReservable": 1,
+  "sitesFirstCome": 0,
+  "totalSites": 1
+ },
+ {
+  "id": "17D7FC34-F738-4241-9B75-236684EE4714",
+  "parkCode": "laro",
+  "name": "Camp Na-Bor-Lee (non-profit operated)",
+  "url": "https://campnaborlee.com/",
+  "reservationUrl": "https://campnaborlee.com/",
+  "latitude": 48.03941053982348,
+  "longitude": -118.35452505318239,
+  "sitesReservable": 10,
+  "sitesFirstCome": 0,
+  "totalSites": 10
+ },
+ {
+  "id": "3A9DB923-A81D-49F3-83F3-F26ABB6F8E28",
+  "parkCode": "lake",
+  "name": "Katherine Landing Campground",
+  "url": "https://katherinelanding.com/amenities/#camping",
+  "reservationUrl": "",
+  "latitude": 35.22317569051571,
+  "longitude": -114.55677723752723,
+  "sitesReservable": 0,
+  "sitesFirstCome": 0,
+  "totalSites": 173
+ },
+ {
+  "id": "839F0A0F-A510-486F-9EEC-35D65AC7503C",
+  "parkCode": "ozar",
+  "name": "Rymers Campground",
+  "url": "https://www.nps.gov/ozar/planyourvisit/rymers-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10344874",
+  "latitude": 37.060573,
+  "longitude": -91.558882,
+  "sitesReservable": 4,
+  "sitesFirstCome": 0,
+  "totalSites": 4
+ },
+ {
+  "id": "1A2D2E59-3F76-493A-86AA-8CCCDD8C47D2",
+  "parkCode": "piro",
+  "name": "Pine Bluff Individual Backpacking Sites",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/256367",
+  "latitude": 46.586272,
+  "longitude": -86.328552,
+  "sitesReservable": 5,
+  "sitesFirstCome": 0,
+  "totalSites": 5
+ },
+ {
+  "id": "95AFF7B7-E0DE-4872-A58E-9E4179AD5474",
+  "parkCode": "kaww",
+  "name": "Haskell Hut",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campsites/10145554",
+  "latitude": 46.0796236456,
+  "longitude": -68.770079027,
+  "sitesReservable": 1,
+  "sitesFirstCome": 0,
   "totalSites": 1
  },
  {
@@ -3336,6 +6420,18 @@
   "totalSites": 5
  },
  {
+  "id": "05011267-F78C-4A27-B956-6F82230C7BBE",
+  "parkCode": "laro",
+  "name": "Fort Spokane Campground",
+  "url": "https://www.nps.gov/laro/planyourvisit/cg-fortspokane.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/234062",
+  "latitude": 47.91057783582634,
+  "longitude": -118.30591867112435,
+  "sitesReservable": 67,
+  "sitesFirstCome": 0,
+  "totalSites": 67
+ },
+ {
   "id": "784ADEC8-49C3-4939-A47D-197ADC701CD9",
   "parkCode": "yose",
   "name": "Bridalveil Creek Horse Camp",
@@ -3346,6 +6442,54 @@
   "sitesReservable": 3,
   "sitesFirstCome": 0,
   "totalSites": 3
+ },
+ {
+  "id": "C6AE22BE-6AE8-4D98-BF0D-48F24D7C8B98",
+  "parkCode": "kaww",
+  "name": "Lunksoos Mountain Lean-To",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10145539",
+  "latitude": 45.956981573,
+  "longitude": -68.701699666,
+  "sitesReservable": 1,
+  "sitesFirstCome": 0,
+  "totalSites": 1
+ },
+ {
+  "id": "B00EBE13-43A0-4456-BFAD-D7C35A0B469B",
+  "parkCode": "lake",
+  "name": "Katherine Landing RV Park",
+  "url": "https://katherinelanding.com/amenities/#rv-camping",
+  "reservationUrl": "",
+  "latitude": 35.22234390934542,
+  "longitude": -114.56200692629523,
+  "sitesReservable": 0,
+  "sitesFirstCome": 0,
+  "totalSites": 24
+ },
+ {
+  "id": "1EF9A232-4161-4BA2-A04D-0655CFAA3A99",
+  "parkCode": "ozar",
+  "name": "Shawnee Creek Campground",
+  "url": "https://www.nps.gov/ozar/planyourvisit/shawnee-creek-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10344874",
+  "latitude": 37.172158779669374,
+  "longitude": -91.29996143860306,
+  "sitesReservable": 6,
+  "sitesFirstCome": 0,
+  "totalSites": 6
+ },
+ {
+  "id": "E725A627-101C-486D-92CE-D4798A742BB1",
+  "parkCode": "laro",
+  "name": "Porcupine Bay Campground",
+  "url": "https://www.nps.gov/laro/planyourvisit/cg-porcupinebay.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10064768",
+  "latitude": 47.89459316164005,
+  "longitude": -118.17513536744957,
+  "sitesReservable": 20,
+  "sitesFirstCome": 0,
+  "totalSites": 20
  },
  {
   "id": "A8605BC4-C81C-4F67-8AC3-FC14363304C3",
@@ -3360,6 +6504,30 @@
   "totalSites": 3
  },
  {
+  "id": "3D7C58EB-7354-4212-98E7-CCD7C13BC98F",
+  "parkCode": "piro",
+  "name": "Chapel Individual Backpacking Sites",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/256367",
+  "latitude": 46.546925,
+  "longitude": -86.440929,
+  "sitesReservable": 6,
+  "sitesFirstCome": 0,
+  "totalSites": 6
+ },
+ {
+  "id": "14CEDA8A-0D1C-461E-8455-D45200A4A61D",
+  "parkCode": "ozar",
+  "name": "Sinking Creek Campground",
+  "url": "https://www.nps.gov/ozar/planyourvisit/sinking-creek-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10344948",
+  "latitude": 37.30367357763788,
+  "longitude": -91.41484181347303,
+  "sitesReservable": 8,
+  "sitesFirstCome": 0,
+  "totalSites": 8
+ },
+ {
   "id": "A7F66044-BE85-43D4-8BCF-7475CF00018E",
   "parkCode": "isro",
   "name": "Island Mine Campground",
@@ -3372,6 +6540,30 @@
   "totalSites": 6
  },
  {
+  "id": "7108D5E4-1BE3-42A7-846A-7BF3C631E8E9",
+  "parkCode": "piro",
+  "name": "Beaver Creek Individual Backpacking Sites",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/256367",
+  "latitude": 46.577012,
+  "longitude": -86.350163,
+  "sitesReservable": 6,
+  "sitesFirstCome": 0,
+  "totalSites": 6
+ },
+ {
+  "id": "42969E1F-9F45-4417-9493-A068CE39E500",
+  "parkCode": "laro",
+  "name": "Hawk Creek Campground",
+  "url": "https://www.nps.gov/laro/planyourvisit/cg-hawkcreek.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/275091",
+  "latitude": 47.81516448433516,
+  "longitude": -118.32495194898883,
+  "sitesReservable": 20,
+  "sitesFirstCome": 0,
+  "totalSites": 20
+ },
+ {
   "id": "5B9B3451-F0DD-4BD3-9EB7-7AEF691285DD",
   "parkCode": "isro",
   "name": "Lake Richie Campground",
@@ -3381,6 +6573,42 @@
   "longitude": -88.68736051726773,
   "sitesReservable": 2,
   "sitesFirstCome": 4,
+  "totalSites": 6
+ },
+ {
+  "id": "44BCA8F4-F3F0-469E-9F2C-5B76A9978677",
+  "parkCode": "piro",
+  "name": "Lowney Creek Individual Backpacking Sites",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/256367",
+  "latitude": 46.558462,
+  "longitude": -86.33977,
+  "sitesReservable": 4,
+  "sitesFirstCome": 0,
+  "totalSites": 4
+ },
+ {
+  "id": "F626FF38-1C87-48C9-81F2-D13B8FFBEB8A",
+  "parkCode": "laro",
+  "name": "Jones Bay Campground",
+  "url": "https://www.nps.gov/laro/planyourvisit/cg-jonesbay.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/275092",
+  "latitude": 47.9198995495,
+  "longitude": -118.582833386,
+  "sitesReservable": 9,
+  "sitesFirstCome": 0,
+  "totalSites": 9
+ },
+ {
+  "id": "FF499F68-344B-4059-A92B-8C6217758CCF",
+  "parkCode": "ozar",
+  "name": "Cedar Grove Campground",
+  "url": "https://www.nps.gov/ozar/planyourvisit/cedar-grove-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10344948",
+  "latitude": 37.422441395891134,
+  "longitude": -91.60894315425139,
+  "sitesReservable": 6,
+  "sitesFirstCome": 0,
   "totalSites": 6
  },
  {
@@ -3396,6 +6624,54 @@
   "totalSites": 3
  },
  {
+  "id": "D0D96273-2C22-4684-BD69-41B743128BF6",
+  "parkCode": "laro",
+  "name": "Keller Ferry Campground (Concessionaire-operated)",
+  "url": "https://lakerooseveltadventures.com/campground/",
+  "reservationUrl": "https://lakerooseveltadventures.com/campground/",
+  "latitude": 47.928879675364705,
+  "longitude": -118.69336857403579,
+  "sitesReservable": 55,
+  "sitesFirstCome": 0,
+  "totalSites": 55
+ },
+ {
+  "id": "A451A935-35BF-4391-96E5-B9C8D492FCFE",
+  "parkCode": "piro",
+  "name": "Coves Individual Backpacking Sites",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/256367",
+  "latitude": 46.568171,
+  "longitude": -86.372254,
+  "sitesReservable": 5,
+  "sitesFirstCome": 0,
+  "totalSites": 5
+ },
+ {
+  "id": "8C027E9C-19D6-4599-A42F-3BC7230A4197",
+  "parkCode": "ozar",
+  "name": "Dee Murray Campground",
+  "url": "https://www.nps.gov/ozar/planyourvisit/dee-murray-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10344948",
+  "latitude": 37.42196035104444,
+  "longitude": -91.60631479154767,
+  "sitesReservable": 5,
+  "sitesFirstCome": 0,
+  "totalSites": 5
+ },
+ {
+  "id": "F314F1EF-A277-41E3-B01D-02CFDA580F6D",
+  "parkCode": "ozar",
+  "name": "Jerktail Campground",
+  "url": "https://www.nps.gov/ozar/planyourvisit/jerktail-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10344948",
+  "latitude": 37.230529,
+  "longitude": -91.309737,
+  "sitesReservable": 3,
+  "sitesFirstCome": 0,
+  "totalSites": 3
+ },
+ {
   "id": "BCBF894F-DF97-4EAE-804B-CAF0E4237A8B",
   "parkCode": "isro",
   "name": "Lake Whittlesey Campground",
@@ -3406,6 +6682,30 @@
   "sitesReservable": 0,
   "sitesFirstCome": 3,
   "totalSites": 3
+ },
+ {
+  "id": "4A442983-8A9A-4124-AD98-D6F714DCFDEE",
+  "parkCode": "laro",
+  "name": "Keller Ferry Group Sites (Concessionaire-operated)",
+  "url": "https://lakerooseveltadventures.com/campground/",
+  "reservationUrl": "https://lakerooseveltadventures.com/campground/",
+  "latitude": 47.92235305468609,
+  "longitude": -118.70139598846436,
+  "sitesReservable": 2,
+  "sitesFirstCome": 0,
+  "totalSites": 2
+ },
+ {
+  "id": "38CA8E50-5BB0-4592-9992-0600AD177834",
+  "parkCode": "piro",
+  "name": "Mosquito River Individual Backpacking Sites",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/256367",
+  "latitude": 46.527061,
+  "longitude": -86.492008,
+  "sitesReservable": 5,
+  "sitesFirstCome": 0,
+  "totalSites": 5
  },
  {
   "id": "1617F7AB-6DAA-4571-AD88-DCFBC7AC6DC5",
@@ -3420,6 +6720,30 @@
   "totalSites": 5
  },
  {
+  "id": "5EAA1F18-E950-4FE7-83D5-2D00F4471177",
+  "parkCode": "piro",
+  "name": "Potato Patch Individual Backpacking Sites",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/256367",
+  "latitude": 46.497249,
+  "longitude": -86.530046,
+  "sitesReservable": 3,
+  "sitesFirstCome": 0,
+  "totalSites": 3
+ },
+ {
+  "id": "94A86C9F-730D-42C1-BAD9-DCA321B9E3E2",
+  "parkCode": "laro",
+  "name": "Spring Canyon Campground",
+  "url": "https://www.nps.gov/laro/planyourvisit/cg-springcanyon.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/234064",
+  "latitude": 47.9330408268,
+  "longitude": -118.940049527,
+  "sitesReservable": 68,
+  "sitesFirstCome": 0,
+  "totalSites": 68
+ },
+ {
   "id": "8F0F105B-48D2-41FE-9B50-CB1A1B1952AB",
   "parkCode": "maca",
   "name": "Houchin Ferry Campground",
@@ -3430,6 +6754,18 @@
   "sitesReservable": 12,
   "sitesFirstCome": 0,
   "totalSites": 12
+ },
+ {
+  "id": "51F522B2-ED36-407D-B1B5-CB545A38482D",
+  "parkCode": "ozar",
+  "name": "Broadfoot Campground",
+  "url": "https://www.nps.gov/ozar/planyourvisit/broadfoot-campground.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10344948",
+  "latitude": 37.19582471599726,
+  "longitude": -91.30347981632504,
+  "sitesReservable": 4,
+  "sitesFirstCome": 0,
+  "totalSites": 4
  },
  {
   "id": "5FEBB647-6237-4F47-B304-95C564E66B3D",
@@ -3444,6 +6780,30 @@
   "totalSites": 4
  },
  {
+  "id": "45092D7D-C58F-41C1-BD94-FB0CAA127E53",
+  "parkCode": "laro",
+  "name": "Spring Canyon Group Sites",
+  "url": "https://www.nps.gov/laro/planyourvisit/cg-group-springcanyon.htm",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/234071",
+  "latitude": 47.934625,
+  "longitude": -118.94087,
+  "sitesReservable": 2,
+  "sitesFirstCome": 0,
+  "totalSites": 2
+ },
+ {
+  "id": "B9D839A2-7500-4CFC-9EB7-1A1C8F7B7425",
+  "parkCode": "piro",
+  "name": "Cliffs Individual Backpacking Sites",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/256367",
+  "latitude": 46.473431,
+  "longitude": -86.570456,
+  "sitesReservable": 3,
+  "sitesFirstCome": 0,
+  "totalSites": 3
+ },
+ {
   "id": "F8782C74-5524-40BD-9FFE-1B2FB984136B",
   "parkCode": "isro",
   "name": "Malone Bay Campground",
@@ -3454,6 +6814,18 @@
   "sitesReservable": 2,
   "sitesFirstCome": 5,
   "totalSites": 7
+ },
+ {
+  "id": "356C56D3-A5F9-4B57-8781-37B19C0F9393",
+  "parkCode": "piro",
+  "name": "Grand Sable Lake Boat-In Site",
+  "url": "",
+  "reservationUrl": "https://www.recreation.gov/camping/campgrounds/256367",
+  "latitude": 46.64323548207715,
+  "longitude": -86.0319734881054,
+  "sitesReservable": 1,
+  "sitesFirstCome": 0,
+  "totalSites": 1
  },
  {
   "id": "9D2E311B-C207-4DCF-94B3-DE542132D2C3",

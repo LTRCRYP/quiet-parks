@@ -69,26 +69,29 @@ export function NearMe({ parks }: { parks: ParkSummary[] }) {
       ]
     : [];
 
-  const input = "rounded-sm border border-rule bg-paper px-3 py-2 text-sm text-ink";
+  const input = "px-input px-3 py-2 text-sm";
   return (
     <div>
-      <form onSubmit={search} className="flex flex-wrap items-center gap-2">
-        <input className={`${input} w-64`} placeholder="City or ZIP code" value={q} onChange={(e) => setQ(e.target.value)} aria-label="City or ZIP" />
-        <button type="submit" className="rounded-sm bg-moss px-3 py-2 text-sm text-white hover:opacity-90">Search</button>
-        <button type="button" onClick={locate} className="rounded-sm border border-rule px-3 py-2 text-sm hover:bg-paper-2">Use my location</button>
-        <label className="ml-auto flex items-center gap-2 text-sm text-ink-2">
-          Within
-          <select className={input} value={radius} onChange={(e) => { setRadius(Number(e.target.value)); }} aria-label="Radius">
+      <form onSubmit={search} className="grid grid-cols-2 gap-2 sm:flex sm:flex-wrap sm:items-end">
+        <label className="col-span-2 block sm:w-72">
+          <span className="px-label">City or ZIP code</span>
+          <input className={`${input} w-full`} placeholder="Bozeman, MT or 59715" value={q} onChange={(e) => setQ(e.target.value)} />
+        </label>
+        <label className="block sm:w-28">
+          <span className="px-label">Within</span>
+          <select className={`${input} w-full`} value={radius} onChange={(e) => { setRadius(Number(e.target.value)); }}>
             {[100, 200, 300, 500].map((r) => <option key={r} value={r}>{r} mi</option>)}
           </select>
         </label>
+        <button type="submit" className="px-btn px-btn-primary pixel self-end px-4 py-2 text-lg">Search</button>
+        <button type="button" onClick={locate} className="px-btn pixel col-span-2 self-end px-4 py-2 text-lg sm:col-span-1">Use my location</button>
       </form>
       {status && <p className="mt-2 text-sm text-ink-2">{status}</p>}
 
       {origin && (
         <div className="mt-8 grid gap-10 lg:grid-cols-[1fr_360px]">
           <div>
-            <h2 className="text-2xl">National parks within {radius} miles of {origin.label}</h2>
+            <h2 className="text-2xl">NPS parks within {radius} miles of {origin.label}</h2>
             {nearParks.length === 0 ? (
               <p className="mt-3 text-ink-2">None. Widen the radius, or see the <Link href="/" className="underline">full ranking</Link>.</p>
             ) : (
@@ -113,7 +116,7 @@ export function NearMe({ parks }: { parks: ParkSummary[] }) {
                     </div>
                     <div className="shrink-0 text-right text-ink-3">
                       <span className="tabular-nums">{Math.round(l.distanceMiles)} mi</span>
-                      <span className="ml-2 rounded-full border border-rule px-2 py-0.5 text-[11px]">no crowd data</span>
+                      <span className="px-frame pixel ml-2 px-1.5 text-sm">no crowd data</span>
                     </div>
                   </li>
                 ))}

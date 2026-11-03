@@ -1,6 +1,6 @@
 # Quiet Parks
 
-America's least-crowded national parks: a ranked, filterable list of all 63 national park units, a detail page for each with monthly visitation and best months to visit, and a "near me" view that also surfaces other federal public lands.
+America's least-crowded parks: a ranked, filterable list of all 63 national parks plus the other nature-oriented NPS units (preserves, seashores, lakeshores, recreation areas, rivers and landscape monuments), a detail page for each with monthly visitation and best months to visit, and a "near me" view that also surfaces other federal public lands. The ranking has a "Lower 48 only" switch (on by default) and a type filter.
 
 Static-first Next.js (App Router) + TypeScript + Tailwind + Recharts + Leaflet. All visitation, acreage and climate data is pulled by a script and committed as JSON, so the site builds with no API access. The only runtime fetches are NPS alerts (1-hour cache), the Recreation.gov lookup on the near-me page, and city geocoding.
 
@@ -40,13 +40,14 @@ When a new year's visitation package is released (early in the year, on data.gov
 ### Things that don't line up (and how they're handled)
 
 - **Which units are "national parks".** `designation == "National Park"` returns 52. The full set also needs `National Park & Preserve` (8), `National Parks` (Sequoia & Kings Canyon, one parkCode), `National and State Parks` (Redwood), and `npsa`, whose designation is an empty string. The pipeline asserts the count is 63.
+- **Which other units are "nature".** `NATURE_DESIGNATIONS` in `scripts/sources/nps.ts` lists the preserve, seashore, lakeshore, recreation-area and river designations (the NPS uses nine different river designations). National Monuments mix landscapes with historic sites and nothing in the API separates them, so `NATURE_MONUMENTS` is a hand-picked list of codes. A non-national-park unit is dropped with a warning if the visitation package has no complete 2021–2025 series for it (Castle Mountains, Parashant, Virgin Islands Coral Reef, Pinelands, Lower Delaware, Obed) or if it averages under 1,000 visits a year (`MIN_NATURE_VISITS`), which in practice means its visitors are tallied under a neighbouring unit (Rio Grande WSR → Big Bend, Alagnak → Katmai, Aniakchak).
 - **Visitation unit codes** are the uppercase parkCode, except Sequoia & Kings Canyon, which report separately as `SEQU` and `KICA` and are summed.
 - **Acreage** rows for park-and-preserve units are split (e.g. `DENALI NP` + `DENALI N PRESERVE`) and summed, since visitation covers the whole unit. Everglades adds its `EVERGLADES EXPANSION` row per the sheet's footnote. Chiricahua is still listed as `CHIRICAHUA NM`.
 - **COVID and counting changes.** 2021 is depressed for cruise-dependent parks (Glacier Bay) and Hawaii; Redwood's 2025 count roughly doubled, which looks like a method change. Per-year numbers are shown in each park's table so this is visible.
 
 ## Crowd Index
 
-Defined in `lib/crowd-index.ts`. For each park, three components are turned into percentile ranks (0–100) among the national parks with data:
+Defined in `lib/crowd-index.ts`. For each unit, three components are turned into percentile ranks (0–100) among all ranked units with data (national parks and other landscapes form one cohort, so a score is comparable across types):
 
 | Component | Input | Weight |
 |---|---|---|
@@ -55,6 +56,10 @@ Defined in `lib/crowd-index.ts`. For each park, three components are turned into
 | peakiness | share of annual visits in the busiest month | 0.20 |
 
 `index = 0.40·visits + 0.40·density + 0.20·peakiness`, lower = quieter. Percentile rank uses mid-rank for ties. If a component is missing, the remaining weights are renormalized and the score is flagged `partial`. A park with no visitation has no score. Change `WEIGHTS` to tune.
+
+## Pixel art
+
+The landscapes are drawn in `lib/pixel-art.ts` as character grids (one character per pixel, mapped to CSS variables so they follow dark mode) and rendered by `components/pixel/Pixel.tsx` as crisp SVG rects. `PixelScene` tiles a 192 px scene inside an SVG pattern at integer scale; the sun is drawn once per scene, anchored to the right edge. Each park's scene is picked by `biomeFor()` from its name and NPS topics. That choice is decoration only and never feeds a number. Type is Jersey 25 for headings, labels and controls and DotGothic16 for running text, both pixel faces with unambiguous digits (Pixelify Sans was tried first and dropped because its 5 and 8 blur together at small sizes). The smallest text step is raised to 13 px because DotGothic16 is a 16 px bitmap design.
 
 ## Best months
 
